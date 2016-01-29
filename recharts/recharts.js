@@ -1325,7 +1325,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }).y(function (p) {
 	        return p.y;
 	      }).defined(function (p) {
-	        return p.x && p.x === +p.x && p.y && p.y === +p.y;
+	        return p.x === +p.x && p.y === +p.y;
 	      }).curve(this.getCurveFactory(type));
 	      var len = points.length;
 	      var curvePath = l(points);
@@ -4209,6 +4209,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (!points || !points.length) {
 	        return null;
 	      }
+
 	      var hasSinglePoint = points.length === 1;
 
 	      return _react2.default.createElement(
@@ -12894,21 +12895,30 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var layout = _props4.layout;
 	      var barSize = _props4.barSize;
 
+	      console.log(stackGroups);
+
 	      return Object.keys(stackGroups).reduce(function (result, axisId) {
 	        var sgs = stackGroups[axisId].stackGroups;
 
-	        result[axisId] = Object.keys(sgs).map(function (stackId) {
+	        result[axisId] = Object.keys(sgs).reduce(function (res, stackId) {
 	          var items = sgs[stackId].items;
-	          var dataKey = items[0].props.dataKey;
 
-	          return {
-	            dataKey: dataKey,
-	            stackList: items.slice(1).map(function (item) {
-	              return item.props.dataKey;
-	            }),
-	            barSize: items[0].props.barSize || barSize
-	          };
-	        });
+	          var firstItem = items[0];
+
+	          if (firstItem.type.displayName === 'Bar') {
+	            var dataKey = firstItem.props.dataKey;
+
+	            res.push({
+	              dataKey: dataKey,
+	              stackList: items.slice(1).map(function (item) {
+	                return item.props.dataKey;
+	              }),
+	              barSize: firstItem.props.barSize || barSize
+	            });
+	          }
+
+	          return res;
+	        }, []);
 
 	        return result;
 	      }, {});
