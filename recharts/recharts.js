@@ -7,7 +7,7 @@
 		exports["Recharts"] = factory(require("react"), require("ReactDOM"), require("ReactDOMServer"));
 	else
 		root["Recharts"] = factory(root["React"], root["ReactDOM"], root["ReactDOMServer"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_50__, __WEBPACK_EXTERNAL_MODULE_106__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_52__, __WEBPACK_EXTERNAL_MODULE_107__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -59,149 +59,149 @@ return /******/ (function(modules) { // webpackBootstrap
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.ZAxis = exports.YAxis = exports.XAxis = exports.ComposedChart = exports.RadarChart = exports.TreemapChart = exports.RadialBar = exports.RadialBarChart = exports.Scatter = exports.ScatterChart = exports.Pie = exports.PieChart = exports.Bar = exports.BarChart = exports.Area = exports.AreaChart = exports.Line = exports.LineChart = exports.Dot = exports.Polygon = exports.Triangle = exports.Rectangle = exports.Curve = exports.Sector = exports.PolarAngleAxis = exports.PolarRadiusAxis = exports.PolarGrid = exports.ReferenceLine = exports.Brush = exports.Tooltip = exports.Legend = exports.CartesianGrid = exports.CartesianAxis = exports.Radar = exports.Surface = undefined;
+	exports.ZAxis = exports.YAxis = exports.XAxis = exports.ComposedChart = exports.RadarChart = exports.Treemap = exports.RadialBar = exports.RadialBarChart = exports.Scatter = exports.ScatterChart = exports.Pie = exports.PieChart = exports.Bar = exports.BarChart = exports.Area = exports.AreaChart = exports.Line = exports.LineChart = exports.Dot = exports.Polygon = exports.Triangle = exports.Rectangle = exports.Curve = exports.Sector = exports.PolarAngleAxis = exports.PolarRadiusAxis = exports.PolarGrid = exports.ReferenceLine = exports.Brush = exports.Tooltip = exports.Legend = exports.CartesianGrid = exports.CartesianAxis = exports.Radar = exports.Surface = undefined;
 
-	__webpack_require__(99);
+	__webpack_require__(101);
 
-	__webpack_require__(68);
+	__webpack_require__(70);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
-	var _CartesianAxis = __webpack_require__(22);
+	var _CartesianAxis = __webpack_require__(24);
 
 	var _CartesianAxis2 = _interopRequireDefault(_CartesianAxis);
 
-	var _CartesianGrid = __webpack_require__(23);
+	var _CartesianGrid = __webpack_require__(25);
 
 	var _CartesianGrid2 = _interopRequireDefault(_CartesianGrid);
 
-	var _Legend = __webpack_require__(11);
+	var _Legend = __webpack_require__(12);
 
 	var _Legend2 = _interopRequireDefault(_Legend);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-	var _PolarGrid = __webpack_require__(40);
+	var _PolarGrid = __webpack_require__(43);
 
 	var _PolarGrid2 = _interopRequireDefault(_PolarGrid);
 
-	var _PolarRadiusAxis = __webpack_require__(41);
+	var _PolarRadiusAxis = __webpack_require__(44);
 
 	var _PolarRadiusAxis2 = _interopRequireDefault(_PolarRadiusAxis);
 
-	var _PolarAngleAxis = __webpack_require__(39);
+	var _PolarAngleAxis = __webpack_require__(42);
 
 	var _PolarAngleAxis2 = _interopRequireDefault(_PolarAngleAxis);
 
-	var _Brush = __webpack_require__(38);
+	var _Brush = __webpack_require__(41);
 
 	var _Brush2 = _interopRequireDefault(_Brush);
 
-	var _ReferenceLine = __webpack_require__(42);
+	var _ReferenceLine = __webpack_require__(45);
 
 	var _ReferenceLine2 = _interopRequireDefault(_ReferenceLine);
 
-	var _Sector = __webpack_require__(24);
+	var _Sector = __webpack_require__(27);
 
 	var _Sector2 = _interopRequireDefault(_Sector);
 
-	var _Curve = __webpack_require__(9);
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
 
-	var _Rectangle = __webpack_require__(12);
+	var _Rectangle = __webpack_require__(13);
 
 	var _Rectangle2 = _interopRequireDefault(_Rectangle);
 
-	var _Triangle = __webpack_require__(67);
+	var _Triangle = __webpack_require__(69);
 
 	var _Triangle2 = _interopRequireDefault(_Triangle);
 
-	var _Polygon = __webpack_require__(43);
+	var _Polygon = __webpack_require__(26);
 
 	var _Polygon2 = _interopRequireDefault(_Polygon);
 
-	var _Dot = __webpack_require__(10);
+	var _Dot = __webpack_require__(11);
 
 	var _Dot2 = _interopRequireDefault(_Dot);
 
-	var _LineChart = __webpack_require__(58);
+	var _LineChart = __webpack_require__(60);
 
 	var _LineChart2 = _interopRequireDefault(_LineChart);
 
-	var _Line = __webpack_require__(19);
+	var _Line = __webpack_require__(21);
 
 	var _Line2 = _interopRequireDefault(_Line);
 
-	var _BarChart = __webpack_require__(56);
+	var _BarChart = __webpack_require__(58);
 
 	var _BarChart2 = _interopRequireDefault(_BarChart);
 
-	var _Bar = __webpack_require__(18);
+	var _Bar = __webpack_require__(20);
 
 	var _Bar2 = _interopRequireDefault(_Bar);
 
-	var _PieChart = __webpack_require__(59);
+	var _PieChart = __webpack_require__(61);
 
 	var _PieChart2 = _interopRequireDefault(_PieChart);
 
-	var _Pie = __webpack_require__(33);
+	var _Pie = __webpack_require__(36);
 
 	var _Pie2 = _interopRequireDefault(_Pie);
 
-	var _TreemapChart = __webpack_require__(63);
+	var _Treemap = __webpack_require__(65);
 
-	var _TreemapChart2 = _interopRequireDefault(_TreemapChart);
+	var _Treemap2 = _interopRequireDefault(_Treemap);
 
-	var _RadarChart = __webpack_require__(60);
+	var _RadarChart = __webpack_require__(62);
 
 	var _RadarChart2 = _interopRequireDefault(_RadarChart);
 
-	var _Radar = __webpack_require__(34);
+	var _Radar = __webpack_require__(37);
 
 	var _Radar2 = _interopRequireDefault(_Radar);
 
-	var _ScatterChart = __webpack_require__(62);
+	var _ScatterChart = __webpack_require__(64);
 
 	var _ScatterChart2 = _interopRequireDefault(_ScatterChart);
 
-	var _Scatter = __webpack_require__(36);
+	var _Scatter = __webpack_require__(39);
 
 	var _Scatter2 = _interopRequireDefault(_Scatter);
 
-	var _AreaChart = __webpack_require__(55);
+	var _AreaChart = __webpack_require__(57);
 
 	var _AreaChart2 = _interopRequireDefault(_AreaChart);
 
-	var _Area = __webpack_require__(17);
+	var _Area = __webpack_require__(19);
 
 	var _Area2 = _interopRequireDefault(_Area);
 
-	var _RadialBarChart = __webpack_require__(61);
+	var _RadialBarChart = __webpack_require__(63);
 
 	var _RadialBarChart2 = _interopRequireDefault(_RadialBarChart);
 
-	var _RadialBar = __webpack_require__(35);
+	var _RadialBar = __webpack_require__(38);
 
 	var _RadialBar2 = _interopRequireDefault(_RadialBar);
 
-	var _ComposedChart = __webpack_require__(57);
+	var _ComposedChart = __webpack_require__(59);
 
 	var _ComposedChart2 = _interopRequireDefault(_ComposedChart);
 
-	var _XAxis = __webpack_require__(20);
+	var _XAxis = __webpack_require__(22);
 
 	var _XAxis2 = _interopRequireDefault(_XAxis);
 
-	var _YAxis = __webpack_require__(21);
+	var _YAxis = __webpack_require__(23);
 
 	var _YAxis2 = _interopRequireDefault(_YAxis);
 
-	var _ZAxis = __webpack_require__(37);
+	var _ZAxis = __webpack_require__(40);
 
 	var _ZAxis2 = _interopRequireDefault(_ZAxis);
 
@@ -247,7 +247,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.Scatter = _Scatter2.default;
 	exports.RadialBarChart = _RadialBarChart2.default;
 	exports.RadialBar = _RadialBar2.default;
-	exports.TreemapChart = _TreemapChart2.default;
+	exports.Treemap = _Treemap2.default;
 	exports.RadarChart = _RadarChart2.default;
 	exports.Radar = _Radar2.default;
 	exports.ComposedChart = _ComposedChart2.default;
@@ -271,7 +271,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	'use strict';
 
-	var shallowCompare = __webpack_require__(104);
+	var shallowCompare = __webpack_require__(105);
 
 
 
@@ -382,7 +382,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  wordSpacing: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
 	  writingMode: _react.PropTypes.oneOf(['lr-tb', 'rl-tb', 'tb-rl', 'lr', 'rl', 'tb', 'inherit']),
 
-	  transform: _react.PropTypes.string
+	  transform: _react.PropTypes.string,
+	  style: _react.PropTypes.object
 	};
 	var EVENT_ATTRIBUTES = {
 	  onActivate: _react.PropTypes.func,
@@ -507,11 +508,65 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(44)
-	  , core      = __webpack_require__(25)
-	  , hide      = __webpack_require__(45)
-	  , redefine  = __webpack_require__(74)
-	  , ctx       = __webpack_require__(71)
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2016 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+
+	(function () {
+		'use strict';
+
+		var hasOwn = {}.hasOwnProperty;
+
+		function classNames () {
+			var classes = [];
+
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+
+				var argType = typeof arg;
+
+				if (argType === 'string' || argType === 'number') {
+					classes.push(arg);
+				} else if (Array.isArray(arg)) {
+					classes.push(classNames.apply(null, arg));
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				}
+			}
+
+			return classes.join(' ');
+		}
+
+		if (typeof module !== 'undefined' && module.exports) {
+			module.exports = classNames;
+		} else if (true) {
+			// register as 'classnames', consistent with npm package name
+			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return classNames;
+			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else {
+			window.classNames = classNames;
+		}
+	}());
+
+
+/***/ },
+/* 5 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var global    = __webpack_require__(46)
+	  , core      = __webpack_require__(28)
+	  , hide      = __webpack_require__(47)
+	  , redefine  = __webpack_require__(76)
+	  , ctx       = __webpack_require__(73)
 	  , PROTOTYPE = 'prototype';
 
 	var $export = function(type, name, source){
@@ -552,14 +607,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = $export;
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Layer
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -573,6 +632,84 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Layer = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Layer, _Component);
+
+	  function Layer() {
+	    _classCallCheck(this, Layer);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Layer).apply(this, arguments));
+	  }
+
+	  _createClass(Layer, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var children = _props.children;
+	      var className = _props.className;
+
+	      var others = _objectWithoutProperties(_props, ['children', 'className']);
+
+	      var layerClass = (0, _classnames2.default)('recharts-layer', className);
+
+	      return _react2.default.createElement(
+	        'g',
+	        _extends({ className: layerClass }, others),
+	        children
+	      );
+	    }
+	  }]);
+
+	  return Layer;
+	}(_react.Component), _class2.displayName = 'Layer', _class2.propTypes = {
+	  className: _react.PropTypes.string,
+	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
+	}, _temp)) || _class;
+
+	exports.default = Layer;
+
+/***/ },
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Surface
+	                             */
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _pureRenderDecorator = __webpack_require__(2);
+
+	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -581,8 +718,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Surface = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Surface, _React$Component);
+	var Surface = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Surface, _Component);
 
 	  function Surface() {
 	    _classCallCheck(this, Surface);
@@ -602,11 +739,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var style = _props.style;
 
 	      var svgView = viewBox || { width: width, height: height, x: 0, y: 0 };
+	      var layerClass = (0, _classnames2.default)('recharts-surface', className);
 
 	      return _react2.default.createElement(
 	        'svg',
 	        {
-	          className: 'recharts-surface ' + (className || ''),
+	          className: layerClass,
 	          width: width,
 	          height: height,
 	          style: style,
@@ -619,7 +757,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Surface;
-	}(_react2.default.Component), _class2.displayName = 'Surface', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'Surface', _class2.propTypes = {
 	  width: _react.PropTypes.number.isRequired,
 	  height: _react.PropTypes.number.isRequired,
 	  viewBox: _react.PropTypes.shape({
@@ -634,219 +772,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	}, _temp)) || _class;
 
 	exports.default = Surface;
-
-/***/ },
-/* 6 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _class, _class2, _temp;
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _pureRenderDecorator = __webpack_require__(2);
-
-	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Layer = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Layer, _React$Component);
-
-	  function Layer() {
-	    _classCallCheck(this, Layer);
-
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Layer).apply(this, arguments));
-	  }
-
-	  _createClass(Layer, [{
-	    key: 'render',
-	    value: function render() {
-	      var _props = this.props;
-	      var children = _props.children;
-	      var className = _props.className;
-
-	      var others = _objectWithoutProperties(_props, ['children', 'className']);
-
-	      return _react2.default.createElement(
-	        'g',
-	        _extends({ className: 'recharts-layer ' + (className || '') }, others),
-	        children
-	      );
-	    }
-	  }]);
-
-	  return Layer;
-	}(_react2.default.Component), _class2.displayName = 'Layer', _class2.propTypes = {
-	  className: _react.PropTypes.string,
-	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
-	}, _temp)) || _class;
-
-	exports.default = Layer;
-
-/***/ },
-/* 7 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _class, _class2, _temp;
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _pureRenderDecorator = __webpack_require__(2);
-
-	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
-
-	var _server = __webpack_require__(106);
-
-	var _server2 = _interopRequireDefault(_server);
-
-	var _DefaultTooltipContent = __webpack_require__(65);
-
-	var _DefaultTooltipContent2 = _interopRequireDefault(_DefaultTooltipContent);
-
-	var _DOMUtils = __webpack_require__(14);
-
-	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Tooltip = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Tooltip, _React$Component);
-
-	  function Tooltip() {
-	    _classCallCheck(this, Tooltip);
-
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Tooltip).apply(this, arguments));
-	  }
-
-	  _createClass(Tooltip, [{
-	    key: 'getTooltipBBox',
-	    value: function getTooltipBBox(wrapperStyle) {
-	      var content = this.props.content;
-
-	      var contentHtml = _server2.default.renderToStaticMarkup(_react2.default.isValidElement(content) ? _react2.default.cloneElement(content, this.props) : _react2.default.createElement(_DefaultTooltipContent2.default, this.props));
-	      var style = _extends({}, wrapperStyle, { top: -20000, left: 0, display: 'block' });
-	      var wrapper = document.createElement('div');
-
-	      wrapper.setAttribute('style', _DOMUtils2.default.getStyleString(wrapperStyle));
-	      wrapper.innerHTML = contentHtml;
-	      document.body.appendChild(wrapper);
-	      var box = wrapper.getBoundingClientRect();
-
-	      document.body.removeChild(wrapper);
-
-	      return box;
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _props = this.props;
-	      var content = _props.content;
-	      var viewBox = _props.viewBox;
-	      var coordinate = _props.coordinate;
-	      var active = _props.active;
-	      var offset = _props.offset;
-
-	      var outerStyle = {
-	        pointerEvents: 'none',
-	        display: active ? 'block' : 'none',
-	        position: 'absolute'
-	      };
-	      var box = this.getTooltipBBox(outerStyle);
-
-	      outerStyle.left = Math.max(coordinate.x + box.width + offset > viewBox.x + viewBox.width ? coordinate.x - box.width - offset : coordinate.x + offset, viewBox.x);
-	      outerStyle.top = Math.max(coordinate.y + box.height + offset > viewBox.y + viewBox.height ? coordinate.y - box.height - offset : coordinate.y + offset, viewBox.x);
-
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'recharts-tooltip-wrapper', style: outerStyle },
-	        _react2.default.isValidElement(content) ? _react2.default.cloneElement(content, this.props) : _react2.default.createElement(_DefaultTooltipContent2.default, this.props)
-	      );
-	    }
-	  }]);
-
-	  return Tooltip;
-	}(_react2.default.Component), _class2.displayName = 'Tooltip', _class2.propTypes = {
-	  content: _react.PropTypes.element,
-	  viewBox: _react.PropTypes.shape({
-	    x: _react.PropTypes.number,
-	    y: _react.PropTypes.number,
-	    width: _react.PropTypes.number,
-	    height: _react.PropTypes.number
-	  }),
-
-	  active: _react.PropTypes.bool,
-	  separator: _react.PropTypes.string,
-	  formatter: _react.PropTypes.func,
-	  offset: _react.PropTypes.number,
-
-	  itemStyle: _react.PropTypes.object,
-	  labelStyle: _react.PropTypes.object,
-	  wrapperStyle: _react.PropTypes.object,
-	  cursor: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.element, _react.PropTypes.object]),
-
-	  coordinate: _react.PropTypes.shape({
-	    x: _react.PropTypes.number,
-	    y: _react.PropTypes.number
-	  }),
-
-	  label: _react.PropTypes.any,
-	  payload: _react.PropTypes.arrayOf(_react.PropTypes.shape({
-	    key: _react.PropTypes.any,
-	    value: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
-	    unit: _react.PropTypes.any
-	  }))
-	}, _class2.defaultProps = {
-	  active: false,
-	  offset: 10,
-	  viewBox: { x1: 0, x2: 0, y1: 0, y2: 0 },
-	  coordinate: { x: 0, y: 0 },
-	  cursorStyle: {},
-	  separator: ' : ',
-	  wrapperStyle: {},
-	  itemStyle: {},
-	  labelStyle: {},
-	  cursor: true
-	}, _temp)) || _class;
-
-	exports.default = Tooltip;
 
 /***/ },
 /* 8 */
@@ -1078,7 +1003,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Tooltip
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -1088,7 +1015,154 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _d3Shape = __webpack_require__(48);
+	var _pureRenderDecorator = __webpack_require__(2);
+
+	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _server = __webpack_require__(107);
+
+	var _server2 = _interopRequireDefault(_server);
+
+	var _DefaultTooltipContent = __webpack_require__(67);
+
+	var _DefaultTooltipContent2 = _interopRequireDefault(_DefaultTooltipContent);
+
+	var _DOMUtils = __webpack_require__(16);
+
+	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Tooltip = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Tooltip, _Component);
+
+	  function Tooltip() {
+	    _classCallCheck(this, Tooltip);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Tooltip).apply(this, arguments));
+	  }
+
+	  _createClass(Tooltip, [{
+	    key: 'getTooltipBBox',
+	    value: function getTooltipBBox(wrapperStyle) {
+	      var content = this.props.content;
+
+	      var contentHtml = _server2.default.renderToStaticMarkup(_react2.default.isValidElement(content) ? _react2.default.cloneElement(content, this.props) : _react2.default.createElement(_DefaultTooltipContent2.default, this.props));
+	      var style = _extends({}, wrapperStyle, { top: -20000, left: 0, display: 'block' });
+	      var wrapper = document.createElement('div');
+
+	      wrapper.setAttribute('style', _DOMUtils2.default.getStyleString(wrapperStyle));
+	      wrapper.innerHTML = contentHtml;
+	      document.body.appendChild(wrapper);
+	      var box = wrapper.getBoundingClientRect();
+
+	      document.body.removeChild(wrapper);
+
+	      return box;
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var content = _props.content;
+	      var viewBox = _props.viewBox;
+	      var coordinate = _props.coordinate;
+	      var active = _props.active;
+	      var offset = _props.offset;
+
+	      var outerStyle = {
+	        pointerEvents: 'none',
+	        display: active ? 'block' : 'none',
+	        position: 'absolute'
+	      };
+	      var box = this.getTooltipBBox(outerStyle);
+
+	      outerStyle.left = Math.max(coordinate.x + box.width + offset > viewBox.x + viewBox.width ? coordinate.x - box.width - offset : coordinate.x + offset, viewBox.x);
+	      outerStyle.top = Math.max(coordinate.y + box.height + offset > viewBox.y + viewBox.height ? coordinate.y - box.height - offset : coordinate.y + offset, viewBox.x);
+
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'recharts-tooltip-wrapper', style: outerStyle },
+	        _react2.default.isValidElement(content) ? _react2.default.cloneElement(content, this.props) : _react2.default.createElement(_DefaultTooltipContent2.default, this.props)
+	      );
+	    }
+	  }]);
+
+	  return Tooltip;
+	}(_react.Component), _class2.displayName = 'Tooltip', _class2.propTypes = {
+	  content: _react.PropTypes.element,
+	  viewBox: _react.PropTypes.shape({
+	    x: _react.PropTypes.number,
+	    y: _react.PropTypes.number,
+	    width: _react.PropTypes.number,
+	    height: _react.PropTypes.number
+	  }),
+
+	  active: _react.PropTypes.bool,
+	  separator: _react.PropTypes.string,
+	  formatter: _react.PropTypes.func,
+	  offset: _react.PropTypes.number,
+
+	  itemStyle: _react.PropTypes.object,
+	  labelStyle: _react.PropTypes.object,
+	  wrapperStyle: _react.PropTypes.object,
+	  cursor: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.element, _react.PropTypes.object]),
+
+	  coordinate: _react.PropTypes.shape({
+	    x: _react.PropTypes.number,
+	    y: _react.PropTypes.number
+	  }),
+
+	  label: _react.PropTypes.any,
+	  payload: _react.PropTypes.arrayOf(_react.PropTypes.shape({
+	    key: _react.PropTypes.any,
+	    value: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
+	    unit: _react.PropTypes.any
+	  }))
+	}, _class2.defaultProps = {
+	  active: false,
+	  offset: 10,
+	  viewBox: { x1: 0, x2: 0, y1: 0, y2: 0 },
+	  coordinate: { x: 0, y: 0 },
+	  cursorStyle: {},
+	  separator: ' : ',
+	  wrapperStyle: {},
+	  itemStyle: {},
+	  labelStyle: {},
+	  cursor: true
+	}, _temp)) || _class;
+
+	exports.default = Tooltip;
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Curve
+	                             */
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _d3Shape = __webpack_require__(50);
 
 	var _d3Shape2 = _interopRequireDefault(_d3Shape);
 
@@ -1110,8 +1184,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Curve = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Curve, _React$Component);
+	var Curve = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Curve, _Component);
 
 	  function Curve() {
 	    _classCallCheck(this, Curve);
@@ -1126,20 +1200,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _d3Shape2.default[name];
 	    }
-	  }, {
-	    key: 'fliterMouseToSeg',
-	    value: function fliterMouseToSeg(path) {
-	      var reg = /[CSLHVcslhv]/;
-	      var res = reg.exec(path);
 
-	      if (res && res.length) {
-	        var index = path.indexOf(res[0]);
-
-	        return path.slice(index);
-	      }
-
-	      return path;
-	    }
 	    /**
 	     * Calculate the path of curve
 	     * @return {String} path
@@ -1184,6 +1245,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return curvePath;
 	    }
 	  }, {
+	    key: 'fliterMouseToSeg',
+	    value: function fliterMouseToSeg(path) {
+	      var reg = /[CSLHVcslhv]/;
+	      var res = reg.exec(path);
+
+	      if (res && res.length) {
+	        var index = path.indexOf(res[0]);
+
+	        return path.slice(index);
+	      }
+
+	      return path;
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      var _props2 = this.props;
@@ -1199,7 +1274,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 
 	      return _react2.default.createElement('path', _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
-	        className: 'recharts-curve' + (className || ''),
+	        className: 'recharts-curve ' + (className || ''),
 	        onMouseEnter: onMouseEnter,
 	        onMouseLeave: onMouseLeave,
 	        onClick: onClick,
@@ -1209,7 +1284,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Curve;
-	}(_react2.default.Component), _class2.displayName = 'Curve', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Curve', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  type: _react.PropTypes.oneOf(['linear', 'monotone', 'step', 'stepBefore', 'stepAfter']),
 	  onMouseEnter: _react.PropTypes.func,
@@ -1233,7 +1308,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Curve;
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1242,7 +1317,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Dot
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -1256,6 +1333,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1264,8 +1345,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Dot = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Dot, _React$Component);
+	var Dot = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Dot, _Component);
 
 	  function Dot() {
 	    _classCallCheck(this, Dot);
@@ -1282,8 +1363,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var r = _props.r;
 	      var className = _props.className;
 
+	      var layerClass = (0, _classnames2.default)('recharts-dot', className);
+
 	      if (cx === +cx && cy === +cy && r === +r) {
-	        return _react2.default.createElement('circle', _extends({}, this.props, { className: 'recharts-dot ' + (className || '') }));
+	        return _react2.default.createElement('circle', _extends({}, this.props, { className: layerClass }));
 	      }
 
 	      return null;
@@ -1291,7 +1374,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Dot;
-	}(_react2.default.Component), _class2.displayName = 'Dot', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'Dot', _class2.propTypes = {
 	  className: _react.PropTypes.string,
 	  cx: _react.PropTypes.number,
 	  cy: _react.PropTypes.number,
@@ -1301,7 +1384,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Dot;
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1310,7 +1393,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Legend
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -1320,15 +1405,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Surface = __webpack_require__(5);
-
-	var _Surface2 = _interopRequireDefault(_Surface);
-
 	var _pureRenderDecorator = __webpack_require__(2);
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
-	var _DefaultLegendContent = __webpack_require__(64);
+	var _Surface = __webpack_require__(7);
+
+	var _Surface2 = _interopRequireDefault(_Surface);
+
+	var _DefaultLegendContent = __webpack_require__(66);
 
 	var _DefaultLegendContent2 = _interopRequireDefault(_DefaultLegendContent);
 
@@ -1342,8 +1427,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var SIZE = 32;
 
-	var Legend = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Legend, _React$Component);
+	var Legend = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Legend, _Component);
 
 	  function Legend() {
 	    _classCallCheck(this, Legend);
@@ -1407,16 +1492,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return {
 	          height: item.props.height || chartHeight
 	        };
-	      } else {
-	        return {
-	          width: item.props.width || chartWidth
-	        };
 	      }
+
+	      return {
+	        width: item.props.width || chartWidth
+	      };
 	    }
 	  }]);
 
 	  return Legend;
-	}(_react2.default.Component), _class2.displayName = 'Legend', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'Legend', _class2.propTypes = {
 	  content: _react.PropTypes.element,
 	  wrapperStyle: _react.PropTypes.object,
 	  width: _react.PropTypes.number,
@@ -1441,7 +1526,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Legend;
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1450,7 +1535,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Rectangle
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -1464,6 +1551,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
 	var _ReactUtils = __webpack_require__(3);
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
@@ -1476,8 +1567,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Rectangle = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Rectangle, _React$Component);
+	var Rectangle = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Rectangle, _Component);
 
 	  function Rectangle() {
 	    _classCallCheck(this, Rectangle);
@@ -1547,8 +1638,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return null;
 	      }
 
+	      var layerClass = (0, _classnames2.default)('recharts-rectangle', className);
+
 	      return _react2.default.createElement('path', _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
-	        className: 'recharts-rectangle ' + (className || ''),
+	        className: layerClass,
 	        onMouseEnter: onMouseEnter,
 	        onMouseLeave: onMouseLeave,
 	        onClick: onClick,
@@ -1558,7 +1651,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Rectangle;
-	}(_react2.default.Component), _class2.displayName = 'Rectangle', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Rectangle', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  x: _react.PropTypes.number,
 	  y: _react.PropTypes.number,
@@ -1589,1355 +1682,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Rectangle;
 
 /***/ },
-/* 13 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _class, _temp;
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactDom = __webpack_require__(50);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	var _rechartsScale = __webpack_require__(31);
-
-	var _d3Scale = __webpack_require__(15);
-
-	var _d3Scale2 = _interopRequireDefault(_d3Scale);
-
-	var _d3Shape = __webpack_require__(48);
-
-	var _d3Shape2 = _interopRequireDefault(_d3Shape);
-
-	var _invariant = __webpack_require__(100);
-
-	var _invariant2 = _interopRequireDefault(_invariant);
-
-	var _Layer = __webpack_require__(6);
-
-	var _Layer2 = _interopRequireDefault(_Layer);
-
-	var _CartesianAxis = __webpack_require__(22);
-
-	var _CartesianAxis2 = _interopRequireDefault(_CartesianAxis);
-
-	var _CartesianGrid = __webpack_require__(23);
-
-	var _CartesianGrid2 = _interopRequireDefault(_CartesianGrid);
-
-	var _ReactUtils = __webpack_require__(3);
-
-	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
-
-	var _DOMUtils = __webpack_require__(14);
-
-	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
-
-	var _LodashUtils = __webpack_require__(8);
-
-	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
-
-	var _XAxis = __webpack_require__(20);
-
-	var _XAxis2 = _interopRequireDefault(_XAxis);
-
-	var _YAxis = __webpack_require__(21);
-
-	var _YAxis2 = _interopRequireDefault(_YAxis);
-
-	var _Tooltip = __webpack_require__(7);
-
-	var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-	var _Legend = __webpack_require__(11);
-
-	var _Legend2 = _interopRequireDefault(_Legend);
-
-	var _Brush = __webpack_require__(38);
-
-	var _Brush2 = _interopRequireDefault(_Brush);
-
-	var _ReferenceLine = __webpack_require__(42);
-
-	var _ReferenceLine2 = _interopRequireDefault(_ReferenceLine);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var ORIENT_MAP = {
-	  xAxis: ['bottom', 'top'],
-	  yAxis: ['left', 'right']
-	};
-	/**
-	 * The base class of chart in cartesian coordinate system
-	 */
-	var CartesianChart = (_temp = _class = function (_React$Component) {
-	  _inherits(CartesianChart, _React$Component);
-
-	  function CartesianChart(props) {
-	    _classCallCheck(this, CartesianChart);
-
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(CartesianChart).call(this, props));
-
-	    _this.state = {
-	      dataStartIndex: 0,
-	      dataEndIndex: _this.props.data.length - 1,
-	      activeTooltipIndex: -1,
-	      activeTooltipLabel: '',
-	      activeTooltipCoord: { x: 0, y: 0 },
-	      isTooltipActive: false,
-	      activeLineKey: null,
-	      activeBarKey: null
-	    };
-
-	    _this.validateAxes();
-	    return _this;
-	  }
-
-	  _createClass(CartesianChart, [{
-	    key: 'validateAxes',
-	    value: function validateAxes() {
-	      var _props = this.props;
-	      var layout = _props.layout;
-	      var children = _props.children;
-
-	      var xAxes = _ReactUtils2.default.findAllByType(children, _XAxis2.default);
-	      var yAxes = _ReactUtils2.default.findAllByType(children, _YAxis2.default);
-
-	      if (layout === 'horizontal' && xAxes && xAxes.length) {
-	        xAxes.forEach(function (axis) {
-	          (0, _invariant2.default)(axis.props.type === 'category', 'x-axis should be category axis when the layout is horizontal');
-	        });
-	      } else if (layout === 'vertical') {
-	        var displayName = this.constructor.displayName;
-
-	        (0, _invariant2.default)(yAxes && yAxes.length, 'You should add <YAxis type="number"/> in ' + displayName + '.' + 'The layout is vertical now, y-axis should be category axis,' + 'but y-axis is number axis when no YAxis is added.');
-	        (0, _invariant2.default)(xAxes && xAxes.length, 'You should add <XAxis /> in ' + displayName + '.' + 'The layout is vertical now, x-axis is category when no XAxis is added.');
-
-	        if (yAxes && yAxes.length) {
-	          yAxes.forEach(function (axis) {
-	            (0, _invariant2.default)(axis.props.type === 'category', 'y-axis should be category axis when the layout is vertical');
-	          });
-	        }
-	      }
-
-	      return null;
-	    }
-	  }, {
-	    key: 'getStackGroupsByAxisId',
-	    value: function getStackGroupsByAxisId(items, axisIdKey) {
-	      var _this2 = this;
-
-	      var stackGroups = items.reduce(function (result, item) {
-	        var _item$props = item.props;
-	        var stackId = _item$props.stackId;
-	        var dataKey = _item$props.dataKey;
-
-	        var axisId = item.props[axisIdKey];
-
-	        if (!result[axisId]) {
-	          result[axisId] = { hasStack: false, stackGroups: {} };
-	        }
-
-	        if (_LodashUtils2.default.isNumber(stackId) || _LodashUtils2.default.isString(stackId)) {
-	          if (!result[axisId].stackGroups[stackId]) {
-	            result[axisId].stackGroups[stackId] = {
-	              items: []
-	            };
-	          }
-	          result[axisId].stackGroups[stackId].items.push(item);
-
-	          if (result[axisId].stackGroups[stackId].items.length >= 2) {
-	            result[axisId].hasStack = true;
-	          }
-	        } else {
-	          result[axisId].stackGroups[_LodashUtils2.default.getUniqueId('_stackId_')] = {
-	            items: [item]
-	          };
-	        }
-
-	        return result;
-	      }, {});
-
-	      return Object.keys(stackGroups).reduce(function (result, axisId) {
-	        var group = stackGroups[axisId];
-
-	        if (group.hasStack) {
-	          group.stackGroups = Object.keys(group.stackGroups).reduce(function (res, stackId) {
-	            var g = group.stackGroups[stackId];
-	            res[stackId] = {
-	              items: g.items,
-	              stackedData: _this2.getStackedData(g.items)
-	            };
-
-	            return res;
-	          }, {});
-	        }
-	        result[axisId] = group;
-	        return result;
-	      }, {});
-	    }
-	  }, {
-	    key: 'getStackedData',
-	    value: function getStackedData(stackItems) {
-	      var data = this.props.data;
-
-	      var dataKeys = stackItems.map(function (item) {
-	        return item.props.dataKey;
-	      });
-	      var stack = _d3Shape2.default.stack().keys(dataKeys).value(function (d, key) {
-	        return +d[key] || 0;
-	      }).order(_d3Shape2.default.stackOrderNone).offset(_d3Shape2.default.stackOffsetNone);
-
-	      return stack(data);
-	    }
-	  }, {
-	    key: 'getStackedDataOfItem',
-	    value: function getStackedDataOfItem(item, stackGroups) {
-	      var stackId = item.props.stackId;
-
-	      if (_LodashUtils2.default.isNumber(stackId) || _LodashUtils2.default.isString(stackId)) {
-	        var group = stackGroups[stackId];
-
-	        if (group && group.items.length) {
-	          var itemIndex = -1;
-
-	          for (var i = 0, len = group.items.length; i < len; i++) {
-	            if (group.items[i] === item) {
-	              itemIndex = i;
-	              break;
-	            }
-	          }
-	          return itemIndex >= 0 ? group.stackedData[itemIndex] : null;
-	        }
-	      }
-
-	      return null;
-	    }
-	    /**
-	     * Calculate coordinate of cursor in chart
-	     * @param  {Object} e               Event object
-	     * @param  {Object} containerOffset The offset of main part in the svg element
-	     * @return {Object}                 {chartX, chartY}
-	     */
-
-	  }, {
-	    key: 'getChartPosition',
-	    value: function getChartPosition(e, containerOffset) {
-	      return {
-	        chartX: Math.round(e.pageX - containerOffset.left),
-	        chartY: Math.round(e.pageY - containerOffset.top)
-	      };
-	    }
-
-	    /**
-	     * get domain of ticks
-	     * @param  {Array} ticks Ticks of axis
-	     * @param  {String} type  The type of axis
-	     * @return {Array} domain
-	     */
-
-	  }, {
-	    key: 'getDomainOfTicks',
-	    value: function getDomainOfTicks(ticks, type) {
-	      if (type === 'number') {
-	        return [Math.min.apply(null, ticks), Math.max.apply(null, ticks)];
-	      }
-
-	      return ticks;
-	    }
-	    /**
-	     * Get domain of data by key
-	     * @param  {String} key  The unique key of a group of data
-	     * @param  {String} type The type of axis
-	     * @return {Array} Domain of data
-	     */
-
-	  }, {
-	    key: 'getDomainByKey',
-	    value: function getDomainByKey(key, type) {
-	      var data = this.props.data;
-	      var _state = this.state;
-	      var dataStartIndex = _state.dataStartIndex;
-	      var dataEndIndex = _state.dataEndIndex;
-
-	      var domain = data.slice(dataStartIndex, dataEndIndex + 1).map(function (entry) {
-	        return entry[key] || 0;
-	      });
-
-	      return type === 'number' ? [Math.min.apply(null, domain), Math.max.apply(null, domain)] : domain;
-	    }
-	  }, {
-	    key: 'getDomainOfStackGroups',
-	    value: function getDomainOfStackGroups(stackGroups) {
-	      var _state2 = this.state;
-	      var dataStartIndex = _state2.dataStartIndex;
-	      var dataEndIndex = _state2.dataEndIndex;
-
-	      return Object.keys(stackGroups).reduce(function (result, stackId) {
-	        var group = stackGroups[stackId];
-	        var stackedData = group.stackedData;
-
-	        var minList = stackedData[0].slice(dataStartIndex, dataEndIndex + 1);
-	        var maxList = stackedData[stackedData.length - 1].slice(dataStartIndex, dataEndIndex + 1);
-	        var min = minList.reduce(function (res, entry) {
-	          return Math.min(res, entry[0]);
-	        }, Infinity);
-	        var max = maxList.reduce(function (res, entry) {
-	          return Math.max(res, entry[1]);
-	        }, -Infinity);
-
-	        return [Math.min(min, result[0]), Math.max(max, result[1])];
-	      }, [Infinity, -Infinity]);
-	    }
-	    /**
-	     * Get domain of data by the configuration of item element
-	     * @param  {Array} items  The instances of item
-	     * @param  {String} type  The type of axis, number - Number Axis, category - Category Axis
-	     * @return {Array}        Domain
-	     */
-
-	  }, {
-	    key: 'getDomainOfItemsWithSameAxis',
-	    value: function getDomainOfItemsWithSameAxis(items, type) {
-	      var _this3 = this;
-
-	      var domains = items.map(function (item) {
-	        return _this3.getDomainByKey(item.props.dataKey, type);
-	      });
-
-	      if (type === 'number') {
-	        // Calculate the domain of number axis
-	        return domains.reduce(function (result, entry) {
-	          return [Math.min(result[0], entry[0]), Math.max(result[1], entry[1])];
-	        }, [Infinity, -Infinity]);
-	      }
-
-	      var tag = {};
-	      // Get the union set of category axis
-	      return domains.reduce(function (result, entry) {
-	        for (var i = 0, len = entry.length; i < len; i++) {
-	          if (!tag[entry[i]]) {
-	            tag[entry[i]] = true;
-
-	            result.push(entry[i]);
-	          }
-	        }
-	        return result;
-	      }, []);
-	    }
-	    /**
-	     * Get the configuration of all x-axis or y-axis
-	     * @param  {String} axisType    The type of axis
-	     * @param  {Array} items        The instances of item
-	     * @param  {Object} stackGroups The items grouped by axisId and stackId
-	     * @return {Object}          Configuration
-	     */
-
-	  }, {
-	    key: 'getAxisMap',
-	    value: function getAxisMap() {
-	      var axisType = arguments.length <= 0 || arguments[0] === undefined ? 'xAxis' : arguments[0];
-	      var items = arguments[1];
-	      var stackGroups = arguments[2];
-	      var children = this.props.children;
-
-	      var Axis = axisType === 'xAxis' ? _XAxis2.default : _YAxis2.default;
-	      var axisIdKey = axisType === 'xAxis' ? 'xAxisId' : 'yAxisId';
-	      // Get all the instance of Axis
-	      var axes = _ReactUtils2.default.findAllByType(children, Axis);
-
-	      var axisMap = {};
-
-	      if (axes && axes.length) {
-	        axisMap = this.getAxisMapByAxes(axes, items, axisType, axisIdKey, stackGroups);
-	      } else if (items && items.length) {
-	        axisMap = this.getAxisMapByItems(items, Axis, axisType, axisIdKey, stackGroups);
-	      }
-
-	      return axisMap;
-	    }
-	    /**
-	     * Get the configuration of axis by the options of axis instance
-	     * @param {Array}  axes  The instance of axes
-	     * @param  {Array} items The instances of item
-	     * @param  {String} axisType The type of axis, xAxis - x-axis, yAxis - y-axis
-	     * @param  {String} axisIdKey The unique id of an axis
-	     * @return {Object}      Configuration
-	     */
-
-	  }, {
-	    key: 'getAxisMapByAxes',
-	    value: function getAxisMapByAxes(axes, items, axisType, axisIdKey, stackGroups) {
-	      var _this4 = this;
-
-	      // Eliminate duplicated axes
-	      var axisMap = axes.reduce(function (result, child) {
-	        var _child$props = child.props;
-	        var type = _child$props.type;
-	        var dataKey = _child$props.dataKey;
-
-	        var axisId = child.props[axisIdKey];
-
-	        if (!result[axisId]) {
-	          var domain = undefined;
-
-	          if (child.props.data) {
-	            domain = child.props.data;
-	          } else if (dataKey) {
-	            domain = _this4.getDomainByKey(dataKey, type);
-	          } else if (stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack && type === 'number') {
-	            domain = _this4.getDomainOfStackGroups(stackGroups[axisId].stackGroups);
-	          } else {
-	            domain = _this4.getDomainOfItemsWithSameAxis(items.filter(function (entry) {
-	              return entry.props[axisIdKey] === axisId;
-	            }), type);
-	          }
-
-	          return _extends({}, result, _defineProperty({}, axisId, _extends({}, child.props, {
-	            axisType: axisType,
-	            domain: domain
-	          })));
-	        }
-
-	        return result;
-	      }, {});
-
-	      return axisMap;
-	    }
-	    /**
-	     * Get the configuration of axis by the options of item, this kind of axis does not display in chart
-	     * @param  {Array} items       The instances of item
-	     * @param  {ReactElement} Axis Axis Component
-	     * @param  {String} axisType   The type of axis, xAxis - x-axis, yAxis - y-axis
-	     * @param  {String} axisIdKey  The unique id of an axis
-	     * @return {Object}            Configuration
-	     */
-
-	  }, {
-	    key: 'getAxisMapByItems',
-	    value: function getAxisMapByItems(items, Axis, axisType, axisIdKey, stackGroups) {
-	      var _this5 = this;
-
-	      var layout = this.props.layout;
-	      var _state3 = this.state;
-	      var dataEndIndex = _state3.dataEndIndex;
-	      var dataStartIndex = _state3.dataStartIndex;
-
-	      var len = dataEndIndex - dataStartIndex + 1;
-	      var index = -1;
-	      var isCategoryAxis = layout === 'horizontal' && axisType === 'xAxis' || layout === 'vertical' && axisType === 'yAxis';
-
-	      // The default type of x-axis is category axis,
-	      // The default contents of x-axis is the serial numbers of data
-	      // The default type of y-axis is number axis
-	      // The default contents of y-axis is the domain of data
-	      var axisMap = items.reduce(function (result, child) {
-	        var axisId = child.props[axisIdKey];
-
-	        if (!result[axisId]) {
-	          index++;
-
-	          var domain = undefined;
-	          if (isCategoryAxis) {
-	            domain = _LodashUtils2.default.range(0, len);
-	          } else if (stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack) {
-	            domain = _this5.getDomainOfStackGroups(stackGroups[axisId].stackGroups);
-	          } else {
-	            domain = _this5.getDomainOfItemsWithSameAxis(items.filter(function (entry) {
-	              return entry.props[axisIdKey] === axisId;
-	            }), 'number');
-	          }
-
-	          return _extends({}, result, _defineProperty({}, axisId, {
-	            axisType: axisType,
-	            type: Axis.defaultProps.type,
-	            hide: true,
-	            width: Axis.defaultProps.width,
-	            height: Axis.defaultProps.height,
-	            tickCount: Axis.defaultProps.tickCount,
-	            orient: ORIENT_MAP[axisType][index % 2],
-	            domain: domain
-	          }));
-	        }
-
-	        return result;
-	      }, {});
-
-	      return axisMap;
-	    }
-
-	    /**
-	     * Calculate the offset of main part in the svg element
-	     * @param  {Object} xAxisMap  The configuration of x-axis
-	     * @param  {Object} yAxisMap  The configuration of y-axis
-	     * @return {Object} The offset of main part in the svg element
-	     */
-
-	  }, {
-	    key: 'getOffset',
-	    value: function getOffset(xAxisMap, yAxisMap) {
-	      var _props2 = this.props;
-	      var width = _props2.width;
-	      var height = _props2.height;
-	      var margin = _props2.margin;
-	      var children = _props2.children;
-
-	      var brushItem = _ReactUtils2.default.findChildByType(children, _Brush2.default);
-
-	      var offsetH = Object.keys(yAxisMap).reduce(function (result, id) {
-	        var entry = yAxisMap[id];
-	        var orient = entry.orient;
-
-	        result[orient] += entry.hide ? 0 : entry.width;
-
-	        return result;
-	      }, { left: margin.left, right: margin.right });
-
-	      var offsetV = Object.keys(xAxisMap).reduce(function (result, id) {
-	        var entry = xAxisMap[id];
-	        var orient = entry.orient;
-
-	        result[orient] += entry.hide ? 0 : entry.height;
-
-	        return result;
-	      }, { top: margin.top, bottom: margin.bottom });
-
-	      if (brushItem) {
-	        offsetV.bottom += brushItem.props.height || _Brush2.default.defaultProps.height;
-	      }
-
-	      return _extends({}, offsetH, offsetV, {
-	        width: width - offsetH.left - offsetH.right,
-	        height: height - offsetV.top - offsetV.bottom
-	      });
-	    }
-	    /**
-	     * Get the main color of each graphic item
-	     * @param  {ReactElement} item A graphic item
-	     * @return {String}            Color
-	     */
-
-	  }, {
-	    key: 'getMainColorOfItem',
-	    value: function getMainColorOfItem(item) {
-	      var displayName = item.type.displayName;
-	      var result = undefined;
-
-	      switch (displayName) {
-	        case 'Line':
-	          result = item.props.stroke;
-	          break;
-	        default:
-	          result = item.props.fill;
-	          break;
-	      }
-
-	      return result;
-	    }
-	    /**
-	     * Configure the scale function of axis
-	     * @param {Object} scale The scale function
-	     * @param {Object} opts  The configuration of axis
-	     * @return {Object}      null
-	     */
-
-	  }, {
-	    key: 'setTicksOfScale',
-	    value: function setTicksOfScale(scale, opts) {
-	      // Give priority to use the options of ticks
-	      if (opts.ticks && opts.ticks) {
-	        scale.domain(this.getDomainOfTicks(opts.ticks, opts.type)).ticks(opts.ticks.length);
-
-	        return;
-	      }
-	      // Calculate the ticks by the number of grid when the axis is a number axis
-	      if (opts.tickCount && opts.type === 'number' && !opts.hide) {
-	        var domain = scale.domain();
-	        var tickValues = (0, _rechartsScale.getNiceTickValues)(domain, opts.tickCount);
-
-	        opts.ticks = tickValues;
-	        scale.domain(this.getDomainOfTicks(tickValues, opts.type)).ticks(opts.tickCount);
-	      } else if (opts.type === 'number' && opts.hide && scale.domain()[0] > 0) {
-	        scale.domain([0, scale.domain()[1]]);
-	      }
-	    }
-	    /**
-	     * Calculate the scale function, position, width, height of axes
-	     * @param  {Object} axisMap  The configuration of axes
-	     * @param  {Object} offset   The offset of main part in the svg element
-	     * @param  {Object} axisType The type of axes, x-axis or y-axis
-	     * @return {Object} Configuration
-	     */
-
-	  }, {
-	    key: 'getFormatAxisMap',
-	    value: function getFormatAxisMap(axisMap, offset, axisType) {
-	      var _this6 = this;
-
-	      var _props3 = this.props;
-	      var width = _props3.width;
-	      var height = _props3.height;
-	      var layout = _props3.layout;
-
-	      var displayName = this.constructor.displayName;
-	      var ids = Object.keys(axisMap);
-	      var steps = {
-	        left: offset.left,
-	        right: width - offset.right,
-	        top: offset.top,
-	        bottom: height - offset.bottom
-	      };
-
-	      return ids.reduce(function (result, id) {
-	        var axis = axisMap[id];
-	        var orient = axis.orient;
-	        var type = axis.type;
-	        var domain = axis.domain;
-
-	        var range = undefined;
-
-	        if (axisType === 'xAxis') {
-	          range = [offset.left, offset.left + offset.width];
-	        } else {
-	          range = layout === 'horizontal' ? [offset.top + offset.height, offset.top] : [offset.top, offset.top + offset.height];
-	        }
-	        var scale = undefined;
-
-	        if (type === 'number') {
-	          scale = _d3Scale2.default.linear().domain(domain).range(range);
-	        } else if (displayName === 'LineChart' || displayName === 'AreaChart') {
-	          scale = _d3Scale2.default.point().domain(domain).range(range);
-	        } else {
-	          scale = _d3Scale2.default.band().domain(domain).range(range);
-	        }
-
-	        _this6.setTicksOfScale(scale, axis);
-
-	        var x = undefined;
-	        var y = undefined;
-
-	        if (axisType === 'xAxis') {
-	          x = offset.left;
-	          y = orient === 'top' ? steps[orient] - axis.height : steps[orient];
-	        } else {
-	          x = orient === 'left' ? steps[orient] - axis.width : steps[orient];
-	          y = offset.top;
-	        }
-
-	        result[id] = _extends({}, axis, {
-	          x: x, y: y, scale: scale,
-	          width: axisType === 'xAxis' ? offset.width : axis.width,
-	          height: axisType === 'yAxis' ? offset.height : axis.height
-	        });
-
-	        if (!axis.hide && axisType === 'xAxis') {
-	          steps[orient] += (orient === 'top' ? -1 : 1) * result[id].height;
-	        } else if (!axis.hide) {
-	          steps[orient] += (orient === 'left' ? -1 : 1) * result[id].width;
-	        }
-
-	        return result;
-	      }, {});
-	    }
-
-	    /**
-	     * Get the ticks of an axis
-	     * @param  {Object}  axis The configuration of an axis
-	     * @param {Boolean} isGrid Whether or not are the ticks in grid
-	     * @return {Array}  Ticks
-	     */
-
-	  }, {
-	    key: 'getAxisTicks',
-	    value: function getAxisTicks(axis) {
-	      var isGrid = arguments.length <= 1 || arguments[1] === undefined ? false : arguments[1];
-
-	      var scale = axis.scale;
-	      var offset = isGrid && axis.type === 'category' ? scale.bandwidth() / 2 : 0;
-
-	      if (axis.ticks) {
-	        return axis.ticks.map(function (entry) {
-	          return { coord: scale(entry) + offset, value: entry };
-	        });
-	      }
-
-	      if (scale.ticks) {
-	        return scale.ticks(axis.tickCount).map(function (entry) {
-	          return { coord: scale(entry) + offset, value: entry };
-	        });
-	      }
-
-	      return scale.domain().map(function (entry) {
-	        return { coord: scale(entry) + offset, value: entry };
-	      });
-	    }
-
-	    /**
-	     * Calculate the ticks of grid
-	     * @param  {Array} ticks The ticks in axis
-	     * @param {Number} min   The minimun value of axis
-	     * @param {Number} max   The maximun value of axis
-	     * @return {Array}       Ticks
-	     */
-
-	  }, {
-	    key: 'getGridTicks',
-	    value: function getGridTicks(ticks, min, max) {
-	      var hasMin = undefined;
-	      var hasMax = undefined;
-	      var values = undefined;
-
-	      values = ticks.map(function (entry) {
-	        if (entry.coord === min) {
-	          hasMin = true;
-	        }
-	        if (entry.coord === max) {
-	          hasMax = true;
-	        }
-
-	        return entry.coord;
-	      });
-
-	      if (!hasMin) {
-	        values.push(min);
-	      }
-	      if (!hasMax) {
-	        values.push(max);
-	      }
-
-	      return values;
-	    }
-
-	    /**
-	     * Get the information of mouse in chart, return null when the mouse is not in the chart
-	     * @param  {Object}  xAxisMap The configuration of all x-axes
-	     * @param  {Object}  yAxisMap The configuration of all y-axes
-	     * @param  {Object}  offset   The offset of main part in the svg element
-	     * @param  {Object}  e        The event object
-	     * @return {Object}           Mouse data
-	     */
-
-	  }, {
-	    key: 'getMouseInfo',
-	    value: function getMouseInfo(xAxisMap, yAxisMap, offset, e) {
-	      var isIn = e.chartX >= offset.left && e.chartX <= offset.left + offset.width && e.chartY >= offset.top && e.chartY <= offset.top + offset.height;
-
-	      if (!isIn) {
-	        return null;
-	      }
-
-	      var layout = this.props.layout;
-
-	      var axisMap = layout === 'horizontal' ? xAxisMap : yAxisMap;
-	      var pos = layout === 'horizontal' ? e.chartX : e.chartY;
-	      var ids = Object.keys(axisMap);
-	      var axis = axisMap[ids[0]];
-	      var ticks = this.getAxisTicks(axis, true);
-
-	      var index = 0;
-	      var len = ticks.length;
-
-	      if (len > 1) {
-	        for (var i = 0; i < len; i++) {
-	          if (i === 0 && pos <= (ticks[i].coord + ticks[i + 1].coord) / 2 || i > 0 && i < len - 1 && pos > (ticks[i].coord + ticks[i - 1].coord) / 2 && pos <= (ticks[i].coord + ticks[i + 1].coord) / 2 || i === len - 1 && pos > (ticks[i].coord + ticks[i - 1].coord) / 2) {
-	            index = i;
-	            break;
-	          }
-	        }
-	      }
-
-	      return {
-	        activeTooltipIndex: index,
-	        activeTooltipLabel: ticks[index].value,
-	        activeTooltipCoord: {
-	          x: layout === 'horizontal' ? ticks[index].coord : e.chartX,
-	          y: layout === 'horizontal' ? e.chartY : ticks[index].coord
-	        }
-	      };
-	    }
-	    /**
-	     * Get the content to be displayed in the tooltip
-	     * @param  {Array} items The instances of item
-	     * @return {Array}       The content of tooltip
-	     */
-
-	  }, {
-	    key: 'getTooltipContent',
-	    value: function getTooltipContent(items) {
-	      var _this7 = this;
-
-	      var _state4 = this.state;
-	      var activeLineKey = _state4.activeLineKey;
-	      var activeBarKey = _state4.activeBarKey;
-	      var activeAreaKey = _state4.activeAreaKey;
-	      var activeTooltipIndex = _state4.activeTooltipIndex;
-	      var dataStartIndex = _state4.dataStartIndex;
-	      var dataEndIndex = _state4.dataEndIndex;
-
-	      var data = this.props.data.slice(dataStartIndex, dataEndIndex + 1);
-
-	      if (activeTooltipIndex < 0 || !items || !items.length) {
-	        return null;
-	      }
-
-	      var activeItems = items;
-
-	      if (activeLineKey) {
-	        activeItems = items.filter(function (item) {
-	          return item.props.dataKey === activeLineKey && item.type.displayName === 'Line';
-	        });
-	      } else if (activeBarKey) {
-	        activeItems = items.filter(function (item) {
-	          return item.props.dataKey === activeBarKey && item.type.displayName === 'Bar';
-	        });
-	      } else if (activeAreaKey) {
-	        activeItems = items.filter(function (item) {
-	          return item.props.dataKey === activeAreaKey && item.type.displayName === 'Area';
-	        });
-	      }
-
-	      return activeItems.map(function (child) {
-	        var _child$props2 = child.props;
-	        var dataKey = _child$props2.dataKey;
-	        var name = _child$props2.name;
-	        var unit = _child$props2.unit;
-	        var formatter = _child$props2.formatter;
-
-	        return {
-	          key: name || dataKey,
-	          unit: unit || '',
-	          color: _this7.getMainColorOfItem(child),
-	          value: data[activeTooltipIndex][dataKey],
-	          formatter: formatter
-	        };
-	      });
-	    }
-	  }, {
-	    key: 'handleBrushChange',
-	    value: function handleBrushChange(_ref) {
-	      var startIndex = _ref.startIndex;
-	      var endIndex = _ref.endIndex;
-
-	      this.setState({
-	        dataStartIndex: startIndex,
-	        dataEndIndex: endIndex
-	      });
-	    }
-
-	    /**
-	     * The handler of mouse entering chart
-	     * @param  {Object} offset   The offset of main part in the svg element
-	     * @param  {Object} xAxisMap The configuration of all x-axes
-	     * @param  {Object} yAxisMap The configuration of all y-axes
-	     * @param  {Object} e        Event object
-	     * @return {Null}            null
-	     */
-
-	  }, {
-	    key: 'handleMouseEnter',
-	    value: function handleMouseEnter(offset, xAxisMap, yAxisMap, e) {
-	      var container = _reactDom2.default.findDOMNode(this);
-	      var containerOffset = _DOMUtils2.default.offset(container);
-	      var ne = this.getChartPosition(e, containerOffset);
-	      var mouse = this.getMouseInfo(xAxisMap, yAxisMap, offset, ne);
-
-	      if (mouse) {
-	        this.setState(_extends({}, mouse, {
-	          isTooltipActive: true,
-	          chartX: ne.chartX,
-	          chartY: ne.chartY
-	        }));
-	      }
-	    }
-	    /**
-	     * The handler of mouse moving in chart
-	     * @param  {Object} offset   The offset of main part in the svg element
-	     * @param  {Object} xAxisMap The configuration of all x-axes
-	     * @param  {Object} yAxisMap The configuration of all y-axes
-	     * @param  {Object} e        Event object
-	     * @return {Null} no return
-	     */
-
-	  }, {
-	    key: 'handleMouseMove',
-	    value: function handleMouseMove(offset, xAxisMap, yAxisMap, e) {
-	      var container = _reactDom2.default.findDOMNode(this);
-	      var containerOffset = _DOMUtils2.default.offset(container);
-	      var ne = this.getChartPosition(e, containerOffset);
-	      var mouse = this.getMouseInfo(xAxisMap, yAxisMap, offset, ne);
-
-	      if (mouse) {
-	        this.setState(_extends({}, mouse, {
-	          isTooltipActive: true,
-	          chartX: ne.chartX,
-	          chartY: ne.chartY
-	        }));
-	      } else {
-	        this.setState({
-	          isTooltipActive: false
-	        });
-	      }
-	    }
-	    /**
-	     * The handler if mouse leaving chart
-	     * @return {Null} no return
-	     */
-
-	  }, {
-	    key: 'handleMouseLeave',
-	    value: function handleMouseLeave() {
-	      this.setState({
-	        isTooltipActive: false
-	      });
-	    }
-
-	    /**
-	    * Draw x-axes
-	    * @param {Object} xAxisMap The configuration of all x-axes
-	    * @return {ReactElement} The instance of x-axes
-	    */
-
-	  }, {
-	    key: 'renderXAxis',
-	    value: function renderXAxis(xAxisMap) {
-	      var _props4 = this.props;
-	      var width = _props4.width;
-	      var height = _props4.height;
-
-	      var ids = xAxisMap && Object.keys(xAxisMap);
-
-	      if (ids && ids.length) {
-	        var xAxes = [];
-
-	        for (var i = 0, len = ids.length; i < len; i++) {
-	          var axis = xAxisMap[ids[i]];
-
-	          if (!axis.hide) {
-	            xAxes.push(_react2.default.createElement(_CartesianAxis2.default, _extends({}, axis, {
-	              x: axis.x,
-	              y: axis.y,
-	              width: axis.width,
-	              height: axis.height,
-	              key: 'x-axis-' + ids[i],
-	              orient: axis.orient,
-	              viewBox: { x: 0, y: 0, width: width, height: height },
-	              ticks: this.getAxisTicks(axis, true)
-	            })));
-	          }
-	        }
-	        return xAxes.length ? _react2.default.createElement(
-	          _Layer2.default,
-	          { key: 'x-axis-layer', className: 'x-axis-layer' },
-	          xAxes
-	        ) : null;
-	      }
-	    }
-
-	    /**
-	     * Draw y-axes
-	     * @param  {Object} yAxisMap The configuration of all y-axes
-	     * @return {ReactElement} The instance of y-axes
-	     */
-
-	  }, {
-	    key: 'renderYAxis',
-	    value: function renderYAxis(yAxisMap) {
-	      var _props5 = this.props;
-	      var width = _props5.width;
-	      var height = _props5.height;
-
-	      var ids = yAxisMap && Object.keys(yAxisMap);
-
-	      if (ids && ids.length) {
-	        var yAxes = [];
-	        for (var i = 0, len = ids.length; i < len; i++) {
-	          var axis = yAxisMap[ids[i]];
-
-	          if (!axis.hide) {
-	            yAxes.push(_react2.default.createElement(_CartesianAxis2.default, _extends({}, axis, {
-	              key: 'y-axis-' + ids[i],
-	              x: axis.x,
-	              y: axis.y,
-	              width: axis.width,
-	              height: axis.height,
-	              orient: axis.orient,
-	              viewBox: { x: 0, y: 0, width: width, height: height },
-	              ticks: this.getAxisTicks(axis, true)
-	            })));
-	          }
-	        }
-
-	        return yAxes.length ? _react2.default.createElement(
-	          _Layer2.default,
-	          { key: 'y-axis-layer', className: 'y-axis-layer' },
-	          yAxes
-	        ) : null;
-	      }
-	    }
-	    /**
-	     * Draw grid
-	     * @param  {Object} xAxisMap The configuration of all x-axes
-	     * @param  {Object} yAxisMap The configuration of all y-axes
-	     * @param  {Object} offset   The offset of main part in the svg element
-	     * @return {ReactElement} The instance of grid
-	     */
-
-	  }, {
-	    key: 'renderGrid',
-	    value: function renderGrid(xAxisMap, yAxisMap, offset) {
-	      var _props6 = this.props;
-	      var children = _props6.children;
-	      var width = _props6.width;
-	      var height = _props6.height;
-
-	      var gridItem = _ReactUtils2.default.findChildByType(children, _CartesianGrid2.default);
-
-	      if (!gridItem) {
-	        return null;
-	      }
-
-	      var xIds = Object.keys(xAxisMap);
-	      var yIds = Object.keys(yAxisMap);
-	      var xAxis = xAxisMap[xIds[0]];
-	      var yAxis = yAxisMap[yIds[0]];
-
-	      var verticalPoints = this.getGridTicks(_CartesianAxis2.default.getTicks(_extends({}, _CartesianAxis2.default.defaultProps, xAxis, {
-	        ticks: this.getAxisTicks(xAxis, true),
-	        viewBox: { x: 0, y: 0, width: width, height: height }
-	      })), offset.left, offset.left + offset.width);
-
-	      var horizontalPoints = this.getGridTicks(_CartesianAxis2.default.getTicks(_extends({}, _CartesianAxis2.default.defaultProps, yAxis, {
-	        ticks: this.getAxisTicks(yAxis, true),
-	        viewBox: { x: 0, y: 0, width: width, height: height }
-	      })), offset.top, offset.top + offset.height);
-
-	      return _react2.default.cloneElement(gridItem, {
-	        key: 'grid',
-	        x: offset.left,
-	        y: offset.top,
-	        width: offset.width,
-	        height: offset.height,
-	        verticalPoints: verticalPoints, horizontalPoints: horizontalPoints
-	      });
-	    }
-	    /**
-	     * Draw legend
-	     * @param  {Array} items             The instances of item
-	     * @param  {Object} offset           The offset of main part in the svg element
-	     * @param  {ReactElement} legendItem The instance of Legend
-	     * @return {ReactElement}            The instance of Legend
-	     */
-
-	  }, {
-	    key: 'renderLegend',
-	    value: function renderLegend(items) {
-	      var _this8 = this;
-
-	      var _props7 = this.props;
-	      var children = _props7.children;
-	      var width = _props7.width;
-	      var height = _props7.height;
-
-	      var legendItem = _ReactUtils2.default.findChildByType(children, _Legend2.default);
-	      if (!legendItem) {
-	        return null;
-	      }
-
-	      var legendData = items.map(function (child) {
-	        var _child$props3 = child.props;
-	        var dataKey = _child$props3.dataKey;
-	        var name = _child$props3.name;
-	        var legendType = _child$props3.legendType;
-
-	        return {
-	          type: legendType || 'square',
-	          color: _this8.getMainColorOfItem(child),
-	          value: name || dataKey
-	        };
-	      }, this);
-
-	      return _react2.default.cloneElement(legendItem, _extends({}, _Legend2.default.getWithHeight(legendItem, width, height), {
-	        payload: legendData
-	      }));
-	    }
-	    /**
-	     * Draw Tooltip
-	     * @param  {Array} items   The instances of item
-	     * @param  {Object} offset The offset of main part in the svg element
-	     * @return {ReactElement}  The instance of Tooltip
-	     */
-
-	  }, {
-	    key: 'renderTooltip',
-	    value: function renderTooltip(items, offset) {
-	      var children = this.props.children;
-
-	      var tooltipItem = _ReactUtils2.default.findChildByType(children, _Tooltip2.default);
-
-	      if (!tooltipItem) {
-	        return null;
-	      }
-
-	      var _state5 = this.state;
-	      var chartX = _state5.chartX;
-	      var chartY = _state5.chartY;
-	      var isTooltipActive = _state5.isTooltipActive;
-	      var activeTooltipLabel = _state5.activeTooltipLabel;
-	      var activeTooltipCoord = _state5.activeTooltipCoord;
-
-	      var viewBox = {
-	        x: offset.left,
-	        y: offset.top,
-	        width: offset.width,
-	        height: offset.height
-	      };
-
-	      return _react2.default.cloneElement(tooltipItem, {
-	        viewBox: viewBox,
-	        active: isTooltipActive,
-	        label: activeTooltipLabel,
-	        payload: isTooltipActive ? this.getTooltipContent(items) : [],
-	        coordinate: activeTooltipCoord,
-	        mouseX: chartX,
-	        mouseY: chartY
-	      });
-	    }
-	  }, {
-	    key: 'renderBrush',
-	    value: function renderBrush(xAxisMap, yAxisMap, offset) {
-	      var _props8 = this.props;
-	      var children = _props8.children;
-	      var data = _props8.data;
-
-	      var brushItem = _ReactUtils2.default.findChildByType(children, _Brush2.default);
-
-	      if (!brushItem) {
-	        return null;
-	      }
-
-	      var dataKey = brushItem.props.dataKey;
-	      var height = (brushItem.props.height || _Brush2.default.defaultProps.height) + 1;
-
-	      return _react2.default.cloneElement(brushItem, {
-	        onChange: this.handleBrushChange.bind(this),
-	        data: data.map(function (entry) {
-	          return entry[dataKey];
-	        }),
-	        x: offset.left,
-	        y: offset.top + offset.height + offset.bottom - height,
-	        width: offset.width
-	      });
-	    }
-	  }, {
-	    key: 'renderReferenceLines',
-	    value: function renderReferenceLines(xAxisMap, yAxisMap, offset) {
-	      var children = this.props.children;
-
-	      var lines = _ReactUtils2.default.findAllByType(children, _ReferenceLine2.default);
-
-	      if (!lines || !lines.length) {
-	        return null;
-	      }
-
-	      return lines.map(function (entry, i) {
-	        return _react2.default.cloneElement(entry, {
-	          key: 'reference-line-' + i,
-	          xAxisMap: xAxisMap, yAxisMap: yAxisMap,
-	          viewBox: {
-	            x: offset.left,
-	            y: offset.top,
-	            width: offset.width,
-	            height: offset.height
-	          }
-	        });
-	      });
-	    }
-	  }]);
-
-	  return CartesianChart;
-	}(_react2.default.Component), _class.propTypes = {
-	  width: _react.PropTypes.number.isRequired,
-	  height: _react.PropTypes.number.isRequired,
-	  data: _react.PropTypes.arrayOf(_react.PropTypes.object),
-	  layout: _react.PropTypes.oneOf(['horizontal', 'vertical']),
-	  margin: _react.PropTypes.shape({
-	    top: _react.PropTypes.number,
-	    right: _react.PropTypes.number,
-	    bottom: _react.PropTypes.number,
-	    left: _react.PropTypes.number
-	  }),
-
-	  className: _react.PropTypes.string,
-	  stackType: _react.PropTypes.oneOf(['value', 'percent']),
-	  title: _react.PropTypes.string,
-	  style: _react.PropTypes.object,
-	  barCategoryGap: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
-	  barGap: _react.PropTypes.number,
-	  barSize: _react.PropTypes.number,
-	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
-	}, _class.defaultProps = {
-	  style: {},
-	  barCategoryGap: '10%',
-	  barGap: 4,
-	  layout: 'horizontal',
-	  margin: { top: 5, right: 5, bottom: 5, left: 5 }
-	}, _temp);
-	exports.default = CartesianChart;
-
-/***/ },
 /* 14 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
-
-	var offset = function offset(el) {
-	  var box = { top: 0, left: 0 };
-
-	  if (el.getBoundingClientRect) {
-	    box = el.getBoundingClientRect();
-	  }
-
-	  var docElem = document.documentElement;
-	  var body = document.body;
-	  var clientTop = docElem.clientTop || body.clientTop || 0;
-	  var clientLeft = docElem.clientLeft || body.clientLeft || 0;
-	  var scrollTop = window.pageYOffset || docElem.scrollTop;
-	  var scrollLeft = window.pageXOffset || docElem.scrollLeft;
-
-	  return {
-	    top: box.top + scrollTop - clientTop,
-	    left: box.left + scrollLeft - clientLeft
-	  };
-	};
-
-	var stringCache = {
-	  widthCache: {},
-	  cacheCount: 0
-	};
-	var MAX_CACHE_NUM = 2000;
-	var SPAN_STYLE = {
-	  position: 'absolute',
-	  top: '-20000px',
-	  left: 0,
-	  padding: 0,
-	  margin: 0,
-	  border: 'none',
-	  whiteSpace: 'pre'
-	};
-	var STYLE_LIST = ['minWidth', 'maxWidth', 'width', 'minHeight', 'maxHeight', 'height', 'top', 'left', 'fontSize', 'lineHeight', 'padding', 'margin', 'paddingLeft', 'paddingRight', 'paddingTop', 'paddingBottom', 'marginLeft', 'marginRight', 'marginTop', 'marginBottom'];
-
-	var autoCompleteStyle = function autoCompleteStyle(name, value) {
-	  if (STYLE_LIST.indexOf(name) >= 0 && value === +value) {
-	    return value + 'px';
-	  }
-
-	  return value;
-	};
-	var camelToMiddleLine = function camelToMiddleLine(text) {
-	  var strs = text.split('');
-
-	  var formatStrs = strs.reduce(function (result, entry) {
-	    if (entry === entry.toUpperCase()) {
-	      return [].concat(_toConsumableArray(result), ['-', entry.toLowerCase()]);
-	    }
-
-	    return [].concat(_toConsumableArray(result), [entry]);
-	  }, []);
-
-	  return formatStrs.join('');
-	};
-
-	var getStyleString = function getStyleString(style) {
-	  var result = '';
-
-	  for (var s in style) {
-	    if (style.hasOwnProperty(s)) {
-	      result += camelToMiddleLine(s) + ':' + autoCompleteStyle(s, style[s]) + ';';
-	    }
-	  }
-	  return result;
-	};
-
-	var getStringSize = function getStringSize(text) {
-	  var style = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
-
-	  if (text === undefined || text === null) {
-	    return 0;
-	  }
-
-	  var str = text + '';
-	  var styleString = getStyleString(style);
-	  var cacheKey = str + '-' + styleString;
-
-	  if (stringCache.widthCache[cacheKey]) {
-	    return stringCache.widthCache[cacheKey];
-	  }
-
-	  if (!stringCache.span) {
-	    var span = document.createElement('span');
-	    span.setAttribute('style', getStyleString(SPAN_STYLE));
-	    document.body.appendChild(span);
-
-	    stringCache.span = span;
-	  }
-
-	  stringCache.span.setAttribute('style', getStyleString(_extends({}, SPAN_STYLE, style)));
-	  stringCache.span.textContent = str;
-
-	  var rect = stringCache.span.getBoundingClientRect();
-	  var result = { width: rect.width, height: rect.height };
-
-	  stringCache.widthCache[cacheKey] = result;
-
-	  if (++stringCache.cacheCount > MAX_CACHE_NUM) {
-	    stringCache.cacheCount = 0;
-	    stringCache.widthCache = {};
-	  }
-
-	  return result;
-	};
-
-	exports.default = {
-	  offset: offset,
-	  getStringSize: getStringSize,
-	  getStyleString: getStyleString
-	};
-
-/***/ },
-/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
-	   true ? factory(exports, __webpack_require__(93), __webpack_require__(95), __webpack_require__(94), __webpack_require__(49), __webpack_require__(97), __webpack_require__(47)) :
+	   true ? factory(exports, __webpack_require__(95), __webpack_require__(97), __webpack_require__(96), __webpack_require__(51), __webpack_require__(99), __webpack_require__(49)) :
 	  typeof define === 'function' && define.amd ? define('d3-scale', ['exports', 'd3-array', 'd3-interpolate', 'd3-format', 'd3-time', 'd3-time-format', 'd3-color'], factory) :
 	  factory((global.d3_scale = {}),global.d3_array,global.d3_interpolate,global.d3_format,global.d3_time,global.d3_time_format,global.d3_color);
 	}(this, function (exports,d3Array,d3Interpolate,d3Format,d3Time,d3TimeFormat,d3Color) { 'use strict';
@@ -3870,7 +2619,1378 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _class, _temp; /**
+	                    * @fileOverview Cartesian Chart
+	                    */
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactDom = __webpack_require__(52);
+
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+
+	var _rechartsScale = __webpack_require__(17);
+
+	var _d3Scale = __webpack_require__(14);
+
+	var _d3Scale2 = _interopRequireDefault(_d3Scale);
+
+	var _d3Shape = __webpack_require__(50);
+
+	var _d3Shape2 = _interopRequireDefault(_d3Shape);
+
+	var _invariant = __webpack_require__(32);
+
+	var _invariant2 = _interopRequireDefault(_invariant);
+
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
+
+	var _CartesianAxis = __webpack_require__(24);
+
+	var _CartesianAxis2 = _interopRequireDefault(_CartesianAxis);
+
+	var _CartesianGrid = __webpack_require__(25);
+
+	var _CartesianGrid2 = _interopRequireDefault(_CartesianGrid);
+
+	var _ReactUtils = __webpack_require__(3);
+
+	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
+
+	var _DOMUtils = __webpack_require__(16);
+
+	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
+
+	var _LodashUtils = __webpack_require__(8);
+
+	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
+
+	var _XAxis = __webpack_require__(22);
+
+	var _XAxis2 = _interopRequireDefault(_XAxis);
+
+	var _YAxis = __webpack_require__(23);
+
+	var _YAxis2 = _interopRequireDefault(_YAxis);
+
+	var _Tooltip = __webpack_require__(9);
+
+	var _Tooltip2 = _interopRequireDefault(_Tooltip);
+
+	var _Legend = __webpack_require__(12);
+
+	var _Legend2 = _interopRequireDefault(_Legend);
+
+	var _Brush = __webpack_require__(41);
+
+	var _Brush2 = _interopRequireDefault(_Brush);
+
+	var _ReferenceLine = __webpack_require__(45);
+
+	var _ReferenceLine2 = _interopRequireDefault(_ReferenceLine);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var ORIENT_MAP = {
+	  xAxis: ['bottom', 'top'],
+	  yAxis: ['left', 'right']
+	};
+
+	/**
+	 * The base class of chart in cartesian coordinate system
+	 */
+	var CartesianChart = (_temp = _class = function (_Component) {
+	  _inherits(CartesianChart, _Component);
+
+	  function CartesianChart(props) {
+	    _classCallCheck(this, CartesianChart);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(CartesianChart).call(this, props));
+
+	    _this.state = {
+	      dataStartIndex: 0,
+	      dataEndIndex: _this.props.data.length - 1,
+	      activeTooltipIndex: -1,
+	      activeTooltipLabel: '',
+	      activeTooltipCoord: { x: 0, y: 0 },
+	      isTooltipActive: false,
+	      activeLineKey: null,
+	      activeBarKey: null
+	    };
+
+	    _this.validateAxes();
+	    return _this;
+	  }
+
+	  _createClass(CartesianChart, [{
+	    key: 'getStackGroupsByAxisId',
+	    value: function getStackGroupsByAxisId(items, axisIdKey) {
+	      var _this2 = this;
+
+	      var stackGroups = items.reduce(function (result, item) {
+	        var _item$props = item.props;
+	        var stackId = _item$props.stackId;
+	        var dataKey = _item$props.dataKey;
+
+	        var axisId = item.props[axisIdKey];
+
+	        if (!result[axisId]) {
+	          result[axisId] = { hasStack: false, stackGroups: {} };
+	        }
+
+	        if (_LodashUtils2.default.isNumber(stackId) || _LodashUtils2.default.isString(stackId)) {
+	          if (!result[axisId].stackGroups[stackId]) {
+	            result[axisId].stackGroups[stackId] = {
+	              items: []
+	            };
+	          }
+	          result[axisId].stackGroups[stackId].items.push(item);
+
+	          if (result[axisId].stackGroups[stackId].items.length >= 2) {
+	            result[axisId].hasStack = true;
+	          }
+	        } else {
+	          result[axisId].stackGroups[_LodashUtils2.default.getUniqueId('_stackId_')] = {
+	            items: [item]
+	          };
+	        }
+
+	        return result;
+	      }, {});
+
+	      return Object.keys(stackGroups).reduce(function (result, axisId) {
+	        var group = stackGroups[axisId];
+
+	        if (group.hasStack) {
+	          group.stackGroups = Object.keys(group.stackGroups).reduce(function (res, stackId) {
+	            var g = group.stackGroups[stackId];
+	            res[stackId] = {
+	              items: g.items,
+	              stackedData: _this2.getStackedData(g.items)
+	            };
+
+	            return res;
+	          }, {});
+	        }
+	        result[axisId] = group;
+	        return result;
+	      }, {});
+	    }
+	  }, {
+	    key: 'getStackedData',
+	    value: function getStackedData(stackItems) {
+	      var data = this.props.data;
+
+	      var dataKeys = stackItems.map(function (item) {
+	        return item.props.dataKey;
+	      });
+	      var stack = _d3Shape2.default.stack().keys(dataKeys).value(function (d, key) {
+	        return +d[key] || 0;
+	      }).order(_d3Shape2.default.stackOrderNone).offset(_d3Shape2.default.stackOffsetNone);
+
+	      return stack(data);
+	    }
+	  }, {
+	    key: 'getStackedDataOfItem',
+	    value: function getStackedDataOfItem(item, stackGroups) {
+	      var stackId = item.props.stackId;
+
+	      if (_LodashUtils2.default.isNumber(stackId) || _LodashUtils2.default.isString(stackId)) {
+	        var group = stackGroups[stackId];
+
+	        if (group && group.items.length) {
+	          var itemIndex = -1;
+
+	          for (var i = 0, len = group.items.length; i < len; i++) {
+	            if (group.items[i] === item) {
+	              itemIndex = i;
+	              break;
+	            }
+	          }
+	          return itemIndex >= 0 ? group.stackedData[itemIndex] : null;
+	        }
+	      }
+
+	      return null;
+	    }
+	    /**
+	     * Calculate coordinate of cursor in chart
+	     * @param  {Object} e               Event object
+	     * @param  {Object} containerOffset The offset of main part in the svg element
+	     * @return {Object}                 {chartX, chartY}
+	     */
+
+	  }, {
+	    key: 'getChartPosition',
+	    value: function getChartPosition(e, containerOffset) {
+	      return {
+	        chartX: Math.round(e.pageX - containerOffset.left),
+	        chartY: Math.round(e.pageY - containerOffset.top)
+	      };
+	    }
+
+	    /**
+	     * get domain of ticks
+	     * @param  {Array} ticks Ticks of axis
+	     * @param  {String} type  The type of axis
+	     * @return {Array} domain
+	     */
+
+	  }, {
+	    key: 'getDomainOfTicks',
+	    value: function getDomainOfTicks(ticks, type) {
+	      if (type === 'number') {
+	        return [Math.min.apply(null, ticks), Math.max.apply(null, ticks)];
+	      }
+
+	      return ticks;
+	    }
+	    /**
+	     * Get domain of data by key
+	     * @param  {String} key  The unique key of a group of data
+	     * @param  {String} type The type of axis
+	     * @return {Array} Domain of data
+	     */
+
+	  }, {
+	    key: 'getDomainByKey',
+	    value: function getDomainByKey(key, type) {
+	      var data = this.props.data;
+	      var _state = this.state;
+	      var dataStartIndex = _state.dataStartIndex;
+	      var dataEndIndex = _state.dataEndIndex;
+
+	      var domain = data.slice(dataStartIndex, dataEndIndex + 1).map(function (entry) {
+	        return entry[key] || 0;
+	      });
+
+	      return type === 'number' ? [Math.min.apply(null, domain), Math.max.apply(null, domain)] : domain;
+	    }
+	  }, {
+	    key: 'getDomainOfStackGroups',
+	    value: function getDomainOfStackGroups(stackGroups) {
+	      var _state2 = this.state;
+	      var dataStartIndex = _state2.dataStartIndex;
+	      var dataEndIndex = _state2.dataEndIndex;
+
+	      return Object.keys(stackGroups).reduce(function (result, stackId) {
+	        var group = stackGroups[stackId];
+	        var stackedData = group.stackedData;
+
+	        var minList = stackedData[0].slice(dataStartIndex, dataEndIndex + 1);
+	        var maxList = stackedData[stackedData.length - 1].slice(dataStartIndex, dataEndIndex + 1);
+	        var min = minList.reduce(function (res, entry) {
+	          return Math.min(res, entry[0]);
+	        }, Infinity);
+	        var max = maxList.reduce(function (res, entry) {
+	          return Math.max(res, entry[1]);
+	        }, -Infinity);
+
+	        return [Math.min(min, result[0]), Math.max(max, result[1])];
+	      }, [Infinity, -Infinity]);
+	    }
+	    /**
+	     * Get domain of data by the configuration of item element
+	     * @param  {Array} items  The instances of item
+	     * @param  {String} type  The type of axis, number - Number Axis, category - Category Axis
+	     * @return {Array}        Domain
+	     */
+
+	  }, {
+	    key: 'getDomainOfItemsWithSameAxis',
+	    value: function getDomainOfItemsWithSameAxis(items, type) {
+	      var _this3 = this;
+
+	      var domains = items.map(function (item) {
+	        return _this3.getDomainByKey(item.props.dataKey, type);
+	      });
+
+	      if (type === 'number') {
+	        // Calculate the domain of number axis
+	        return domains.reduce(function (result, entry) {
+	          return [Math.min(result[0], entry[0]), Math.max(result[1], entry[1])];
+	        }, [Infinity, -Infinity]);
+	      }
+
+	      var tag = {};
+	      // Get the union set of category axis
+	      return domains.reduce(function (result, entry) {
+	        for (var i = 0, len = entry.length; i < len; i++) {
+	          if (!tag[entry[i]]) {
+	            tag[entry[i]] = true;
+
+	            result.push(entry[i]);
+	          }
+	        }
+	        return result;
+	      }, []);
+	    }
+	    /**
+	     * Get the configuration of all x-axis or y-axis
+	     * @param  {String} axisType    The type of axis
+	     * @param  {Array} items        The instances of item
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
+	     * @return {Object}          Configuration
+	     */
+
+	  }, {
+	    key: 'getAxisMap',
+	    value: function getAxisMap() {
+	      var axisType = arguments.length <= 0 || arguments[0] === undefined ? 'xAxis' : arguments[0];
+	      var items = arguments[1];
+	      var stackGroups = arguments[2];
+	      var children = this.props.children;
+
+	      var Axis = axisType === 'xAxis' ? _XAxis2.default : _YAxis2.default;
+	      var axisIdKey = axisType === 'xAxis' ? 'xAxisId' : 'yAxisId';
+	      // Get all the instance of Axis
+	      var axes = _ReactUtils2.default.findAllByType(children, Axis);
+
+	      var axisMap = {};
+
+	      if (axes && axes.length) {
+	        axisMap = this.getAxisMapByAxes(axes, items, axisType, axisIdKey, stackGroups);
+	      } else if (items && items.length) {
+	        axisMap = this.getAxisMapByItems(items, Axis, axisType, axisIdKey, stackGroups);
+	      }
+
+	      return axisMap;
+	    }
+	    /**
+	     * Get the configuration of axis by the options of axis instance
+	     * @param {Array}  axes  The instance of axes
+	     * @param  {Array} items The instances of item
+	     * @param  {String} axisType The type of axis, xAxis - x-axis, yAxis - y-axis
+	     * @param  {String} axisIdKey The unique id of an axis
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
+	     * @return {Object}      Configuration
+	     */
+
+	  }, {
+	    key: 'getAxisMapByAxes',
+	    value: function getAxisMapByAxes(axes, items, axisType, axisIdKey, stackGroups) {
+	      var _this4 = this;
+
+	      // Eliminate duplicated axes
+	      var axisMap = axes.reduce(function (result, child) {
+	        var _child$props = child.props;
+	        var type = _child$props.type;
+	        var dataKey = _child$props.dataKey;
+
+	        var axisId = child.props[axisIdKey];
+
+	        if (!result[axisId]) {
+	          var domain = undefined;
+
+	          if (child.props.domain) {
+	            domain = child.props.domain;
+	          } else if (dataKey) {
+	            domain = _this4.getDomainByKey(dataKey, type);
+	          } else if (stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack && type === 'number') {
+	            domain = _this4.getDomainOfStackGroups(stackGroups[axisId].stackGroups);
+	          } else {
+	            domain = _this4.getDomainOfItemsWithSameAxis(items.filter(function (entry) {
+	              return entry.props[axisIdKey] === axisId;
+	            }), type);
+	          }
+
+	          return _extends({}, result, _defineProperty({}, axisId, _extends({}, child.props, {
+	            axisType: axisType,
+	            domain: domain
+	          })));
+	        }
+
+	        return result;
+	      }, {});
+
+	      return axisMap;
+	    }
+	    /**
+	     * Get the configuration of axis by the options of item, this kind of axis does not display in chart
+	     * @param  {Array} items       The instances of item
+	     * @param  {ReactElement} Axis Axis Component
+	     * @param  {String} axisType   The type of axis, xAxis - x-axis, yAxis - y-axis
+	     * @param  {String} axisIdKey  The unique id of an axis
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
+	     * @return {Object}            Configuration
+	     */
+
+	  }, {
+	    key: 'getAxisMapByItems',
+	    value: function getAxisMapByItems(items, Axis, axisType, axisIdKey, stackGroups) {
+	      var _this5 = this;
+
+	      var layout = this.props.layout;
+	      var _state3 = this.state;
+	      var dataEndIndex = _state3.dataEndIndex;
+	      var dataStartIndex = _state3.dataStartIndex;
+
+	      var len = dataEndIndex - dataStartIndex + 1;
+	      var index = -1;
+	      var isCategoryAxis = layout === 'horizontal' && axisType === 'xAxis' || layout === 'vertical' && axisType === 'yAxis';
+
+	      // The default type of x-axis is category axis,
+	      // The default contents of x-axis is the serial numbers of data
+	      // The default type of y-axis is number axis
+	      // The default contents of y-axis is the domain of data
+	      var axisMap = items.reduce(function (result, child) {
+	        var axisId = child.props[axisIdKey];
+
+	        if (!result[axisId]) {
+	          index++;
+
+	          var domain = undefined;
+	          if (isCategoryAxis) {
+	            domain = _LodashUtils2.default.range(0, len);
+	          } else if (stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack) {
+	            domain = _this5.getDomainOfStackGroups(stackGroups[axisId].stackGroups);
+	          } else {
+	            domain = _this5.getDomainOfItemsWithSameAxis(items.filter(function (entry) {
+	              return entry.props[axisIdKey] === axisId;
+	            }), 'number');
+	          }
+
+	          return _extends({}, result, _defineProperty({}, axisId, {
+	            axisType: axisType,
+	            type: Axis.defaultProps.type,
+	            hide: true,
+	            width: Axis.defaultProps.width,
+	            height: Axis.defaultProps.height,
+	            tickCount: Axis.defaultProps.tickCount,
+	            orient: ORIENT_MAP[axisType][index % 2],
+	            domain: domain
+	          }));
+	        }
+
+	        return result;
+	      }, {});
+
+	      return axisMap;
+	    }
+
+	    /**
+	     * Calculate the offset of main part in the svg element
+	     * @param  {Object} xAxisMap  The configuration of x-axis
+	     * @param  {Object} yAxisMap  The configuration of y-axis
+	     * @return {Object} The offset of main part in the svg element
+	     */
+
+	  }, {
+	    key: 'getOffset',
+	    value: function getOffset(xAxisMap, yAxisMap) {
+	      var _props = this.props;
+	      var width = _props.width;
+	      var height = _props.height;
+	      var margin = _props.margin;
+	      var children = _props.children;
+
+	      var brushItem = _ReactUtils2.default.findChildByType(children, _Brush2.default);
+
+	      var offsetH = Object.keys(yAxisMap).reduce(function (result, id) {
+	        var entry = yAxisMap[id];
+	        var orient = entry.orient;
+
+	        result[orient] += entry.hide ? 0 : entry.width;
+
+	        return result;
+	      }, { left: margin.left, right: margin.right });
+
+	      var offsetV = Object.keys(xAxisMap).reduce(function (result, id) {
+	        var entry = xAxisMap[id];
+	        var orient = entry.orient;
+
+	        result[orient] += entry.hide ? 0 : entry.height;
+
+	        return result;
+	      }, { top: margin.top, bottom: margin.bottom });
+
+	      if (brushItem) {
+	        offsetV.bottom += brushItem.props.height || _Brush2.default.defaultProps.height;
+	      }
+
+	      return _extends({}, offsetH, offsetV, {
+	        width: width - offsetH.left - offsetH.right,
+	        height: height - offsetV.top - offsetV.bottom
+	      });
+	    }
+	    /**
+	     * Get the main color of each graphic item
+	     * @param  {ReactElement} item A graphic item
+	     * @return {String}            Color
+	     */
+
+	  }, {
+	    key: 'getMainColorOfItem',
+	    value: function getMainColorOfItem(item) {
+	      var displayName = item.type.displayName;
+	      var result = undefined;
+
+	      switch (displayName) {
+	        case 'Line':
+	          result = item.props.stroke;
+	          break;
+	        default:
+	          result = item.props.fill;
+	          break;
+	      }
+
+	      return result;
+	    }
+	    /**
+	     * Configure the scale function of axis
+	     * @param {Object} scale The scale function
+	     * @param {Object} opts  The configuration of axis
+	     * @return {Object}      null
+	     */
+
+	  }, {
+	    key: 'setTicksOfScale',
+	    value: function setTicksOfScale(scale, opts) {
+	      // Give priority to use the options of ticks
+	      if (opts.ticks && opts.ticks) {
+	        scale.domain(this.getDomainOfTicks(opts.ticks, opts.type)).ticks(opts.ticks.length);
+
+	        return;
+	      }
+	      // Calculate the ticks by the number of grid when the axis is a number axis
+	      if (opts.tickCount && opts.type === 'number' && !opts.hide) {
+	        var domain = scale.domain();
+	        var tickValues = (0, _rechartsScale.getNiceTickValues)(domain, opts.tickCount);
+
+	        opts.ticks = tickValues;
+	        scale.domain(this.getDomainOfTicks(tickValues, opts.type)).ticks(opts.tickCount);
+	      } else if (opts.type === 'number' && opts.hide && scale.domain()[0] > 0) {
+	        scale.domain([0, scale.domain()[1]]);
+	      }
+	    }
+	    /**
+	     * Calculate the scale function, position, width, height of axes
+	     * @param  {Object} axisMap  The configuration of axes
+	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @param  {Object} axisType The type of axes, x-axis or y-axis
+	     * @return {Object} Configuration
+	     */
+
+	  }, {
+	    key: 'getFormatAxisMap',
+	    value: function getFormatAxisMap(axisMap, offset, axisType) {
+	      var _this6 = this;
+
+	      var _props2 = this.props;
+	      var width = _props2.width;
+	      var height = _props2.height;
+	      var layout = _props2.layout;
+
+	      var displayName = this.constructor.displayName;
+	      var ids = Object.keys(axisMap);
+	      var steps = {
+	        left: offset.left,
+	        right: width - offset.right,
+	        top: offset.top,
+	        bottom: height - offset.bottom
+	      };
+
+	      return ids.reduce(function (result, id) {
+	        var axis = axisMap[id];
+	        var orient = axis.orient;
+	        var type = axis.type;
+	        var domain = axis.domain;
+
+	        var range = undefined;
+
+	        if (axisType === 'xAxis') {
+	          range = [offset.left, offset.left + offset.width];
+	        } else {
+	          range = layout === 'horizontal' ? [offset.top + offset.height, offset.top] : [offset.top, offset.top + offset.height];
+	        }
+	        var scale = undefined;
+
+	        if (type === 'number') {
+	          scale = _d3Scale2.default.linear().domain(domain).range(range);
+	        } else if (displayName === 'LineChart' || displayName === 'AreaChart') {
+	          scale = _d3Scale2.default.point().domain(domain).range(range);
+	        } else {
+	          scale = _d3Scale2.default.band().domain(domain).range(range);
+	        }
+
+	        _this6.setTicksOfScale(scale, axis);
+
+	        var x = undefined;
+	        var y = undefined;
+
+	        if (axisType === 'xAxis') {
+	          x = offset.left;
+	          y = orient === 'top' ? steps[orient] - axis.height : steps[orient];
+	        } else {
+	          x = orient === 'left' ? steps[orient] - axis.width : steps[orient];
+	          y = offset.top;
+	        }
+
+	        result[id] = _extends({}, axis, {
+	          x: x, y: y, scale: scale,
+	          width: axisType === 'xAxis' ? offset.width : axis.width,
+	          height: axisType === 'yAxis' ? offset.height : axis.height
+	        });
+
+	        if (!axis.hide && axisType === 'xAxis') {
+	          steps[orient] += (orient === 'top' ? -1 : 1) * result[id].height;
+	        } else if (!axis.hide) {
+	          steps[orient] += (orient === 'left' ? -1 : 1) * result[id].width;
+	        }
+
+	        return result;
+	      }, {});
+	    }
+
+	    /**
+	     * Get the ticks of an axis
+	     * @param  {Object}  axis The configuration of an axis
+	     * @param {Boolean} isGrid Whether or not are the ticks in grid
+	     * @return {Array}  Ticks
+	     */
+
+	  }, {
+	    key: 'getAxisTicks',
+	    value: function getAxisTicks(axis) {
+	      var isGrid = arguments.length <= 1 || arguments[1] === undefined ? false : arguments[1];
+
+	      var scale = axis.scale;
+	      var offset = isGrid && axis.type === 'category' ? scale.bandwidth() / 2 : 0;
+
+	      if (axis.ticks) {
+	        return axis.ticks.map(function (entry) {
+	          return { coord: scale(entry) + offset, value: entry };
+	        });
+	      }
+
+	      if (scale.ticks) {
+	        return scale.ticks(axis.tickCount).map(function (entry) {
+	          return { coord: scale(entry) + offset, value: entry };
+	        });
+	      }
+
+	      return scale.domain().map(function (entry) {
+	        return { coord: scale(entry) + offset, value: entry };
+	      });
+	    }
+
+	    /**
+	     * Calculate the ticks of grid
+	     * @param  {Array} ticks The ticks in axis
+	     * @param {Number} min   The minimun value of axis
+	     * @param {Number} max   The maximun value of axis
+	     * @return {Array}       Ticks
+	     */
+
+	  }, {
+	    key: 'getGridTicks',
+	    value: function getGridTicks(ticks, min, max) {
+	      var hasMin = undefined;
+	      var hasMax = undefined;
+	      var values = undefined;
+
+	      values = ticks.map(function (entry) {
+	        if (entry.coord === min) {
+	          hasMin = true;
+	        }
+	        if (entry.coord === max) {
+	          hasMax = true;
+	        }
+
+	        return entry.coord;
+	      });
+
+	      if (!hasMin) {
+	        values.push(min);
+	      }
+	      if (!hasMax) {
+	        values.push(max);
+	      }
+
+	      return values;
+	    }
+
+	    /**
+	     * Get the information of mouse in chart, return null when the mouse is not in the chart
+	     * @param  {Object}  xAxisMap The configuration of all x-axes
+	     * @param  {Object}  yAxisMap The configuration of all y-axes
+	     * @param  {Object}  offset   The offset of main part in the svg element
+	     * @param  {Object}  e        The event object
+	     * @return {Object}           Mouse data
+	     */
+
+	  }, {
+	    key: 'getMouseInfo',
+	    value: function getMouseInfo(xAxisMap, yAxisMap, offset, e) {
+	      var isIn = e.chartX >= offset.left && e.chartX <= offset.left + offset.width && e.chartY >= offset.top && e.chartY <= offset.top + offset.height;
+
+	      if (!isIn) {
+	        return null;
+	      }
+
+	      var layout = this.props.layout;
+
+	      var axisMap = layout === 'horizontal' ? xAxisMap : yAxisMap;
+	      var pos = layout === 'horizontal' ? e.chartX : e.chartY;
+	      var ids = Object.keys(axisMap);
+	      var axis = axisMap[ids[0]];
+	      var ticks = this.getAxisTicks(axis, true);
+
+	      var index = 0;
+	      var len = ticks.length;
+
+	      if (len > 1) {
+	        for (var i = 0; i < len; i++) {
+	          if (i === 0 && pos <= (ticks[i].coord + ticks[i + 1].coord) / 2 || i > 0 && i < len - 1 && pos > (ticks[i].coord + ticks[i - 1].coord) / 2 && pos <= (ticks[i].coord + ticks[i + 1].coord) / 2 || i === len - 1 && pos > (ticks[i].coord + ticks[i - 1].coord) / 2) {
+	            index = i;
+	            break;
+	          }
+	        }
+	      }
+
+	      return {
+	        activeTooltipIndex: index,
+	        activeTooltipLabel: ticks[index].value,
+	        activeTooltipCoord: {
+	          x: layout === 'horizontal' ? ticks[index].coord : e.chartX,
+	          y: layout === 'horizontal' ? e.chartY : ticks[index].coord
+	        }
+	      };
+	    }
+	    /**
+	     * Get the content to be displayed in the tooltip
+	     * @param  {Array} items The instances of item
+	     * @return {Array}       The content of tooltip
+	     */
+
+	  }, {
+	    key: 'getTooltipContent',
+	    value: function getTooltipContent(items) {
+	      var _this7 = this;
+
+	      var _state4 = this.state;
+	      var activeLineKey = _state4.activeLineKey;
+	      var activeBarKey = _state4.activeBarKey;
+	      var activeAreaKey = _state4.activeAreaKey;
+	      var activeTooltipIndex = _state4.activeTooltipIndex;
+	      var dataStartIndex = _state4.dataStartIndex;
+	      var dataEndIndex = _state4.dataEndIndex;
+
+	      var data = this.props.data.slice(dataStartIndex, dataEndIndex + 1);
+
+	      if (activeTooltipIndex < 0 || !items || !items.length) {
+	        return null;
+	      }
+
+	      var activeItems = items;
+
+	      if (activeLineKey) {
+	        activeItems = items.filter(function (item) {
+	          return item.props.dataKey === activeLineKey && item.type.displayName === 'Line';
+	        });
+	      } else if (activeBarKey) {
+	        activeItems = items.filter(function (item) {
+	          return item.props.dataKey === activeBarKey && item.type.displayName === 'Bar';
+	        });
+	      } else if (activeAreaKey) {
+	        activeItems = items.filter(function (item) {
+	          return item.props.dataKey === activeAreaKey && item.type.displayName === 'Area';
+	        });
+	      }
+
+	      return activeItems.map(function (child) {
+	        var _child$props2 = child.props;
+	        var dataKey = _child$props2.dataKey;
+	        var name = _child$props2.name;
+	        var unit = _child$props2.unit;
+	        var formatter = _child$props2.formatter;
+
+	        return {
+	          key: name || dataKey,
+	          unit: unit || '',
+	          color: _this7.getMainColorOfItem(child),
+	          value: data[activeTooltipIndex][dataKey],
+	          formatter: formatter
+	        };
+	      });
+	    }
+	  }, {
+	    key: 'validateAxes',
+	    value: function validateAxes() {
+	      var _props3 = this.props;
+	      var layout = _props3.layout;
+	      var children = _props3.children;
+
+	      var xAxes = _ReactUtils2.default.findAllByType(children, _XAxis2.default);
+	      var yAxes = _ReactUtils2.default.findAllByType(children, _YAxis2.default);
+
+	      if (layout === 'horizontal' && xAxes && xAxes.length) {
+	        xAxes.forEach(function (axis) {
+	          (0, _invariant2.default)(axis.props.type === 'category', 'x-axis should be category axis when the layout is horizontal');
+	        });
+	      } else if (layout === 'vertical') {
+	        var displayName = this.constructor.displayName;
+
+	        (0, _invariant2.default)(yAxes && yAxes.length, 'You should add <YAxis type="number"/> in ' + displayName + '.' + 'The layout is vertical now, y-axis should be category axis,' + 'but y-axis is number axis when no YAxis is added.');
+	        (0, _invariant2.default)(xAxes && xAxes.length, 'You should add <XAxis /> in ' + displayName + '.' + 'The layout is vertical now, x-axis is category when no XAxis is added.');
+
+	        if (yAxes && yAxes.length) {
+	          yAxes.forEach(function (axis) {
+	            (0, _invariant2.default)(axis.props.type === 'category', 'y-axis should be category axis when the layout is vertical');
+	          });
+	        }
+	      }
+
+	      return null;
+	    }
+	  }, {
+	    key: 'handleBrushChange',
+	    value: function handleBrushChange(_ref) {
+	      var startIndex = _ref.startIndex;
+	      var endIndex = _ref.endIndex;
+
+	      this.setState({
+	        dataStartIndex: startIndex,
+	        dataEndIndex: endIndex
+	      });
+	    }
+
+	    /**
+	     * The handler of mouse entering chart
+	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @param  {Object} xAxisMap The configuration of all x-axes
+	     * @param  {Object} yAxisMap The configuration of all y-axes
+	     * @param  {Object} e        Event object
+	     * @return {Null}            null
+	     */
+
+	  }, {
+	    key: 'handleMouseEnter',
+	    value: function handleMouseEnter(offset, xAxisMap, yAxisMap, e) {
+	      var container = _reactDom2.default.findDOMNode(this);
+	      var containerOffset = _DOMUtils2.default.offset(container);
+	      var ne = this.getChartPosition(e, containerOffset);
+	      var mouse = this.getMouseInfo(xAxisMap, yAxisMap, offset, ne);
+
+	      if (mouse) {
+	        this.setState(_extends({}, mouse, {
+	          isTooltipActive: true,
+	          chartX: ne.chartX,
+	          chartY: ne.chartY
+	        }));
+	      }
+	    }
+	    /**
+	     * The handler of mouse moving in chart
+	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @param  {Object} xAxisMap The configuration of all x-axes
+	     * @param  {Object} yAxisMap The configuration of all y-axes
+	     * @param  {Object} e        Event object
+	     * @return {Null} no return
+	     */
+
+	  }, {
+	    key: 'handleMouseMove',
+	    value: function handleMouseMove(offset, xAxisMap, yAxisMap, e) {
+	      var container = _reactDom2.default.findDOMNode(this);
+	      var containerOffset = _DOMUtils2.default.offset(container);
+	      var ne = this.getChartPosition(e, containerOffset);
+	      var mouse = this.getMouseInfo(xAxisMap, yAxisMap, offset, ne);
+
+	      if (mouse) {
+	        this.setState(_extends({}, mouse, {
+	          isTooltipActive: true,
+	          chartX: ne.chartX,
+	          chartY: ne.chartY
+	        }));
+	      } else {
+	        this.setState({
+	          isTooltipActive: false
+	        });
+	      }
+	    }
+	    /**
+	     * The handler if mouse leaving chart
+	     * @return {Null} no return
+	     */
+
+	  }, {
+	    key: 'handleMouseLeave',
+	    value: function handleMouseLeave() {
+	      this.setState({
+	        isTooltipActive: false
+	      });
+	    }
+
+	    /**
+	    * Draw x-axes
+	    * @param {Object} xAxisMap The configuration of all x-axes
+	    * @return {ReactElement} The instance of x-axes
+	    */
+
+	  }, {
+	    key: 'renderXAxis',
+	    value: function renderXAxis(xAxisMap) {
+	      var _props4 = this.props;
+	      var width = _props4.width;
+	      var height = _props4.height;
+
+	      var ids = xAxisMap && Object.keys(xAxisMap);
+
+	      if (ids && ids.length) {
+	        var xAxes = [];
+
+	        for (var i = 0, len = ids.length; i < len; i++) {
+	          var axis = xAxisMap[ids[i]];
+
+	          if (!axis.hide) {
+	            xAxes.push(_react2.default.createElement(_CartesianAxis2.default, _extends({}, axis, {
+	              x: axis.x,
+	              y: axis.y,
+	              width: axis.width,
+	              height: axis.height,
+	              key: 'x-axis-' + ids[i],
+	              orient: axis.orient,
+	              viewBox: { x: 0, y: 0, width: width, height: height },
+	              ticks: this.getAxisTicks(axis, true)
+	            })));
+	          }
+	        }
+	        return xAxes.length ? _react2.default.createElement(
+	          _Layer2.default,
+	          { key: 'x-axis-layer', className: 'recharts-x-axis' },
+	          xAxes
+	        ) : null;
+	      }
+	    }
+
+	    /**
+	     * Draw y-axes
+	     * @param  {Object} yAxisMap The configuration of all y-axes
+	     * @return {ReactElement} The instance of y-axes
+	     */
+
+	  }, {
+	    key: 'renderYAxis',
+	    value: function renderYAxis(yAxisMap) {
+	      var _props5 = this.props;
+	      var width = _props5.width;
+	      var height = _props5.height;
+
+	      var ids = yAxisMap && Object.keys(yAxisMap);
+
+	      if (ids && ids.length) {
+	        var yAxes = [];
+	        for (var i = 0, len = ids.length; i < len; i++) {
+	          var axis = yAxisMap[ids[i]];
+
+	          if (!axis.hide) {
+	            yAxes.push(_react2.default.createElement(_CartesianAxis2.default, _extends({}, axis, {
+	              key: 'y-axis-' + ids[i],
+	              x: axis.x,
+	              y: axis.y,
+	              width: axis.width,
+	              height: axis.height,
+	              orient: axis.orient,
+	              viewBox: { x: 0, y: 0, width: width, height: height },
+	              ticks: this.getAxisTicks(axis, true)
+	            })));
+	          }
+	        }
+
+	        return yAxes.length ? _react2.default.createElement(
+	          _Layer2.default,
+	          { key: 'y-axis-layer', className: 'recharts-y-axis' },
+	          yAxes
+	        ) : null;
+	      }
+	    }
+	    /**
+	     * Draw grid
+	     * @param  {Object} xAxisMap The configuration of all x-axes
+	     * @param  {Object} yAxisMap The configuration of all y-axes
+	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @return {ReactElement} The instance of grid
+	     */
+
+	  }, {
+	    key: 'renderGrid',
+	    value: function renderGrid(xAxisMap, yAxisMap, offset) {
+	      var _props6 = this.props;
+	      var children = _props6.children;
+	      var width = _props6.width;
+	      var height = _props6.height;
+
+	      var gridItem = _ReactUtils2.default.findChildByType(children, _CartesianGrid2.default);
+
+	      if (!gridItem) {
+	        return null;
+	      }
+
+	      var xIds = Object.keys(xAxisMap);
+	      var yIds = Object.keys(yAxisMap);
+	      var xAxis = xAxisMap[xIds[0]];
+	      var yAxis = yAxisMap[yIds[0]];
+
+	      var verticalPoints = this.getGridTicks(_CartesianAxis2.default.getTicks(_extends({}, _CartesianAxis2.default.defaultProps, xAxis, {
+	        ticks: this.getAxisTicks(xAxis, true),
+	        viewBox: { x: 0, y: 0, width: width, height: height }
+	      })), offset.left, offset.left + offset.width);
+
+	      var horizontalPoints = this.getGridTicks(_CartesianAxis2.default.getTicks(_extends({}, _CartesianAxis2.default.defaultProps, yAxis, {
+	        ticks: this.getAxisTicks(yAxis, true),
+	        viewBox: { x: 0, y: 0, width: width, height: height }
+	      })), offset.top, offset.top + offset.height);
+
+	      return _react2.default.cloneElement(gridItem, {
+	        key: 'grid',
+	        x: offset.left,
+	        y: offset.top,
+	        width: offset.width,
+	        height: offset.height,
+	        verticalPoints: verticalPoints, horizontalPoints: horizontalPoints
+	      });
+	    }
+	    /**
+	     * Draw legend
+	     * @param  {Array} items             The instances of item
+	     * @return {ReactElement}            The instance of Legend
+	     */
+
+	  }, {
+	    key: 'renderLegend',
+	    value: function renderLegend(items) {
+	      var _this8 = this;
+
+	      var _props7 = this.props;
+	      var children = _props7.children;
+	      var width = _props7.width;
+	      var height = _props7.height;
+
+	      var legendItem = _ReactUtils2.default.findChildByType(children, _Legend2.default);
+	      if (!legendItem) {
+	        return null;
+	      }
+
+	      var legendData = items.map(function (child) {
+	        var _child$props3 = child.props;
+	        var dataKey = _child$props3.dataKey;
+	        var name = _child$props3.name;
+	        var legendType = _child$props3.legendType;
+
+	        return {
+	          type: legendType || 'square',
+	          color: _this8.getMainColorOfItem(child),
+	          value: name || dataKey
+	        };
+	      }, this);
+
+	      return _react2.default.cloneElement(legendItem, _extends({}, _Legend2.default.getWithHeight(legendItem, width, height), {
+	        payload: legendData
+	      }));
+	    }
+	    /**
+	     * Draw Tooltip
+	     * @param  {Array} items   The instances of item
+	     * @param  {Object} offset The offset of main part in the svg element
+	     * @return {ReactElement}  The instance of Tooltip
+	     */
+
+	  }, {
+	    key: 'renderTooltip',
+	    value: function renderTooltip(items, offset) {
+	      var children = this.props.children;
+
+	      var tooltipItem = _ReactUtils2.default.findChildByType(children, _Tooltip2.default);
+
+	      if (!tooltipItem) {
+	        return null;
+	      }
+
+	      var _state5 = this.state;
+	      var chartX = _state5.chartX;
+	      var chartY = _state5.chartY;
+	      var isTooltipActive = _state5.isTooltipActive;
+	      var activeTooltipLabel = _state5.activeTooltipLabel;
+	      var activeTooltipCoord = _state5.activeTooltipCoord;
+
+	      var viewBox = {
+	        x: offset.left,
+	        y: offset.top,
+	        width: offset.width,
+	        height: offset.height
+	      };
+
+	      return _react2.default.cloneElement(tooltipItem, {
+	        viewBox: viewBox,
+	        active: isTooltipActive,
+	        label: activeTooltipLabel,
+	        payload: isTooltipActive ? this.getTooltipContent(items) : [],
+	        coordinate: activeTooltipCoord,
+	        mouseX: chartX,
+	        mouseY: chartY
+	      });
+	    }
+	  }, {
+	    key: 'renderBrush',
+	    value: function renderBrush(xAxisMap, yAxisMap, offset) {
+	      var _props8 = this.props;
+	      var children = _props8.children;
+	      var data = _props8.data;
+
+	      var brushItem = _ReactUtils2.default.findChildByType(children, _Brush2.default);
+
+	      if (!brushItem) {
+	        return null;
+	      }
+
+	      var dataKey = brushItem.props.dataKey;
+	      var height = (brushItem.props.height || _Brush2.default.defaultProps.height) + 1;
+
+	      return _react2.default.cloneElement(brushItem, {
+	        onChange: this.handleBrushChange.bind(this),
+	        data: data.map(function (entry) {
+	          return entry[dataKey];
+	        }),
+	        x: offset.left,
+	        y: offset.top + offset.height + offset.bottom - height,
+	        width: offset.width
+	      });
+	    }
+	  }, {
+	    key: 'renderReferenceLines',
+	    value: function renderReferenceLines(xAxisMap, yAxisMap, offset) {
+	      var children = this.props.children;
+
+	      var lines = _ReactUtils2.default.findAllByType(children, _ReferenceLine2.default);
+
+	      if (!lines || !lines.length) {
+	        return null;
+	      }
+
+	      return lines.map(function (entry, i) {
+	        return _react2.default.cloneElement(entry, {
+	          key: 'reference-line-' + i,
+	          xAxisMap: xAxisMap, yAxisMap: yAxisMap,
+	          viewBox: {
+	            x: offset.left,
+	            y: offset.top,
+	            width: offset.width,
+	            height: offset.height
+	          }
+	        });
+	      });
+	    }
+	  }]);
+
+	  return CartesianChart;
+	}(_react.Component), _class.propTypes = {
+	  width: _react.PropTypes.number.isRequired,
+	  height: _react.PropTypes.number.isRequired,
+	  data: _react.PropTypes.arrayOf(_react.PropTypes.object),
+	  layout: _react.PropTypes.oneOf(['horizontal', 'vertical']),
+	  margin: _react.PropTypes.shape({
+	    top: _react.PropTypes.number,
+	    right: _react.PropTypes.number,
+	    bottom: _react.PropTypes.number,
+	    left: _react.PropTypes.number
+	  }),
+
+	  className: _react.PropTypes.string,
+	  stackType: _react.PropTypes.oneOf(['value', 'percent']),
+	  title: _react.PropTypes.string,
+	  style: _react.PropTypes.object,
+	  barCategoryGap: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
+	  barGap: _react.PropTypes.number,
+	  barSize: _react.PropTypes.number,
+	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
+	}, _class.defaultProps = {
+	  style: {},
+	  barCategoryGap: '10%',
+	  barGap: 4,
+	  layout: 'horizontal',
+	  margin: { top: 5, right: 5, bottom: 5, left: 5 }
+	}, _temp);
+	exports.default = CartesianChart;
+
+/***/ },
 /* 16 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+	var offset = function offset(el) {
+	  var box = { top: 0, left: 0 };
+
+	  if (el.getBoundingClientRect) {
+	    box = el.getBoundingClientRect();
+	  }
+
+	  var docElem = document.documentElement;
+	  var body = document.body;
+	  var clientTop = docElem.clientTop || body.clientTop || 0;
+	  var clientLeft = docElem.clientLeft || body.clientLeft || 0;
+	  var scrollTop = window.pageYOffset || docElem.scrollTop;
+	  var scrollLeft = window.pageXOffset || docElem.scrollLeft;
+
+	  return {
+	    top: box.top + scrollTop - clientTop,
+	    left: box.left + scrollLeft - clientLeft
+	  };
+	};
+
+	var stringCache = {
+	  widthCache: {},
+	  cacheCount: 0
+	};
+	var MAX_CACHE_NUM = 2000;
+	var SPAN_STYLE = {
+	  position: 'absolute',
+	  top: '-20000px',
+	  left: 0,
+	  padding: 0,
+	  margin: 0,
+	  border: 'none',
+	  whiteSpace: 'pre'
+	};
+	var STYLE_LIST = ['minWidth', 'maxWidth', 'width', 'minHeight', 'maxHeight', 'height', 'top', 'left', 'fontSize', 'lineHeight', 'padding', 'margin', 'paddingLeft', 'paddingRight', 'paddingTop', 'paddingBottom', 'marginLeft', 'marginRight', 'marginTop', 'marginBottom'];
+
+	var autoCompleteStyle = function autoCompleteStyle(name, value) {
+	  if (STYLE_LIST.indexOf(name) >= 0 && value === +value) {
+	    return value + 'px';
+	  }
+
+	  return value;
+	};
+	var camelToMiddleLine = function camelToMiddleLine(text) {
+	  var strs = text.split('');
+
+	  var formatStrs = strs.reduce(function (result, entry) {
+	    if (entry === entry.toUpperCase()) {
+	      return [].concat(_toConsumableArray(result), ['-', entry.toLowerCase()]);
+	    }
+
+	    return [].concat(_toConsumableArray(result), [entry]);
+	  }, []);
+
+	  return formatStrs.join('');
+	};
+
+	var getStyleString = function getStyleString(style) {
+	  var result = '';
+
+	  for (var s in style) {
+	    if (style.hasOwnProperty(s)) {
+	      result += camelToMiddleLine(s) + ':' + autoCompleteStyle(s, style[s]) + ';';
+	    }
+	  }
+	  return result;
+	};
+
+	var getStringSize = function getStringSize(text) {
+	  var style = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+	  if (text === undefined || text === null) {
+	    return 0;
+	  }
+
+	  var str = text + '';
+	  var styleString = getStyleString(style);
+	  var cacheKey = str + '-' + styleString;
+
+	  if (stringCache.widthCache[cacheKey]) {
+	    return stringCache.widthCache[cacheKey];
+	  }
+
+	  if (!stringCache.span) {
+	    var span = document.createElement('span');
+	    span.setAttribute('style', getStyleString(SPAN_STYLE));
+	    document.body.appendChild(span);
+
+	    stringCache.span = span;
+	  }
+
+	  stringCache.span.setAttribute('style', getStyleString(_extends({}, SPAN_STYLE, style)));
+	  stringCache.span.textContent = str;
+
+	  var rect = stringCache.span.getBoundingClientRect();
+	  var result = { width: rect.width, height: rect.height };
+
+	  stringCache.widthCache[cacheKey] = result;
+
+	  if (++stringCache.cacheCount > MAX_CACHE_NUM) {
+	    stringCache.cacheCount = 0;
+	    stringCache.widthCache = {};
+	  }
+
+	  return result;
+	};
+
+	exports.default = {
+	  offset: offset,
+	  getStringSize: getStringSize,
+	  getStyleString: getStyleString
+	};
+
+/***/ },
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.getNiceTickValues = exports.getTickValues = undefined;
+
+	var _getTickValues = __webpack_require__(55);
+
+	var _getTickValues2 = _interopRequireDefault(_getTickValues);
+
+	var _getNiceTickValues = __webpack_require__(35);
+
+	var _getNiceTickValues2 = _interopRequireDefault(_getNiceTickValues);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.getTickValues = _getTickValues2.default;
+	exports.getNiceTickValues = _getNiceTickValues2.default;
+
+/***/ },
+/* 18 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -4012,7 +4132,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 17 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4033,11 +4153,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Curve = __webpack_require__(9);
+	var _pureRenderDecorator = __webpack_require__(2);
+
+	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
 
-	var _Dot = __webpack_require__(10);
+	var _Dot = __webpack_require__(11);
 
 	var _Dot2 = _interopRequireDefault(_Dot);
 
@@ -4049,10 +4177,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _pureRenderDecorator = __webpack_require__(2);
-
-	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -4063,8 +4187,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Area = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Area, _React$Component);
+	var Area = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Area, _Component);
 
 	  function Area() {
 	    _classCallCheck(this, Area);
@@ -4075,29 +4199,28 @@ return /******/ (function(modules) { // webpackBootstrap
 	  _createClass(Area, [{
 	    key: 'renderArea',
 	    value: function renderArea() {
-	      var _props = this.props;
-	      var stroke = _props.stroke;
-	      var className = _props.className;
-
-	      var other = _objectWithoutProperties(_props, ['stroke', 'className']);
-
-	      return _react2.default.createElement(_Curve2.default, _extends({}, other, { stroke: 'none' }));
+	      return _react2.default.createElement(_Curve2.default, _extends({}, this.props, { stroke: 'none', className: 'recharts-area-area' }));
 	    }
 	  }, {
 	    key: 'renderCurve',
 	    value: function renderCurve() {
-	      var _props2 = this.props;
-	      var points = _props2.points;
-	      var type = _props2.type;
+	      var _props = this.props;
+	      var points = _props.points;
+	      var type = _props.type;
 
-	      return _react2.default.createElement(_Curve2.default, _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), { points: points, type: type, fill: 'none' }));
+	      return _react2.default.createElement(_Curve2.default, _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
+	        className: 'recharts-area-curve',
+	        points: points,
+	        type: type,
+	        fill: 'none'
+	      }));
 	    }
 	  }, {
 	    key: 'renderDots',
 	    value: function renderDots() {
-	      var _props3 = this.props;
-	      var dot = _props3.dot;
-	      var points = _props3.points;
+	      var _props2 = this.props;
+	      var dot = _props2.dot;
+	      var points = _props2.points;
 
 	      var areaProps = _ReactUtils2.default.getPresentationAttributes(this.props);
 	      var customDotProps = _ReactUtils2.default.getPresentationAttributes(dot);
@@ -4119,16 +4242,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-area-dots' },
+	        { className: 'recharts-area-dots' },
 	        dots
 	      );
 	    }
 	  }, {
 	    key: 'renderLabels',
 	    value: function renderLabels() {
-	      var _props4 = this.props;
-	      var points = _props4.points;
-	      var label = _props4.label;
+	      var _props3 = this.props;
+	      var points = _props3.points;
+	      var label = _props3.label;
 
 	      var areaProps = _ReactUtils2.default.getPresentationAttributes(this.props);
 	      var customLabelProps = _ReactUtils2.default.getPresentationAttributes(label);
@@ -4152,31 +4275,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-area-labels' },
+	        { className: 'recharts-area-labels' },
 	        labels
 	      );
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _props5 = this.props;
-	      var dot = _props5.dot;
-	      var curve = _props5.curve;
-	      var label = _props5.label;
-	      var points = _props5.points;
-	      var className = _props5.className;
+	      var _props4 = this.props;
+	      var dot = _props4.dot;
+	      var curve = _props4.curve;
+	      var label = _props4.label;
+	      var points = _props4.points;
+	      var className = _props4.className;
 
-	      var other = _objectWithoutProperties(_props5, ['dot', 'curve', 'label', 'points', 'className']);
+	      var other = _objectWithoutProperties(_props4, ['dot', 'curve', 'label', 'points', 'className']);
 
 	      if (!points || !points.length) {
 	        return null;
 	      }
 
 	      var hasSinglePoint = points.length === 1;
+	      var layerClass = (0, _classnames2.default)('recharts-area', className);
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-line ' + (className || '') },
+	        { className: layerClass },
 	        curve && !hasSinglePoint && this.renderCurve(),
 	        !hasSinglePoint && this.renderArea(),
 	        (dot || hasSinglePoint) && this.renderDots(),
@@ -4186,7 +4310,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Area;
-	}(_react2.default.Component), _class2.displayName = 'Area', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Area', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  type: _react.PropTypes.oneOf(['linear', 'monotone', 'step', 'stepBefore', 'stepAfter']),
 	  unit: _react.PropTypes.oneOfType([_react.PropTypes.string, _react.PropTypes.number]),
@@ -4233,7 +4357,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Area;
 
 /***/ },
-/* 18 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4254,7 +4378,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Rectangle = __webpack_require__(12);
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _Rectangle = __webpack_require__(13);
 
 	var _Rectangle2 = _interopRequireDefault(_Rectangle);
 
@@ -4270,7 +4398,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _reactSmooth = __webpack_require__(29);
+	var _reactSmooth = __webpack_require__(33);
 
 	var _reactSmooth2 = _interopRequireDefault(_reactSmooth);
 
@@ -4284,8 +4412,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Bar = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_React$Component) {
-	  _inherits(Bar, _React$Component);
+	var Bar = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_Component) {
+	  _inherits(Bar, _Component);
 
 	  function Bar() {
 	    var _Object$getPrototypeO;
@@ -4402,7 +4530,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-bar-labels' },
+	        { className: 'recharts-bar-labels' },
 	        labels
 	      );
 	    }
@@ -4418,17 +4546,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return null;
 	      }
 
+	      var layerClass = (0, _classnames2.default)('recharts-bar', className);
+
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-bar ' + (className || '') },
+	        { className: layerClass },
 	        _react2.default.createElement(
 	          _Layer2.default,
-	          { className: 'recharts-layer-rectangles' },
+	          { className: 'recharts-bar-rectangles' },
 	          this.renderRectangles()
 	        ),
 	        label && _react2.default.createElement(
 	          _Layer2.default,
-	          { className: 'recharts-layer-rectangle-labels' },
+	          { className: 'recharts-bar-rectangle-labels' },
 	          this.renderLabels()
 	        )
 	      );
@@ -4436,7 +4566,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Bar;
-	}(_react2.default.Component), _class2.displayName = 'Bar', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Bar', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 
 	  className: _react.PropTypes.string,
 	  layout: _react.PropTypes.string,
@@ -4488,7 +4618,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Bar;
 
 /***/ },
-/* 19 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4509,11 +4639,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Curve = __webpack_require__(9);
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
 
-	var _Dot = __webpack_require__(10);
+	var _Dot = __webpack_require__(11);
 
 	var _Dot2 = _interopRequireDefault(_Dot);
 
@@ -4529,9 +4663,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _reactDom = __webpack_require__(50);
+	var _reactDom = __webpack_require__(52);
 
-	var _reactSmooth = __webpack_require__(29);
+	var _reactSmooth = __webpack_require__(33);
 
 	var _reactSmooth2 = _interopRequireDefault(_reactSmooth);
 
@@ -4545,8 +4679,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Line = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_React$Component) {
-	  _inherits(Line, _React$Component);
+	var Line = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_Component) {
+	  _inherits(Line, _Component);
 
 	  function Line() {
 	    var _Object$getPrototypeO;
@@ -4617,7 +4751,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-line-dots' },
+	        { className: 'recharts-line-dots' },
 	        dots
 	      );
 	    }
@@ -4652,7 +4786,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-line-labels' },
+	        { className: 'recharts-line-labels' },
 	        labels
 	      );
 	    }
@@ -4677,10 +4811,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return null;
 	      }
 	      var hasSinglePoint = points.length === 1;
+	      var layerClass = (0, _classnames2.default)('recharts-line', className);
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-line ' + (className || '') },
+	        { className: layerClass },
 	        !hasSinglePoint && _react2.default.createElement(
 	          _reactSmooth2.default,
 	          { isActive: isAnimationActive,
@@ -4694,6 +4829,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            onAnimationEnd: this.handleAnimationEnd.bind(this)
 	          },
 	          _react2.default.createElement(_Curve2.default, _extends({}, other, {
+	            className: 'recharts-line-curve',
 	            fill: 'none',
 	            onMouseEnter: this.props.onMouseEnter,
 	            onMouseLeave: this.props.onMouseLeave,
@@ -4709,7 +4845,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Line;
-	}(_react2.default.Component), _class2.displayName = 'Line', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Line', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  type: _react.PropTypes.oneOf(['linear', 'monotone', 'step', 'stepBefore', 'stepAfter']),
 	  unit: _react.PropTypes.oneOfType([_react.PropTypes.string, _react.PropTypes.number]),
@@ -4758,14 +4894,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Line;
 
 /***/ },
-/* 20 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview X Axis
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -4787,8 +4925,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var XAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(XAxis, _React$Component);
+	var XAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(XAxis, _Component);
 
 	  function XAxis() {
 	    _classCallCheck(this, XAxis);
@@ -4804,7 +4942,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return XAxis;
-	}(_react2.default.Component), _class2.displayName = 'XAxis', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'XAxis', _class2.propTypes = {
 	  hide: _react.PropTypes.bool,
 	  // The name of data displayed in the axis
 	  name: _react.PropTypes.any,
@@ -4812,6 +4950,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  unit: _react.PropTypes.any,
 	  // The unique id of x-axis
 	  xAxisId: _react.PropTypes.number,
+	  domain: _react.PropTypes.array,
 	  // The key of data displayed in the axis
 	  dataKey: _react.PropTypes.string,
 	  // The width of axis which is usually calculated internally
@@ -4841,14 +4980,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = XAxis;
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Y Axis
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -4870,8 +5011,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var YAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(YAxis, _React$Component);
+	var YAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(YAxis, _Component);
 
 	  function YAxis() {
 	    _classCallCheck(this, YAxis);
@@ -4887,7 +5028,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return YAxis;
-	}(_react2.default.Component), _class2.displayName = 'YAxis', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'YAxis', _class2.propTypes = {
 	  hide: _react.PropTypes.bool,
 	  // The name of data displayed in the axis
 	  name: _react.PropTypes.any,
@@ -4895,6 +5036,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  unit: _react.PropTypes.any,
 	  // The unique id of y-axis
 	  yAxisId: _react.PropTypes.number,
+	  domain: _react.PropTypes.array,
 	  // The key of data displayed in the axis
 	  dataKey: _react.PropTypes.string,
 	  // Ticks can be any type when the axis is the type of category
@@ -4924,7 +5066,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = YAxis;
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4933,7 +5075,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Cartesian Axis
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -4943,13 +5087,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _DOMUtils = __webpack_require__(14);
-
-	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
-
 	var _pureRenderDecorator = __webpack_require__(2);
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _DOMUtils = __webpack_require__(16);
+
+	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
+
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
 
 	var _ReactUtils = __webpack_require__(3);
 
@@ -4963,8 +5111,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var CartesianAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(CartesianAxis, _React$Component);
+	var CartesianAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(CartesianAxis, _Component);
 
 	  function CartesianAxis() {
 	    _classCallCheck(this, CartesianAxis);
@@ -5094,7 +5242,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var width = _props2.width;
 	      var height = _props2.height;
 	      var orient = _props2.orient;
-	      var stroke = _props2.stroke;
 	      var axisLine = _props2.axisLine;
 
 	      var props = _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
@@ -5116,7 +5263,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          break;
 	      }
 
-	      return _react2.default.createElement('line', _extends({ className: 'axis-line' }, props));
+	      return _react2.default.createElement('line', _extends({ className: 'recharts-cartesian-axis-line' }, props));
 	    }
 	  }, {
 	    key: 'renderTicks',
@@ -5162,22 +5309,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (label) {
 	          labelItem = isLabelElement ? _react2.default.cloneElement(label, labelProps) : _react2.default.createElement(
 	            'text',
-	            _extends({}, labelProps, { className: 'tick-value' }),
+	            _extends({}, labelProps, { className: 'recharts-cartesian-axis-tick-value' }),
 	            tickFormatter ? tickFormatter(entry.value) : entry.value
 	          );
 	        }
 
 	        return _react2.default.createElement(
 	          'g',
-	          { className: 'axis-tick', key: 'tick-' + i },
-	          tickLine && _react2.default.createElement('line', _extends({ className: 'tick-line' }, tickProps)),
+	          { className: 'recharts-cartesian-axis-tick', key: 'tick-' + i },
+	          tickLine && _react2.default.createElement('line', _extends({ className: 'recharts-cartesian-axis-tick-line' }, tickProps)),
 	          label && labelItem
 	        );
 	      });
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'axis-ticks' },
+	        { className: 'recharts-cartesian-axis-ticks' },
 	        items
 	      );
 	    }
@@ -5195,8 +5342,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 
 	      return _react2.default.createElement(
-	        'g',
-	        { className: 'layer-axis layer-cartesian-axis' },
+	        _Layer2.default,
+	        { className: 'recharts-cartesian-axis' },
 	        axisLine && this.renderAxisLine(),
 	        this.renderTicks()
 	      );
@@ -5256,7 +5403,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return CartesianAxis;
-	}(_react2.default.Component), _class2.displayName = 'CartesianAxis', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'CartesianAxis', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  x: _react.PropTypes.number,
 	  y: _react.PropTypes.number,
 	  width: _react.PropTypes.number,
@@ -5269,6 +5416,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    height: _react.PropTypes.number
 	  }),
 	  label: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object, _react.PropTypes.element]),
+	  domain: _react.PropTypes.array,
 
 	  axisLine: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object]),
 	  tickLine: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object]),
@@ -5306,7 +5454,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = CartesianAxis;
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5315,7 +5463,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Cartesian Grid
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -5341,8 +5491,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var CartesianGrid = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(CartesianGrid, _React$Component);
+	var CartesianGrid = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(CartesianGrid, _Component);
 
 	  function CartesianGrid() {
 	    _classCallCheck(this, CartesianGrid);
@@ -5374,7 +5524,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-grid-horizontal' },
+	        { className: 'recharts-cartesian-grid-horizontal' },
 	        items
 	      );
 	    }
@@ -5403,7 +5553,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-grid-vertical' },
+	        { className: 'recharts-cartesian-grid-vertical' },
 	        items
 	      );
 	    }
@@ -5422,7 +5572,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-grid layer-cartesian-grid' },
+	        { className: 'recharts-cartesian-grid' },
 	        horizontal && this.renderHorizontal(),
 	        vertical && this.renderVertical()
 	      );
@@ -5430,7 +5580,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return CartesianGrid;
-	}(_react2.default.Component), _class2.displayName = 'CartesianGrid', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'CartesianGrid', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  x: _react.PropTypes.number,
 	  y: _react.PropTypes.number,
 	  width: _react.PropTypes.number,
@@ -5458,7 +5608,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = CartesianGrid;
 
 /***/ },
-/* 24 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5467,7 +5617,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Polygon
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -5480,6 +5632,107 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _pureRenderDecorator = __webpack_require__(2);
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _ReactUtils = __webpack_require__(3);
+
+	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Polygon = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Polygon, _Component);
+
+	  function Polygon() {
+	    _classCallCheck(this, Polygon);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Polygon).apply(this, arguments));
+	  }
+
+	  _createClass(Polygon, [{
+	    key: 'getPolygonPoints',
+	    value: function getPolygonPoints(points) {
+	      return points.reduce(function (result, entry) {
+	        if (entry.x === +entry.x && entry.y === +entry.y) {
+	          result.push([entry.x, entry.y]);
+	        }
+
+	        return result;
+	      }, []).join(' ');
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var points = _props.points;
+	      var className = _props.className;
+
+	      if (!points || !points.length) {
+	        return null;
+	      }
+
+	      var layerClass = (0, _classnames2.default)('recharts-polygon', className);
+
+	      return _react2.default.createElement('polygon', _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
+	        className: layerClass,
+	        points: this.getPolygonPoints(points)
+	      }));
+	    }
+	  }]);
+
+	  return Polygon;
+	}(_react.Component), _class2.displayName = 'Polygon', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	  className: _react.PropTypes.string,
+	  points: _react.PropTypes.arrayOf(_react.PropTypes.shape({
+	    x: _react.PropTypes.number,
+	    y: _react.PropTypes.number
+	  }))
+	}), _class2.defaultProps = {
+	  fill: 'none',
+	  stroke: '#333',
+	  strokeWidth: 1
+	}, _temp)) || _class;
+
+	exports.default = Polygon;
+
+/***/ },
+/* 27 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Sector
+	                             */
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _pureRenderDecorator = __webpack_require__(2);
+
+	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	var _ReactUtils = __webpack_require__(3);
 
@@ -5495,8 +5748,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 
-	var Sector = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Sector, _React$Component);
+	var Sector = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Sector, _Component);
 
 	  function Sector() {
 	    _classCallCheck(this, Sector);
@@ -5539,8 +5792,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return null;
 	      }
 
+	      var layerClass = (0, _classnames2.default)('recharts-sector', className);
+
 	      return _react2.default.createElement('path', _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
-	        className: 'recharts-sector' + (className || ''),
+	        className: layerClass,
 	        onMouseEnter: onMouseEnter,
 	        onMouseLeave: onMouseLeave,
 	        onClick: onClick,
@@ -5550,7 +5805,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Sector;
-	}(_react2.default.Component), _class2.displayName = 'Sector', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Sector', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  cx: _react.PropTypes.number,
 	  cy: _react.PropTypes.number,
@@ -5576,14 +5831,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Sector;
 
 /***/ },
-/* 25 */
+/* 28 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '2.0.3'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 26 */
+/* 29 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -5595,7 +5850,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 27 */
+/* 30 */
 /***/ function(module, exports) {
 
 	// 20.2.2.14 Math.expm1(x)
@@ -5604,7 +5859,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 28 */
+/* 31 */
 /***/ function(module, exports) {
 
 	// 20.2.2.28 Math.sign(x)
@@ -5613,7 +5868,64 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 29 */
+/* 32 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-2015, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 */
+
+	'use strict';
+
+	/**
+	 * Use invariant() to assert state which your program assumes to be true.
+	 *
+	 * Provide sprintf-style format (only %s is supported) and arguments
+	 * to provide information about what broke and what you were
+	 * expecting.
+	 *
+	 * The invariant message will be stripped in production, but the invariant
+	 * will remain to ensure logic does not differ in production.
+	 */
+
+	var invariant = function(condition, format, a, b, c, d, e, f) {
+	  if (false) {
+	    if (format === undefined) {
+	      throw new Error('invariant requires an error message argument');
+	    }
+	  }
+
+	  if (!condition) {
+	    var error;
+	    if (format === undefined) {
+	      error = new Error(
+	        'Minified exception occurred; use the non-minified dev environment ' +
+	        'for the full error message and additional helpful warnings.'
+	      );
+	    } else {
+	      var args = [a, b, c, d, e, f];
+	      var argIndex = 0;
+	      error = new Error(
+	        format.replace(/%s/g, function() { return args[argIndex++]; })
+	      );
+	      error.name = 'Invariant Violation';
+	    }
+
+	    error.framesToPop = 1; // we don't care about invariant's own frame
+	    throw error;
+	  }
+	};
+
+	module.exports = invariant;
+
+
+/***/ },
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5622,7 +5934,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _Animate = __webpack_require__(51);
+	var _Animate = __webpack_require__(53);
 
 	var _Animate2 = _interopRequireDefault(_Animate);
 
@@ -5631,7 +5943,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = _Animate2.default;
 
 /***/ },
-/* 30 */
+/* 34 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5856,31 +6168,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 31 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.getNiceTickValues = exports.getTickValues = undefined;
-
-	var _getTickValues = __webpack_require__(53);
-
-	var _getTickValues2 = _interopRequireDefault(_getTickValues);
-
-	var _getNiceTickValues = __webpack_require__(32);
-
-	var _getNiceTickValues2 = _interopRequireDefault(_getNiceTickValues);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.getTickValues = _getTickValues2.default;
-	exports.getNiceTickValues = _getNiceTickValues2.default;
-
-/***/ },
-/* 32 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5895,9 +6183,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _utils = __webpack_require__(16);
+	var _utils = __webpack_require__(18);
 
-	var _arithmetic = __webpack_require__(54);
+	var _arithmetic = __webpack_require__(56);
 
 	var _arithmetic2 = _interopRequireDefault(_arithmetic);
 
@@ -6077,7 +6365,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = (0, _utils.memoize)(getTickValues);
 
 /***/ },
-/* 33 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6098,23 +6386,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Layer = __webpack_require__(6);
-
-	var _Layer2 = _interopRequireDefault(_Layer);
-
-	var _Sector = __webpack_require__(24);
-
-	var _Sector2 = _interopRequireDefault(_Sector);
-
-	var _Curve = __webpack_require__(9);
-
-	var _Curve2 = _interopRequireDefault(_Curve);
-
 	var _pureRenderDecorator = __webpack_require__(2);
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
-	var _raf = __webpack_require__(103);
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
+
+	var _Sector = __webpack_require__(27);
+
+	var _Sector2 = _interopRequireDefault(_Sector);
+
+	var _Curve = __webpack_require__(10);
+
+	var _Curve2 = _interopRequireDefault(_Curve);
+
+	var _raf = __webpack_require__(104);
 
 	var _raf2 = _interopRequireDefault(_raf);
 
@@ -6132,8 +6424,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 
-	var Pie = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_React$Component) {
-	  _inherits(Pie, _React$Component);
+	var Pie = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_Component) {
+	  _inherits(Pie, _Component);
 
 	  function Pie() {
 	    var _Object$getPrototypeO;
@@ -6184,11 +6476,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var data = _props2.data;
 	      var minAngle = _props2.minAngle;
 	      var clockWise = _props2.clockWise;
+	      var valueKey = _props2.valueKey;
 
 	      var len = data.length;
 
 	      var sum = data.reduce(function (result, entry) {
-	        return result + entry.value;
+	        return result + entry[valueKey];
 	      }, 0);
 
 	      var sectors = [];
@@ -6196,7 +6489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      if (sum > 0) {
 	        sectors = data.map(function (entry, i) {
-	          var percent = entry.value / sum;
+	          var percent = entry[valueKey] / sum;
 	          var _startAngle = undefined;
 	          var _endAngle = undefined;
 
@@ -6225,6 +6518,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return sectors;
 	    }
 	  }, {
+	    key: 'getTextAnchor',
+	    value: function getTextAnchor(x, cx) {
+	      if (x > cx) {
+	        return 'start';
+	      } else if (x < cx) {
+	        return 'end';
+	      }
+
+	      return 'middle';
+	    }
+	  }, {
 	    key: 'update',
 	    value: function update(timestamp) {
 	      if (!this.beginTime) {
@@ -6248,17 +6552,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      });
 
 	      (0, _raf2.default)(this.update.bind(this));
-	    }
-	  }, {
-	    key: 'getTextAnchor',
-	    value: function getTextAnchor(x, cx) {
-	      if (x > cx) {
-	        return 'start';
-	      } else if (x < cx) {
-	        return 'end';
-	      }
-
-	      return 'middle';
 	    }
 	  }, {
 	    key: 'handleSectorEnter',
@@ -6301,7 +6594,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function renderLabels(sectors) {
 	      var _this3 = this;
 
-	      var label = this.props.label;
+	      var _props4 = this.props;
+	      var label = _props4.label;
+	      var valueKey = _props4.valueKey;
 
 	      var pieProps = _ReactUtils2.default.getPresentationAttributes(this.props);
 	      var customLabelProps = _ReactUtils2.default.getPresentationAttributes(label);
@@ -6332,18 +6627,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return isLabelElement ? _react2.default.cloneElement(label, { labelProps: labelProps, key: 'label-' + i }) : _react2.default.createElement(
 	          'g',
 	          { key: 'label-' + i },
-	          _react2.default.createElement(_Curve2.default, _extends({}, lineProps, { type: 'linear', className: 'recharts-cursor' })),
+	          _react2.default.createElement(_Curve2.default, _extends({}, lineProps, { type: 'linear', className: 'recharts-pie-label-line' })),
 	          _react2.default.createElement(
 	            'text',
-	            labelProps,
-	            entry.value
+	            _extends({}, labelProps, { className: 'recharts-pie-label-text' }),
+	            entry[valueKey]
 	          )
 	        );
 	      });
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-line-labels' },
+	        { className: 'recharts-pie-labels' },
 	        labels
 	      );
 	    }
@@ -6352,12 +6647,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function renderSectors(sectors) {
 	      var _this4 = this;
 
-	      var _props4 = this.props;
-	      var onMouseLeave = _props4.onMouseLeave;
-	      var onClick = _props4.onClick;
+	      var _props5 = this.props;
+	      var onMouseLeave = _props5.onMouseLeave;
+	      var onClick = _props5.onClick;
 
 	      return sectors.map(function (entry, i) {
 	        return _react2.default.createElement(_Sector2.default, _extends({}, entry, {
+	          className: 'recharts-pie-sector',
 	          onMouseEnter: _this4.handleSectorEnter.bind(_this4, entry),
 	          onMouseLeave: onMouseLeave,
 	          onClick: onClick,
@@ -6368,10 +6664,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _props5 = this.props;
-	      var data = _props5.data;
-	      var className = _props5.className;
-	      var label = _props5.label;
+	      var _props6 = this.props;
+	      var data = _props6.data;
+	      var className = _props6.className;
+	      var label = _props6.label;
 
 	      if (!this.id) {
 	        this.id = 'clipPath' + Date.now();
@@ -6382,10 +6678,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 
 	      var sectors = this.getSectors();
+	      var layerClass = (0, _classnames2.default)('recharts-pie', className);
 
 	      return _react2.default.createElement(
-	        'g',
-	        { className: 'layer-pie ' + (className || '') },
+	        _Layer2.default,
+	        { className: layerClass },
 	        this.renderClipPath(),
 	        _react2.default.createElement(
 	          'g',
@@ -6398,7 +6695,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Pie;
-	}(_react2.default.Component), _class2.displayName = 'Pie', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Pie', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  cx: _react.PropTypes.number,
 	  cy: _react.PropTypes.number,
@@ -6406,10 +6703,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  innerRadius: _react.PropTypes.number,
 	  outerRadius: _react.PropTypes.number,
 	  clockWise: _react.PropTypes.bool,
-	  data: _react.PropTypes.arrayOf(_react.PropTypes.shape({
-	    name: _react.PropTypes.any,
-	    value: _react.PropTypes.number
-	  })),
+	  nameKey: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
+	  valueKey: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
+	  data: _react.PropTypes.arrayOf(_react.PropTypes.object),
 	  minAngle: _react.PropTypes.number,
 	  legendType: _react.PropTypes.string,
 	  label: _react.PropTypes.oneOfType([_react.PropTypes.object, _react.PropTypes.element, _react.PropTypes.bool]),
@@ -6436,6 +6732,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  outerRadius: 0,
 	  // The direction of drawing sectors
 	  clockWise: true,
+	  nameKey: 'name',
+	  valueKey: 'value',
 	  data: [],
 	  minAngle: 0,
 	  onMouseEnter: function onMouseEnter() {},
@@ -6451,14 +6749,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Pie;
 
 /***/ },
-/* 34 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Radar
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -6468,6 +6770,30 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _pureRenderDecorator = __webpack_require__(2);
+
+	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _ReactUtils = __webpack_require__(3);
+
+	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
+
+	var _Polygon = __webpack_require__(26);
+
+	var _Polygon2 = _interopRequireDefault(_Polygon);
+
+	var _Dot = __webpack_require__(11);
+
+	var _Dot2 = _interopRequireDefault(_Dot);
+
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -6476,33 +6802,143 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Radar = (_temp = _class = function (_React$Component) {
-	  _inherits(Radar, _React$Component);
+	var Radar = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Radar, _Component);
 
-	  function Radar(props) {
+	  function Radar() {
 	    _classCallCheck(this, Radar);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Radar).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Radar).apply(this, arguments));
 	  }
 
 	  _createClass(Radar, [{
+	    key: 'renderPolygon',
+	    value: function renderPolygon() {
+	      var shape = this.props.shape;
+
+	      var isShapeElement = _react2.default.isValidElement(shape);
+
+	      return isShapeElement ? _react2.default.cloneElement(shape, this.props) : _react2.default.createElement(_Polygon2.default, this.props);
+	    }
+	  }, {
+	    key: 'renderLabels',
+	    value: function renderLabels() {
+	      var _props = this.props;
+	      var points = _props.points;
+	      var label = _props.label;
+
+	      var baseProps = _ReactUtils2.default.getPresentationAttributes(this.props);
+	      var customLabelProps = _ReactUtils2.default.getPresentationAttributes(label);
+	      var isLabelElement = _react2.default.isValidElement(label);
+
+	      var labels = points.map(function (entry, i) {
+	        var labelProps = _extends({
+	          textAnchor: 'middle'
+	        }, baseProps, {
+	          stroke: 'none',
+	          fill: baseProps && baseProps.stroke || '#666'
+	        }, customLabelProps, entry, {
+	          index: i,
+	          key: 'label-' + i,
+	          payload: entry
+	        });
+
+	        return isLabelElement ? _react2.default.cloneElement(label, labelProps) : _react2.default.createElement(
+	          'text',
+	          _extends({}, labelProps, { className: 'recharts-radar-label' }),
+	          entry.value
+	        );
+	      });
+
+	      return _react2.default.createElement(
+	        _Layer2.default,
+	        { className: 'recharts-radar-labels' },
+	        labels
+	      );
+	    }
+	  }, {
+	    key: 'renderDots',
+	    value: function renderDots() {
+	      var _props2 = this.props;
+	      var dot = _props2.dot;
+	      var points = _props2.points;
+
+	      var baseProps = _ReactUtils2.default.getPresentationAttributes(this.props);
+	      var customDotProps = _ReactUtils2.default.getPresentationAttributes(dot);
+	      var isDotElement = _react2.default.isValidElement(dot);
+
+	      var dots = points.map(function (entry, i) {
+	        var dotProps = _extends({
+	          key: 'dot-' + i,
+	          r: 3
+	        }, baseProps, customDotProps, {
+	          cx: entry.x,
+	          cy: entry.y,
+	          index: i,
+	          playload: entry
+	        });
+
+	        return isDotElement ? _react2.default.cloneElement(dot, dotProps) : _react2.default.createElement(_Dot2.default, dotProps);
+	      });
+
+	      return _react2.default.createElement(
+	        _Layer2.default,
+	        { className: 'recharts-radar-dots' },
+	        dots
+	      );
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return null;
+	      var _props3 = this.props;
+	      var className = _props3.className;
+	      var points = _props3.points;
+	      var label = _props3.label;
+	      var dot = _props3.dot;
+
+	      if (!points || !points.length) {
+	        return null;
+	      }
+
+	      var layerClass = (0, _classnames2.default)('recharts-radar', className);
+
+	      return _react2.default.createElement(
+	        _Layer2.default,
+	        { className: layerClass },
+	        this.renderPolygon(),
+	        label && this.renderLabels(),
+	        dot && this.renderDots()
+	      );
 	    }
 	  }]);
 
 	  return Radar;
-	}(_react2.default.Component), _class.displayName = 'Radar', _class.propTypes = {
+	}(_react.Component), _class2.displayName = 'Radar', _class2.propTypes = {
 	  className: _react.PropTypes.string,
-	  dataKey: _react.PropTypes.string
-	}, _class.defaultProps = {
-	  dataKey: 'value'
-	}, _temp);
+	  dataKey: _react.PropTypes.string.isRequired,
+
+	  points: _react.PropTypes.arrayOf(_react.PropTypes.shape({
+	    x: _react.PropTypes.number,
+	    y: _react.PropTypes.number,
+	    cx: _react.PropTypes.number,
+	    cy: _react.PropTypes.number,
+	    angle: _react.PropTypes.number,
+	    radius: _react.PropTypes.number,
+	    value: _react.PropTypes.number,
+	    payload: _react.PropTypes.object
+	  })),
+	  shape: _react.PropTypes.element,
+	  dot: _react.PropTypes.oneOfType([_react.PropTypes.element, _react.PropTypes.object, _react.PropTypes.bool]),
+	  label: _react.PropTypes.oneOfType([_react.PropTypes.element, _react.PropTypes.object, _react.PropTypes.bool])
+	}, _class2.defaultProps = {
+	  dot: false,
+	  label: false
+	}, _temp)) || _class;
+
 	exports.default = Radar;
 
 /***/ },
-/* 35 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6523,7 +6959,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Sector = __webpack_require__(24);
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _Sector = __webpack_require__(27);
 
 	var _Sector2 = _interopRequireDefault(_Sector);
 
@@ -6535,7 +6975,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
 
-	var _DOMUtils = __webpack_require__(14);
+	var _DOMUtils = __webpack_require__(16);
 
 	var _DOMUtils2 = _interopRequireDefault(_DOMUtils);
 
@@ -6559,8 +6999,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 
-	var RadialBar = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(RadialBar, _React$Component);
+	var RadialBar = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(RadialBar, _Component);
 
 	  function RadialBar() {
 	    _classCallCheck(this, RadialBar);
@@ -6644,18 +7084,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var shape = _props2.shape;
 	      var data = _props2.data;
 
-	      var others = _objectWithoutProperties(_props2, ['className', 'shape', 'data']);
+	      var baseProps = _ReactUtils2.default.getPresentationAttributes(this.props);
+	      var isShapeElement = _react2.default.isValidElement(shape);
 
 	      return sectors.map(function (entry, i) {
 	        var value = entry.value;
 
 	        var rest = _objectWithoutProperties(entry, ['value']);
 
-	        return shape ? _react2.default.cloneElement(shape, _extends({}, others, rest, {
-	          key: 'sector-' + i
-	        })) : _react2.default.createElement(_Sector2.default, _extends({}, others, rest, {
-	          key: 'sector-' + i
-	        }));
+	        var props = _extends({}, baseProps, rest, {
+	          key: 'sector-' + i,
+	          className: 'recharts-radial-bar-sector'
+	        });
+
+	        return isShapeElement ? _react2.default.cloneElement(shape, props) : _react2.default.createElement(_Sector2.default, props);
 	      });
 	    }
 	  }, {
@@ -6667,19 +7109,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var clockWise = _props3.clockWise;
 	      var background = _props3.background;
 
+	      var isBackgroundElement = _react2.default.isValidElement(background);
+	      var backgroundProps = _ReactUtils2.default.getPresentationAttributes(background);
+
 	      return sectors.map(function (entry, i) {
 	        var value = entry.value;
 
 	        var rest = _objectWithoutProperties(entry, ['value']);
 
-	        return _react2.default.isValidElement(background) ? _react2.default.cloneElement(background, _extends({}, rest, { clockWise: clockWise, startAngle: startAngle, endAngle: endAngle, index: i, key: 'sector-' + i
-	        })) : _react2.default.createElement(_Sector2.default, _extends({}, rest, {
-	          fill: '#f1f1f1',
+	        var props = _extends({}, rest, {
+	          fill: '#eee'
+	        }, backgroundProps, {
 	          clockWise: clockWise,
 	          startAngle: startAngle,
 	          endAngle: endAngle,
-	          key: 'sector-' + i
-	        }));
+	          index: i,
+	          key: 'sector-' + i,
+	          className: 'recharts-radial-bar-background-sector'
+	        });
+
+	        return isBackgroundElement ? _react2.default.cloneElement(background, props) : _react2.default.createElement(_Sector2.default, props);
 	      });
 	    }
 	  }, {
@@ -6701,7 +7150,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        return _react2.default.createElement(
 	          'text',
-	          _extends({}, style, { key: 'label-' + i }),
+	          _extends({}, style, { key: 'label-' + i, className: 'recharts-radial-bar-label' }),
 	          _react2.default.createElement(
 	            'defs',
 	            null,
@@ -6727,24 +7176,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (!data || !data.length) {
 	        return null;
 	      }
+
 	      var sectors = this.getSectors();
+	      var layerClass = (0, _classnames2.default)('recharts-area', className);
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'layer-radial-bar ' + (className || '') },
+	        { className: layerClass },
 	        background && _react2.default.createElement(
 	          _Layer2.default,
-	          { className: 'layer-background' },
+	          { className: 'recharts-radial-bar-background' },
 	          this.renderBackground(sectors)
 	        ),
 	        _react2.default.createElement(
 	          _Layer2.default,
-	          { className: 'laryer-sector' },
+	          { className: 'recharts-radial-bar-sectors' },
 	          this.renderSectors(sectors)
 	        ),
 	        label && _react2.default.createElement(
 	          _Layer2.default,
-	          { className: 'laryer-label' },
+	          { className: 'recharts-radial-bar-labels' },
 	          this.renderLabels(sectors)
 	        )
 	      );
@@ -6752,7 +7203,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return RadialBar;
-	}(_react2.default.Component), _class2.displayName = 'RadialBar', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'RadialBar', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  shape: _react.PropTypes.object,
 
@@ -6774,7 +7225,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  label: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.element, _react.PropTypes.object]),
 
-	  background: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.element]),
+	  background: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object, _react.PropTypes.element]),
 
 	  onMouseEnter: _react.PropTypes.func,
 	  onMouseLeave: _react.PropTypes.func,
@@ -6796,7 +7247,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = RadialBar;
 
 /***/ },
-/* 36 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6817,19 +7268,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Layer = __webpack_require__(6);
+	var _classnames = __webpack_require__(4);
 
-	var _Layer2 = _interopRequireDefault(_Layer);
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	var _pureRenderDecorator = __webpack_require__(2);
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
+
 	var _ReactUtils = __webpack_require__(3);
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _Curve = __webpack_require__(9);
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
 
@@ -6843,8 +7298,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Scatter = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_React$Component) {
-	  _inherits(Scatter, _React$Component);
+	var Scatter = (0, _pureRenderDecorator2.default)(_class = (_temp2 = _class2 = function (_Component) {
+	  _inherits(Scatter, _Component);
 
 	  function Scatter() {
 	    var _Object$getPrototypeO;
@@ -6887,14 +7342,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function renderCircles() {
 	      var _this2 = this;
 
-	      var _props = this.props;
-	      var points = _props.points;
-	      var className = _props.className;
-	      var onMouseEnter = _props.onMouseEnter;
-
-	      var others = _objectWithoutProperties(_props, ['points', 'className', 'onMouseEnter']);
-
+	      var points = this.props.points;
 	      var activeIndex = this.state.activeIndex;
+
+	      var baseProps = _ReactUtils2.default.getPresentationAttributes(this.props);
 
 	      return points.map(function (entry, i) {
 	        var payload = entry.payload;
@@ -6902,7 +7353,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var rest = _objectWithoutProperties(entry, ['payload', 'r']);
 
-	        return _react2.default.createElement('circle', _extends({}, others, rest, {
+	        return _react2.default.createElement('circle', _extends({}, baseProps, rest, {
 	          r: i === activeIndex ? r * 1.1 : r,
 	          onMouseEnter: _this2.handleCircleMouseEnter.bind(_this2, entry, i),
 	          onMouseLeave: _this2.handleCircleMouseLeave.bind(_this2),
@@ -6913,10 +7364,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'renderLine',
 	    value: function renderLine() {
-	      var _props2 = this.props;
-	      var points = _props2.points;
-	      var line = _props2.line;
-	      var lineType = _props2.lineType;
+	      var _props = this.props;
+	      var points = _props.points;
+	      var line = _props.line;
+	      var lineType = _props.lineType;
 
 	      var scatterProps = _ReactUtils2.default.getPresentationAttributes(this.props);
 	      var customLineProps = _ReactUtils2.default.getPresentationAttributes(line);
@@ -6937,25 +7388,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'recharts-layer-scatter-line' },
+	        { className: 'recharts-scatter-line' },
 	        isLineElement ? _react2.default.cloneElement(line, lineProps) : _react2.default.createElement(_Curve2.default, lineProps)
 	      );
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _props3 = this.props;
-	      var points = _props3.points;
-	      var line = _props3.line;
-	      var className = _props3.className;
+	      var _props2 = this.props;
+	      var points = _props2.points;
+	      var line = _props2.line;
+	      var className = _props2.className;
 
 	      if (!points || !points.length) {
 	        return null;
 	      }
 
+	      var layerClass = (0, _classnames2.default)('recharts-scatter', className);
+
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'layer-scatter ' + (className || '') },
+	        { className: layerClass },
 	        line && this.renderLine(),
 	        this.renderCircles()
 	      );
@@ -6963,7 +7416,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Scatter;
-	}(_react2.default.Component), _class2.displayName = 'Scatter', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Scatter', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 
 	  legendType: _react.PropTypes.string,
 	  xAxisId: _react.PropTypes.number,
@@ -7002,14 +7455,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Scatter;
 
 /***/ },
-/* 37 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Z Axis
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -7031,8 +7486,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var ZAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(ZAxis, _React$Component);
+	var ZAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(ZAxis, _Component);
 
 	  function ZAxis() {
 	    _classCallCheck(this, ZAxis);
@@ -7048,7 +7503,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return ZAxis;
-	}(_react2.default.Component), _class2.displayName = 'ZAxis', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'ZAxis', _class2.propTypes = {
 	  // The name of data displayed in the axis
 	  name: _react.PropTypes.any,
 	  // The unit of data displayed in the axis
@@ -7067,7 +7522,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ZAxis;
 
 /***/ },
-/* 38 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7076,7 +7531,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview Brush
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -7086,7 +7543,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _d3Scale = __webpack_require__(15);
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _d3Scale = __webpack_require__(14);
 
 	var _d3Scale2 = _interopRequireDefault(_d3Scale);
 
@@ -7108,8 +7569,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Brush = (_temp = _class = function (_React$Component) {
-	  _inherits(Brush, _React$Component);
+	var Brush = (_temp = _class = function (_Component) {
+	  _inherits(Brush, _Component);
 
 	  function Brush(props) {
 	    _classCallCheck(this, Brush);
@@ -7349,7 +7810,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return _react2.default.createElement(
 	        _Layer2.default,
 	        {
-	          className: 'layer-brush',
+	          className: 'recharts-brush-traveller',
 	          onMouseEnter: this.handleEnterSlideOrTraveller.bind(this),
 	          onMouseLeave: this.handleLeaveSlideOrTraveller.bind(this),
 	          onMouseDown: this.handleTravellerDown.bind(this, id),
@@ -7376,6 +7837,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var stroke = _props5.stroke;
 
 	      return _react2.default.createElement('rect', {
+	        className: 'recharts-brush-slide',
 	        onMouseEnter: this.handleEnterSlideOrTraveller.bind(this),
 	        onMouseLeave: this.handleLeaveSlideOrTraveller.bind(this),
 	        onMouseDown: this.handleSlideDown.bind(this),
@@ -7445,9 +7907,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return null;
 	      }
 
+	      var layerClass = (0, _classnames2.default)('recharts-bursh', className);
+
 	      return _react2.default.createElement(
 	        _Layer2.default,
-	        { className: 'layer-recharts-bursh ' + (className || ''),
+	        { className: layerClass,
 	          onMouseUp: this.handleUp.bind(this),
 	          onMouseMove: this.handleMove.bind(this),
 	          onMouseLeave: this.handleLeaveWrapper.bind(this)
@@ -7462,7 +7926,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Brush;
-	}(_react2.default.Component), _class.displayName = 'Brush', _class.propTypes = {
+	}(_react.Component), _class.displayName = 'Brush', _class.propTypes = {
 	  className: _react.PropTypes.string,
 
 	  fill: _react.PropTypes.string,
@@ -7490,17 +7954,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Brush;
 
 /***/ },
-/* 39 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _class, _class2, _temp; /**
 	                             * @fileOverview Axis of radial direction
-	                             * @author xile611
-	                             * @Date 2015-08-28
 	                             */
 
 	Object.defineProperty(exports, "__esModule", {
@@ -7515,6 +7979,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
+
+	var _ReactUtils = __webpack_require__(3);
+
+	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
+
+	var _Dot = __webpack_require__(11);
+
+	var _Dot2 = _interopRequireDefault(_Dot);
+
+	var _Polygon = __webpack_require__(26);
+
+	var _Polygon2 = _interopRequireDefault(_Polygon);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -7525,56 +8005,56 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 	var eps = 1e-5;
-	var offset = 8;
 
-	var PolarAngleAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(PolarAngleAxis, _React$Component);
+	var PolarAngleAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(PolarAngleAxis, _Component);
 
-	  function PolarAngleAxis(props) {
+	  function PolarAngleAxis() {
 	    _classCallCheck(this, PolarAngleAxis);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PolarAngleAxis).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PolarAngleAxis).apply(this, arguments));
 	  }
-	  /**
-	   * Calculate the coordinate of line endpoint
-	   * @param  {Object} data The Data if ticks
-	   * @return {Object} (x0, y0): The start point of text, (x1, y1): The end point close to text, (x2, y2): The end point close to axis
-	   */
 
 	  _createClass(PolarAngleAxis, [{
 	    key: 'getTickLineCoord',
+
+	    /**
+	     * Calculate the coordinate of line endpoint
+	     * @param  {Object} data The Data if ticks
+	     * @return {Object} (x0, y0): The start point of text, (x1, y1): The end point close to text, (x2, y2): The end point close to axis
+	     */
 	    value: function getTickLineCoord(data) {
 	      var _props = this.props;
 	      var cx = _props.cx;
 	      var cy = _props.cy;
-	      var outerRadius = _props.outerRadius;
+	      var radius = _props.radius;
 	      var orient = _props.orient;
+	      var tickLine = _props.tickLine;
 
+	      var tickLineSize = tickLine && tickLine.size || 8;
 	      var sin = Math.sin(-data.angle * RADIAN);
 	      var cos = Math.cos(-data.angle * RADIAN);
-	      var x0 = undefined;
 	      var x1 = undefined;
-	      var y0 = undefined;
+	      var x2 = undefined;
 	      var y1 = undefined;
+	      var y2 = undefined;
 
 	      switch (orient) {
 	        case 'inner':
-	          x0 = cx + (outerRadius - offset) * cos;
-	          y0 = cy + (outerRadius - offset) * sin;
-
-	          x1 = cx + outerRadius * cos;
-	          y1 = cy + outerRadius * sin;
+	          x1 = cx + radius * cos;
+	          y1 = cy + radius * sin;
+	          x2 = cx + (radius - tickLineSize) * cos;
+	          y2 = cy + (radius - tickLineSize) * sin;
 	          break;
 	        default:
-	          x0 = cx + (outerRadius + offset) * cos;
-	          y0 = cy + (outerRadius + offset) * sin;
-
-	          x1 = cx + outerRadius * cos;
-	          y1 = cy + outerRadius * sin;
+	          x1 = cx + radius * cos;
+	          y1 = cy + radius * sin;
+	          x2 = cx + (radius + tickLineSize) * cos;
+	          y2 = cy + (radius + tickLineSize) * sin;
 	          break;
 	      }
 
-	      return { x0: x0, y0: y0, x1: x1, y1: y1 };
+	      return { x1: x1, y1: y1, x2: x2, y2: y2 };
 	    }
 	    /**
 	     * Get the text-anchor of each tick
@@ -7601,78 +8081,149 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return textAnchor;
 	    }
 	  }, {
-	    key: 'render',
-	    value: function render() {
+	    key: 'renderAxisLine',
+	    value: function renderAxisLine() {
+	      var _props2 = this.props;
+	      var cx = _props2.cx;
+	      var cy = _props2.cy;
+	      var radius = _props2.radius;
+	      var axisLine = _props2.axisLine;
+	      var axisLineType = _props2.axisLineType;
+
+	      var props = _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
+	        fill: 'none'
+	      }, _ReactUtils2.default.getPresentationAttributes(axisLine));
+
+	      if (axisLineType === 'circle') {
+	        return _react2.default.createElement(_Dot2.default, _extends({ className: 'recharts-polar-angle-axis-line' }, props, { cx: cx, cy: cy, r: radius }));
+	      }
+	      var ticks = this.props.ticks;
+
+	      var points = ticks.map(function (entry) {
+	        var cos = Math.cos(-RADIAN * entry.angle);
+	        var sin = Math.sin(-RADIAN * entry.angle);
+
+	        return { x: cx + cos * radius, y: cy + sin * radius };
+	      });
+
+	      return _react2.default.createElement(_Polygon2.default, _extends({ className: 'recharts-polar-angle-axis-line' }, props, { points: points }));
+	    }
+	  }, {
+	    key: 'renderTicks',
+	    value: function renderTicks() {
 	      var _this2 = this;
 
-	      var _props2 = this.props;
-	      var ticks = _props2.ticks;
-	      var fill = _props2.fill;
-	      var fontSize = _props2.fontSize;
+	      var _props3 = this.props;
+	      var ticks = _props3.ticks;
+	      var label = _props3.label;
+	      var tickLine = _props3.tickLine;
+	      var tickFormatter = _props3.tickFormatter;
+	      var stroke = _props3.stroke;
 
-	      if (!ticks || !ticks.length) {
+	      var axisProps = _ReactUtils2.default.getPresentationAttributes(this.props);
+	      var customLabelProps = _ReactUtils2.default.getPresentationAttributes(label);
+	      var isLabelElement = _react2.default.isValidElement(label);
+	      var tickLineProps = _ReactUtils2.default.getPresentationAttributes(tickLine);
+
+	      var items = ticks.map(function (entry, i) {
+	        var lineCoord = _this2.getTickLineCoord(entry);
+	        var textAnchor = _this2.getTickTextAnchor(entry);
+	        var tickProps = _extends({}, axisProps, { fill: 'none' }, tickLineProps, lineCoord);
+	        var labelProps = _extends({
+	          textAnchor: textAnchor
+	        }, axisProps, {
+	          stroke: 'none', fill: stroke
+	        }, customLabelProps, {
+	          index: i, payload: entry,
+	          x: lineCoord.x2, y: lineCoord.y2
+	        });
+	        var labelItem = undefined;
+
+	        if (label) {
+	          labelItem = isLabelElement ? _react2.default.cloneElement(label, labelProps) : _react2.default.createElement(
+	            'text',
+	            _extends({}, labelProps, { className: 'recharts-polar-angle-axis-tick-value' }),
+	            tickFormatter ? tickFormatter(entry.value) : entry.value
+	          );
+	        }
+
+	        return _react2.default.createElement(
+	          'g',
+	          { className: 'recharts-polar-angle-axis-tick', key: 'tick-' + i },
+	          tickLine && _react2.default.createElement('line', _extends({ className: 'recharts-polar-angle-axis-tick-line' }, tickProps)),
+	          label && labelItem
+	        );
+	      });
+
+	      return _react2.default.createElement(
+	        'g',
+	        { className: 'recharts-polar-angle-axis-ticks' },
+	        items
+	      );
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props4 = this.props;
+	      var ticks = _props4.ticks;
+	      var radius = _props4.radius;
+	      var axisLine = _props4.axisLine;
+	      var tickLine = _props4.tickLine;
+	      var label = _props4.label;
+
+	      if (radius <= 0 || !ticks || !ticks.length) {
 	        return null;
 	      }
 
 	      return _react2.default.createElement(
-	        'g',
-	        { className: 'layer-axis layer-polar-angle-axis' },
-	        ticks.map(function (v, i) {
-	          var lineCoord = _this2.getTickLineCoord(v);
-	          var textAnchor = _this2.getTickTextAnchor(v);
-
-	          return _react2.default.createElement(
-	            'g',
-	            { className: 'axis-tick', key: 'tick-' + i },
-	            _react2.default.createElement(
-	              'text',
-	              {
-	                x: lineCoord.x0,
-	                y: lineCoord.y0 + 7,
-	                textAnchor: textAnchor,
-	                fill: fill,
-	                fontSize: fontSize
-	              },
-	              v.name
-	            )
-	          );
-	        })
+	        _Layer2.default,
+	        { className: 'recharts-polar-angle-axis' },
+	        axisLine && this.renderAxisLine(),
+	        this.renderTicks()
 	      );
 	    }
 	  }]);
 
 	  return PolarAngleAxis;
-	}(_react2.default.Component), _class2.displayName = 'PolarAngleAxis', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'PolarAngleAxis', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	  dataKey: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
 	  cx: _react.PropTypes.number,
 	  cy: _react.PropTypes.number,
-	  startAngle: _react.PropTypes.number,
-	  innerRadius: _react.PropTypes.number,
-	  outerRadius: _react.PropTypes.number,
-	  clockWise: _react.PropTypes.bool,
+	  radius: _react.PropTypes.number,
 
-	  ticks: _react.PropTypes.array,
+	  axisLine: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object]),
+	  axisLineType: _react.PropTypes.oneOf(['polygon', 'circle']),
+	  tickLine: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object]),
+	  label: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object, _react.PropTypes.element]),
+
+	  ticks: _react.PropTypes.arrayOf(_react.PropTypes.shape({
+	    value: _react.PropTypes.any,
+	    angle: _react.PropTypes.number
+	  })),
 	  orient: _react.PropTypes.oneOf(['inner', 'outer']),
-
-	  fill: _react.PropTypes.string,
-	  fontSize: _react.PropTypes.number
-	}, _class2.defaultProps = {
+	  tickFormatter: _react.PropTypes.func
+	}), _class2.defaultProps = {
 	  orient: 'outer',
-	  dataKey: 'name',
-	  fill: '#999',
-	  fontSize: 14
+	  fill: '#666',
+	  stroke: '#ccc',
+	  axisLine: true,
+	  tickLine: true,
+	  label: true
 	}, _temp)) || _class;
 
 	exports.default = PolarAngleAxis;
 
 /***/ },
-/* 40 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Polar Grid
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -7696,21 +8247,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 
-	var PolarGrid = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(PolarGrid, _React$Component);
+	var PolarGrid = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(PolarGrid, _Component);
 
-	  function PolarGrid(props) {
+	  function PolarGrid() {
 	    _classCallCheck(this, PolarGrid);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PolarGrid).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PolarGrid).apply(this, arguments));
 	  }
-	  /**
-	   * Draw axis of radial line
-	   * @return {[type]} The lines
-	   */
 
 	  _createClass(PolarGrid, [{
 	    key: 'renderPolarAngles',
+
+	    /**
+	     * Draw axis of radial line
+	     * @return {[type]} The lines
+	     */
 	    value: function renderPolarAngles() {
 	      var _props = this.props;
 	      var cx = _props.cx;
@@ -7725,7 +8277,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-grid-angle' },
+	        { className: 'recharts-polar-grid-angle' },
 	        polarAngles.map(function (entry, i) {
 	          var cos = Math.cos(-entry * RADIAN);
 	          var sin = Math.sin(-entry * RADIAN);
@@ -7753,7 +8305,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var cx = _props2.cx;
 	      var cy = _props2.cy;
 
-	      return _react2.default.createElement('circle', { className: 'concentric-circle', stroke: '#ccc', fill: 'none', key: 'circle-' + index, cx: cx, cy: cy, r: radius });
+	      return _react2.default.createElement('circle', { className: 'recharts-polar-grid-concentric-circle', stroke: '#ccc', fill: 'none', key: 'circle-' + index, cx: cx, cy: cy, r: radius });
 	    }
 	    /**
 	     * Draw concentric polygons
@@ -7780,7 +8332,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	      });
 
-	      return _react2.default.createElement('path', { className: 'concentric-polygon', stroke: '#ccc', fill: 'none', key: 'path-' + index, d: path + 'Z' });
+	      return _react2.default.createElement('path', { className: 'recharts-polar-grid-concentric-polygon', stroke: '#ccc', fill: 'none', key: 'path-' + index, d: path + 'Z' });
 	    }
 
 	    /**
@@ -7804,7 +8356,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-grid-concentric' },
+	        { className: 'recharts-polar-grid-concentric' },
 	        polarRadius.map(function (entry, i) {
 	          return gridType === 'circle' ? _this2.renderConcentricCircle(entry, i) : _this2.renderConcentricPolygon(entry, i);
 	        })
@@ -7821,7 +8373,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-grid layer-polar-grid' },
+	        { className: 'recharts-polar-grid' },
 	        this.renderPolarAngles(),
 	        this.renderConcentricPath()
 	      );
@@ -7829,37 +8381,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return PolarGrid;
-	}(_react2.default.Component), _class2.displayName = 'PolarGrid', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'PolarGrid', _class2.propTypes = {
 	  cx: _react.PropTypes.number,
 	  cy: _react.PropTypes.number,
-	  startAngle: _react.PropTypes.number,
 	  innerRadius: _react.PropTypes.number,
 	  outerRadius: _react.PropTypes.number,
-	  clockWise: _react.PropTypes.bool,
 
 	  polarAngles: _react.PropTypes.arrayOf(_react.PropTypes.number),
 	  polarRadius: _react.PropTypes.arrayOf(_react.PropTypes.number),
-	  gridCount: _react.PropTypes.number,
 	  gridType: _react.PropTypes.oneOf(['polygon', 'circle'])
 	}, _class2.defaultProps = {
-	  gridCount: 2,
-	  gridType: 'circle'
+	  gridType: 'polygon'
 	}, _temp)) || _class;
 
 	exports.default = PolarGrid;
 
 /***/ },
-/* 41 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _class, _class2, _temp; /**
 	                             * @fileOverview The axis of polar coordinate system
-	                             * @author xile611
-	                             * @Date 2015-08-28
 	                             */
 
 	Object.defineProperty(exports, "__esModule", {
@@ -7874,6 +8422,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _Layer = __webpack_require__(6);
+
+	var _Layer2 = _interopRequireDefault(_Layer);
+
+	var _ReactUtils = __webpack_require__(3);
+
+	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -7884,23 +8440,25 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 
-	var PolarRadiusAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(PolarRadiusAxis, _React$Component);
+	var PolarRadiusAxis = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(PolarRadiusAxis, _Component);
 
-	  function PolarRadiusAxis(props) {
+	  function PolarRadiusAxis() {
 	    _classCallCheck(this, PolarRadiusAxis);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PolarRadiusAxis).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PolarRadiusAxis).apply(this, arguments));
 	  }
-	  /**
-	   * Calculate the coordinate of tick
-	   * @param  {Object} data The data of a simple tick
-	   * @return {Object} (x, y)
-	   */
 
 	  _createClass(PolarRadiusAxis, [{
 	    key: 'getTickValueCoord',
-	    value: function getTickValueCoord(data) {
+
+	    /**
+	     * Calculate the coordinate of tick
+	     * @param  {Object} radius The data of a simple tick
+	     * @return {Object} (x, y)
+	     */
+	    value: function getTickValueCoord(_ref) {
+	      var radius = _ref.radius;
 	      var _props = this.props;
 	      var angle = _props.angle;
 	      var cx = _props.cx;
@@ -7910,8 +8468,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var cos = Math.cos(-angle * RADIAN);
 
 	      return {
-	        x: cx + data * cos,
-	        y: cy + data * sin
+	        x: cx + radius * cos,
+	        y: cy + radius * sin
 	      };
 	    }
 	  }, {
@@ -7936,83 +8494,127 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return textAnchor;
 	    }
 	  }, {
+	    key: 'renderAxisLine',
+	    value: function renderAxisLine() {
+	      var _props2 = this.props;
+	      var cx = _props2.cx;
+	      var cy = _props2.cy;
+	      var angle = _props2.angle;
+	      var ticks = _props2.ticks;
+	      var axisLine = _props2.axisLine;
+
+	      var extent = ticks.reduce(function (result, entry) {
+	        return [Math.min(result[0], entry.radius), Math.max(result[1], entry.radius)];
+	      }, [Infinity, -Infinity]);
+	      var sin = Math.sin(-angle * RADIAN);
+	      var cos = Math.cos(-angle * RADIAN);
+
+	      var props = _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
+	        fill: 'none'
+	      }, _ReactUtils2.default.getPresentationAttributes(axisLine), {
+	        x1: cx + extent[0] * cos,
+	        y1: cy + extent[0] * sin,
+	        x2: cx + extent[1] * cos,
+	        y2: cy + extent[1] * sin
+	      });
+
+	      return _react2.default.createElement('line', _extends({ className: 'recharts-polar-radius-axis-line' }, props));
+	    }
+	  }, {
 	    key: 'renderTicks',
 	    value: function renderTicks() {
 	      var _this2 = this;
 
-	      var _props2 = this.props;
-	      var polarRadius = _props2.polarRadius;
-	      var angle = _props2.angle;
-	      var fill = _props2.fill;
-	      var fontSize = _props2.fontSize;
+	      var _props3 = this.props;
+	      var ticks = _props3.ticks;
+	      var label = _props3.label;
+	      var angle = _props3.angle;
+	      var tickFormatter = _props3.tickFormatter;
+	      var stroke = _props3.stroke;
 
 	      var textAnchor = this.getTickTextAnchor();
+	      var axisProps = _ReactUtils2.default.getPresentationAttributes(this.props);
+	      var customLabelProps = _ReactUtils2.default.getPresentationAttributes(label);
+	      var isLabelElement = _react2.default.isValidElement(label);
+
+	      var items = ticks.map(function (entry, i) {
+	        var coord = _this2.getTickValueCoord(entry);
+	        var labelProps = _extends({
+	          textAnchor: textAnchor,
+	          transform: 'rotate(' + (90 - angle) + ', ' + coord.x + ', ' + coord.y + ')'
+	        }, axisProps, {
+	          stroke: 'none', fill: stroke
+	        }, customLabelProps, {
+	          index: i, payload: entry
+	        }, coord);
+
+	        return _react2.default.createElement(
+	          'g',
+	          { className: 'recharts-polar-radius-axis-tick', key: 'tick-' + i },
+	          isLabelElement ? _react2.default.cloneElement(label, labelProps) : _react2.default.createElement(
+	            'text',
+	            _extends({}, labelProps, { className: 'recharts-polar-radius-axis-tick-value' }),
+	            tickFormatter ? tickFormatter(entry.value) : entry.value
+	          )
+	        );
+	      });
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'axis-ticks' },
-	        polarRadius.map(function (v, i) {
-	          var coord = _this2.getTickValueCoord(v);
-
-	          return _react2.default.createElement(
-	            'text',
-	            {
-	              key: 'tick-' + i,
-	              x: coord.x,
-	              y: coord.y,
-	              textAnchor: textAnchor,
-	              transform: 'rotate(' + (90 - angle) + ', ' + coord.x + ', ' + coord.y + ')',
-	              className: 'tick-value',
-	              fill: fill,
-	              fontSize: fontSize
-	            },
-	            Math.floor(v)
-	          );
-	        })
+	        { className: 'recharts-polar-radius-axis-ticks' },
+	        items
 	      );
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var polarRadius = this.props.polarRadius;
+	      var _props4 = this.props;
+	      var ticks = _props4.ticks;
+	      var axisLine = _props4.axisLine;
+	      var label = _props4.label;
 
-	      if (!polarRadius || !polarRadius.length) {
+	      if (!ticks || !ticks.length) {
 	        return null;
 	      }
 
 	      return _react2.default.createElement(
 	        'g',
-	        { className: 'layer-axis layer-polar-radius-axis' },
-	        this.renderTicks()
+	        { className: 'recharts-polar-radius-axis' },
+	        axisLine && this.renderAxisLine(),
+	        label && this.renderTicks()
 	      );
 	    }
 	  }]);
 
 	  return PolarRadiusAxis;
-	}(_react2.default.Component), _class2.displayName = 'PolarRadiusAxis', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'PolarRadiusAxis', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  cx: _react.PropTypes.number,
 	  cy: _react.PropTypes.number,
-	  startAngle: _react.PropTypes.number,
-	  innerRadius: _react.PropTypes.number,
-	  outerRadius: _react.PropTypes.number,
-	  clockWise: _react.PropTypes.bool,
+	  hide: _react.PropTypes.bool,
 
 	  angle: _react.PropTypes.number,
-	  polarRadius: _react.PropTypes.arrayOf(_react.PropTypes.number),
+	  tickCount: _react.PropTypes.number,
+	  ticks: _react.PropTypes.arrayOf(_react.PropTypes.shape({
+	    value: _react.PropTypes.any,
+	    radius: _react.PropTypes.value
+	  })),
 	  orient: _react.PropTypes.oneOf(['left', 'right', 'middle']),
-
-	  fill: _react.PropTypes.string,
-	  fontSize: _react.PropTypes.number
-	}, _class2.defaultProps = {
-	  orient: 'middle',
-	  fill: '#ccc',
-	  fontSize: 12
+	  axisLine: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object]),
+	  label: _react.PropTypes.oneOfType([_react.PropTypes.bool, _react.PropTypes.object, _react.PropTypes.element]),
+	  tickFormatter: _react.PropTypes.func
+	}), _class2.defaultProps = {
+	  angle: 0,
+	  orient: 'right',
+	  stroke: '#ccc',
+	  axisLine: true,
+	  label: true,
+	  tickCount: 5
 	}, _temp)) || _class;
 
 	exports.default = PolarRadiusAxis;
 
 /***/ },
-/* 42 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8023,7 +8625,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Reference Line
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -8049,8 +8653,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var ReferenceLine = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(ReferenceLine, _React$Component);
+	var ReferenceLine = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(ReferenceLine, _Component);
 
 	  function ReferenceLine() {
 	    _classCallCheck(this, ReferenceLine);
@@ -8093,7 +8697,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var type = _props2.type;
 	      var value = _props2.value;
 
-	      if (!type || value !== +value) {
+	      if (!type) {
 	        return null;
 	      }
 
@@ -8117,7 +8721,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return ReferenceLine;
-	}(_react2.default.Component), _class2.displayName = 'ReferenceLine', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'ReferenceLine', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  viewBox: _react.PropTypes.shape({
 	    x: _react.PropTypes.number,
 	    y: _react.PropTypes.number,
@@ -8129,7 +8733,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  yAxisMap: _react.PropTypes.object,
 
 	  type: _react.PropTypes.oneOf(['horizontal', 'vertical']),
-	  value: _react.PropTypes.number,
+	  value: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
 
 	  yAxisId: _react.PropTypes.number,
 	  xAxisId: _react.PropTypes.number
@@ -8144,37 +8748,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ReferenceLine;
 
 /***/ },
-/* 43 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-	var Polygon = function Polygon(_ref) {
-	  var points = _ref.points;
-
-	  var otherProps = _objectWithoutProperties(_ref, ['points']);
-
-	  return _react2.default.createElement('polygon', _extends({ points: points.join(' ') }, otherProps));
-	};
-
-	exports.default = Polygon;
-
-/***/ },
-/* 44 */
+/* 46 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -8183,12 +8757,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 45 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $          = __webpack_require__(69)
-	  , createDesc = __webpack_require__(73);
-	module.exports = __webpack_require__(72) ? function(object, key, value){
+	var $          = __webpack_require__(71)
+	  , createDesc = __webpack_require__(75);
+	module.exports = __webpack_require__(74) ? function(object, key, value){
 	  return $.setDesc(object, key, createDesc(1, value));
 	} : function(object, key, value){
 	  object[key] = value;
@@ -8196,7 +8770,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 46 */
+/* 48 */
 /***/ function(module, exports) {
 
 	// 20.2.2.20 Math.log1p(x)
@@ -8205,16 +8779,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 47 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
 	   true ? factory(exports) :
-	  typeof define === 'function' && define.amd ? define('d3-color', ['exports'], factory) :
-	  factory((global.d3_color = {}));
+	  typeof define === 'function' && define.amd ? define(['exports'], factory) :
+	  (factory((global.d3_color = {})));
 	}(this, function (exports) { 'use strict';
 
-	  function Color() {};
+	  function Color() {}
 
 	  var darker = 0.7;
 	  var brighter = 1 / darker;
@@ -8394,7 +8968,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        : (m = reHslPercent.exec(format)) ? new Hsl(m[1], m[2] / 100, m[3] / 100) // hsl(120,50%,50%)
 	        : named.hasOwnProperty(format) ? rgbn(named[format])
 	        : null;
-	  };
+	  }
 
 	  function rgbn(n) {
 	    return new Rgb(n >> 16 & 0xff, n >> 8 & 0xff, n & 0xff);
@@ -8413,13 +8987,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    }
 	    return new Rgb(r, g, b);
-	  };
+	  }
 
 	  function Rgb(r, g, b) {
 	    this.r = +r;
 	    this.g = +g;
 	    this.b = +b;
-	  };
+	  }
 
 	  var _rgb = rgb.prototype = Rgb.prototype = new Color;
 
@@ -8487,13 +9061,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    }
 	    return new Hsl(h, s, l);
-	  };
+	  }
 
 	  function Hsl(h, s, l) {
 	    this.h = +h;
 	    this.s = +s;
 	    this.l = +l;
-	  };
+	  }
 
 	  var _hsl = hsl.prototype = Hsl.prototype = new Color;
 
@@ -8557,25 +9131,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	        l = l.l;
 	      } else {
 	        if (!(l instanceof Rgb)) l = rgb(l);
-	        var r = rgb2xyz(l.r),
-	            g = rgb2xyz(l.g),
-	            b = rgb2xyz(l.b),
-	            x = xyz2lab((0.4124564 * r + 0.3575761 * g + 0.1804375 * b) / Xn),
-	            y = xyz2lab((0.2126729 * r + 0.7151522 * g + 0.0721750 * b) / Yn),
-	            z = xyz2lab((0.0193339 * r + 0.1191920 * g + 0.9503041 * b) / Zn);
+	        b = rgb2xyz(l.r);
+	        a = rgb2xyz(l.g);
+	        l = rgb2xyz(l.b);
+	        var x = xyz2lab((0.4124564 * b + 0.3575761 * a + 0.1804375 * l) / Xn),
+	            y = xyz2lab((0.2126729 * b + 0.7151522 * a + 0.0721750 * l) / Yn),
+	            z = xyz2lab((0.0193339 * b + 0.1191920 * a + 0.9503041 * l) / Zn);
 	        b = 200 * (y - z);
 	        a = 500 * (x - y);
 	        l = 116 * y - 16;
 	      }
 	    }
 	    return new Lab(l, a, b);
-	  };
+	  }
 
 	  function Lab(l, a, b) {
 	    this.l = +l;
 	    this.a = +a;
 	    this.b = +b;
-	  };
+	  }
 
 	  var _lab = lab.prototype = Lab.prototype = new Color;
 
@@ -8632,13 +9206,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    }
 	    return new Hcl(h, c, l);
-	  };
+	  }
 
 	  function Hcl(h, c, l) {
 	    this.h = +h;
 	    this.c = +c;
 	    this.l = +l;
-	  };
+	  }
 
 	  var _hcl = hcl.prototype = Hcl.prototype = new Color;
 
@@ -8679,13 +9253,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    }
 	    return new Cubehelix(h, s, l);
-	  };
+	  }
 
 	  function Cubehelix(h, s, l) {
 	    this.h = +h;
 	    this.s = +s;
 	    this.l = +l;
-	  };
+	  }
 
 	  var _cubehelix = cubehelix.prototype = Cubehelix.prototype = new Color;
 
@@ -8712,7 +9286,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  };
 
-	  var version = "0.3.3";
+	  var version = "0.3.4";
 
 	  exports.version = version;
 	  exports.color = color;
@@ -8725,11 +9299,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 48 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
-	   true ? factory(exports, __webpack_require__(96)) :
+	   true ? factory(exports, __webpack_require__(98)) :
 	  typeof define === 'function' && define.amd ? define('d3-shape', ['exports', 'd3-path'], factory) :
 	  factory((global.d3_shape = {}),global.d3_path);
 	}(this, function (exports,d3Path) { 'use strict';
@@ -10446,7 +11020,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 49 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
@@ -10805,13 +11379,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 50 */
+/* 52 */
 /***/ function(module, exports) {
 
-	module.exports = __WEBPACK_EXTERNAL_MODULE_50__;
+	module.exports = __WEBPACK_EXTERNAL_MODULE_52__;
 
 /***/ },
-/* 51 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10830,7 +11404,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _AnimateManager = __webpack_require__(52);
+	var _AnimateManager = __webpack_require__(54);
 
 	var _AnimateManager2 = _interopRequireDefault(_AnimateManager);
 
@@ -10838,7 +11412,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
-	var _util = __webpack_require__(30);
+	var _util = __webpack_require__(34);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11058,7 +11632,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Animate;
 
 /***/ },
-/* 52 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11069,7 +11643,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _util = __webpack_require__(30);
+	var _util = __webpack_require__(34);
 
 	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
@@ -11186,7 +11760,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = finalCreateAniamteManager;
 
 /***/ },
-/* 53 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11195,9 +11769,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _utils = __webpack_require__(16);
+	var _utils = __webpack_require__(18);
 
-	var _getNiceTickValues = __webpack_require__(32);
+	var _getNiceTickValues = __webpack_require__(35);
 
 	var _getNiceTickValues2 = _interopRequireDefault(_getNiceTickValues);
 
@@ -11222,7 +11796,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = getTickValues;
 
 /***/ },
-/* 54 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11231,7 +11805,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _utils = __webpack_require__(16);
+	var _utils = __webpack_require__(18);
 
 	/**
 	 * 判断数据是否为浮点类型
@@ -11420,7 +11994,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 55 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11429,7 +12003,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview Area Chart
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -11439,7 +12015,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _CartesianChart2 = __webpack_require__(13);
+	var _CartesianChart2 = __webpack_require__(15);
 
 	var _CartesianChart3 = _interopRequireDefault(_CartesianChart2);
 
@@ -11447,7 +12023,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -11455,21 +12031,25 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-	var _Area = __webpack_require__(17);
+	var _Area = __webpack_require__(19);
 
 	var _Area2 = _interopRequireDefault(_Area);
 
-	var _Dot = __webpack_require__(10);
+	var _Dot = __webpack_require__(11);
 
 	var _Dot2 = _interopRequireDefault(_Dot);
 
-	var _Curve = __webpack_require__(9);
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11491,7 +12071,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(AreaChart, [{
-	    key: 'getComposeData',
+	    key: 'getComposedData',
 
 	    /**
 	     * Compose the data of each area
@@ -11501,7 +12081,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Array}  stackedData If the area is stacked, the stackedData is an array of min value and max value
 	     * @return {Array} Composed data
 	     */
-	    value: function getComposeData(xAxis, yAxis, dataKey, stackedData) {
+	    value: function getComposedData(xAxis, yAxis, dataKey, stackedData) {
 	      var _props = this.props;
 	      var data = _props.data;
 	      var layout = _props.layout;
@@ -11596,7 +12176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        points: [{ x: x1, y: y1 }, { x: x2, y: y2 }]
 	      });
 
-	      return _react2.default.isValidElement(tooltipItem.props.cursor) ? _react2.default.cloneElement(tooltipItem.props.cursor, cursorProps) : _react2.default.createElement(_Curve2.default, _extends({}, cursorProps, { type: 'linear', className: 'recharts-cursor' }));
+	      return _react2.default.isValidElement(tooltipItem.props.cursor) ? _react2.default.cloneElement(tooltipItem.props.cursor, cursorProps) : _react2.default.createElement(_Curve2.default, _extends({}, cursorProps, { type: 'linear', className: 'recharts-tooltip-cursor' }));
 	    }
 	    /**
 	     * Draw the main part of area chart
@@ -11635,7 +12215,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var axisId = layout === 'horizontal' ? xAxisId : yAxisId;
 	        var stackedData = stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack && _this2.getStackedDataOfItem(child, stackGroups[axisId].stackGroups);
-	        var composeData = _this2.getComposeData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey, stackedData);
+	        var composeData = _this2.getComposedData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey, stackedData);
 
 	        var activePoint = composeData.points && composeData.points[activeTooltipIndex];
 	        var pointStyle = { fill: fill, strokeWidth: 2, stroke: '#fff' };
@@ -11680,6 +12260,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var style = _props3.style;
 	      var children = _props3.children;
 	      var layout = _props3.layout;
+	      var className = _props3.className;
+	      var width = _props3.width;
+	      var height = _props3.height;
 
 	      var numberAxisName = layout === 'horizontal' ? 'yAxis' : 'xAxis';
 	      var items = _ReactUtils2.default.findAllByType(children, _Area2.default);
@@ -11694,7 +12277,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ position: 'relative', cursor: 'default' }, style),
 	          onMouseEnter: this.handleMouseEnter.bind(this, offset, xAxisMap, yAxisMap),
 	          onMouseMove: this.handleMouseMove.bind(this, offset, xAxisMap, yAxisMap),
@@ -11702,7 +12285,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderGrid(xAxisMap, yAxisMap, offset),
 	          this.renderReferenceLines(xAxisMap, yAxisMap, offset),
 	          this.renderXAxis(xAxisMap),
@@ -11725,7 +12308,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = AreaChart;
 
 /***/ },
-/* 56 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11734,7 +12317,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview Bar Chart
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -11744,7 +12329,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _CartesianChart2 = __webpack_require__(13);
+	var _CartesianChart2 = __webpack_require__(15);
 
 	var _CartesianChart3 = _interopRequireDefault(_CartesianChart2);
 
@@ -11752,7 +12337,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -11760,17 +12345,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-	var _Bar = __webpack_require__(18);
+	var _Bar = __webpack_require__(20);
 
 	var _Bar2 = _interopRequireDefault(_Bar);
 
-	var _Rectangle = __webpack_require__(12);
+	var _Rectangle = __webpack_require__(13);
 
 	var _Rectangle2 = _interopRequireDefault(_Rectangle);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11790,7 +12379,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(BarChart, [{
-	    key: 'getComposeData',
+	    key: 'getComposedData',
 
 	    /**
 	     * Compose the data of each group
@@ -11799,9 +12388,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} yAxis       The configuration of y-axis
 	     * @param  {Object} offset      The offset of main part in the svg element
 	     * @param  {String} dataKey     The unique key of a group
+	     * @param  {Array} stackedData  The stacked data of a bar item
 	     * @return {Array} Composed data
 	     */
-	    value: function getComposeData(barPosition, xAxis, yAxis, offset, dataKey, stackedData) {
+	    value: function getComposedData(barPosition, xAxis, yAxis, offset, dataKey, stackedData) {
 	      var layout = this.props.layout;
 	      var _state = this.state;
 	      var dataStartIndex = _state.dataStartIndex;
@@ -12023,6 +12613,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} xAxisMap The configuration of all x-axis
 	     * @param  {Object} yAxisMap The configuration of all y-axis
 	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
 	     * @return {ReactComponent}  All the instances of Bar
 	     */
 
@@ -12057,7 +12648,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          layout: layout,
 	          onMouseLeave: _this2.handleBarMouseLeave.bind(_this2),
 	          onMouseEnter: _this2.handleBarMouseEnter.bind(_this2, dataKey),
-	          data: _this2.getComposeData(barPosition, xAxisMap[xAxisId], yAxisMap[yAxisId], offset, dataKey, stackedData)
+	          data: _this2.getComposedData(barPosition, xAxisMap[xAxisId], yAxisMap[yAxisId], offset, dataKey, stackedData)
 	        });
 	      }, this);
 	    }
@@ -12069,6 +12660,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var children = _props3.children;
 	      var className = _props3.className;
 	      var layout = _props3.layout;
+	      var width = _props3.width;
+	      var height = _props3.height;
 
 	      var numberAxisName = layout === 'horizontal' ? 'yAxis' : 'xAxis';
 	      var items = _ReactUtils2.default.findAllByType(children, _Bar2.default);
@@ -12083,7 +12676,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper ' + (className || ''),
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ position: 'relative', cursor: 'default' }, style),
 	          onMouseEnter: this.handleMouseEnter.bind(this, offset, xAxisMap, yAxisMap),
 	          onMouseMove: this.handleMouseMove.bind(this, offset, xAxisMap, yAxisMap),
@@ -12091,7 +12684,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderGrid(xAxisMap, yAxisMap, offset),
 	          this.renderReferenceLines(xAxisMap, yAxisMap, offset),
 	          this.renderXAxis(xAxisMap),
@@ -12117,7 +12710,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = BarChart;
 
 /***/ },
-/* 57 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12126,7 +12719,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview Composed Chart
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -12136,39 +12731,39 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _CartesianChart2 = __webpack_require__(13);
+	var _CartesianChart2 = __webpack_require__(15);
 
 	var _CartesianChart3 = _interopRequireDefault(_CartesianChart2);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-	var _Line = __webpack_require__(19);
+	var _Line = __webpack_require__(21);
 
 	var _Line2 = _interopRequireDefault(_Line);
 
-	var _Bar = __webpack_require__(18);
+	var _Bar = __webpack_require__(20);
 
 	var _Bar2 = _interopRequireDefault(_Bar);
 
-	var _Area = __webpack_require__(17);
+	var _Area = __webpack_require__(19);
 
 	var _Area2 = _interopRequireDefault(_Area);
 
-	var _Curve = __webpack_require__(9);
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
 
-	var _Dot = __webpack_require__(10);
+	var _Dot = __webpack_require__(11);
 
 	var _Dot2 = _interopRequireDefault(_Dot);
 
-	var _Rectangle = __webpack_require__(12);
+	var _Rectangle = __webpack_require__(13);
 
 	var _Rectangle2 = _interopRequireDefault(_Rectangle);
 
@@ -12179,6 +12774,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _LodashUtils = __webpack_require__(8);
 
 	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12200,7 +12799,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(ComposedChart, [{
-	    key: 'getLineComposeData',
+	    key: 'getLineComposedData',
 
 	    /**
 	     * Compose the data of each line
@@ -12209,7 +12808,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {String} dataKey The unique key of a group
 	     * @return {Array}  Composed data
 	     */
-	    value: function getLineComposeData(xAxis, yAxis, dataKey) {
+	    value: function getLineComposedData(xAxis, yAxis, dataKey) {
 	      var _props = this.props;
 	      var data = _props.data;
 	      var layout = _props.layout;
@@ -12231,12 +12830,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} xAxis   The configuration of x-axis
 	     * @param  {Object} yAxis   The configuration of y-axis
 	     * @param  {String} dataKey The unique key of a group
+	     * @param  {Array} stackedData The stacked data of a area item
 	     * @return {Array} Composed data
 	     */
 
 	  }, {
-	    key: 'getAreaComposeData',
-	    value: function getAreaComposeData(xAxis, yAxis, dataKey, stackedData) {
+	    key: 'getAreaComposedData',
+	    value: function getAreaComposedData(xAxis, yAxis, dataKey, stackedData) {
 	      var _props2 = this.props;
 	      var data = _props2.data;
 	      var layout = _props2.layout;
@@ -12285,12 +12885,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} yAxis       The configuration of y-axis
 	     * @param  {Object} offset      The offset of main part in the svg element
 	     * @param  {String} dataKey     The unique key of a group
+	     * @param  {Array} stackedData  The stacked data of a bar item
 	     * @return {Array} Composed data
 	     */
 
 	  }, {
-	    key: 'getBarComposeData',
-	    value: function getBarComposeData(barPosition, xAxis, yAxis, offset, dataKey, stackedData) {
+	    key: 'getBarComposedData',
+	    value: function getBarComposedData(barPosition, xAxis, yAxis, offset, dataKey, stackedData) {
 	      var layout = this.props.layout;
 	      var _state = this.state;
 	      var dataStartIndex = _state.dataStartIndex;
@@ -12401,7 +13002,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    /**
 	     * Calculate the size of all groups
-	     * @param  {Array} items All the instance of Bar
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
 	     * @return {Object} The size of all groups
 	     */
 
@@ -12411,8 +13012,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props4 = this.props;
 	      var layout = _props4.layout;
 	      var barSize = _props4.barSize;
-
-	      console.log(stackGroups);
 
 	      return Object.keys(stackGroups).reduce(function (result, axisId) {
 	        var sgs = stackGroups[axisId].stackGroups;
@@ -12593,7 +13192,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var strokeWidth = _child$props.strokeWidth;
 	        var stroke = _child$props.stroke;
 
-	        var points = _this2.getLineComposeData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey);
+	        var points = _this2.getLineComposedData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey);
 	        var activePoint = points[activeTooltipIndex];
 	        var pointStyle = { fill: stroke, strokeWidth: 2, stroke: '#fff' };
 
@@ -12636,6 +13235,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} xAxisMap The configuration of all x-axis
 	     * @param  {Object} yAxisMap The configuration of all y-axis
 	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
 	     * @return {ReactComponent} The instances of Area
 	     */
 
@@ -12666,7 +13266,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var axisId = layout === 'horizontal' ? xAxisId : yAxisId;
 	        var stackedData = stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack && _this3.getStackedDataOfItem(child, stackGroups[axisId].stackGroups);
-	        var composeData = _this3.getAreaComposeData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey, stackedData);
+	        var composeData = _this3.getAreaComposedData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey, stackedData);
 
 	        var activePoint = composeData.points && composeData.points[activeTooltipIndex];
 	        var pointStyle = { fill: fill, strokeWidth: 2, stroke: '#fff' };
@@ -12711,6 +13311,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} xAxisMap The configuration of all x-axis
 	     * @param  {Object} yAxisMap The configuration of all y-axis
 	     * @param  {Object} offset   The offset of main part in the svg element
+	     * @param  {Object} stackGroups The items grouped by axisId and stackId
 	     * @return {ReactComponent}  All the instances of Bar
 	     */
 
@@ -12745,7 +13346,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          layout: layout,
 	          onMouseLeave: _this4.handleBarMouseLeave.bind(_this4),
 	          onMouseEnter: _this4.handleBarMouseEnter.bind(_this4, dataKey),
-	          data: _this4.getBarComposeData(barPosition, xAxisMap[xAxisId], yAxisMap[yAxisId], offset, dataKey, stackedData)
+	          data: _this4.getBarComposedData(barPosition, xAxisMap[xAxisId], yAxisMap[yAxisId], offset, dataKey, stackedData)
 	        });
 	      }, this);
 	    }
@@ -12755,7 +13356,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props6 = this.props;
 	      var style = _props6.style;
 	      var children = _props6.children;
+	      var className = _props6.className;
 	      var layout = _props6.layout;
+	      var width = _props6.width;
+	      var height = _props6.height;
 
 	      var numberAxisName = layout === 'horizontal' ? 'yAxis' : 'xAxis';
 	      var lineItems = _ReactUtils2.default.findAllByType(children, _Line2.default);
@@ -12774,7 +13378,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ position: 'relative', cursor: 'default' }, style),
 	          onMouseEnter: this.handleMouseEnter.bind(this, offset, xAxisMap, yAxisMap),
 	          onMouseMove: this.handleMouseMove.bind(this, offset, xAxisMap, yAxisMap),
@@ -12782,7 +13386,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderGrid(xAxisMap, yAxisMap, offset),
 	          this.renderReferenceLines(xAxisMap, yAxisMap, offset),
 	          this.renderXAxis(xAxisMap),
@@ -12823,7 +13427,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ComposedChart;
 
 /***/ },
-/* 58 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12832,7 +13436,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview Line Chart
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -12842,11 +13448,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _CartesianChart2 = __webpack_require__(13);
+	var _CartesianChart2 = __webpack_require__(15);
 
 	var _CartesianChart3 = _interopRequireDefault(_CartesianChart2);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -12854,21 +13460,25 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-	var _Line = __webpack_require__(19);
+	var _Line = __webpack_require__(21);
 
 	var _Line2 = _interopRequireDefault(_Line);
 
-	var _Curve = __webpack_require__(9);
+	var _Curve = __webpack_require__(10);
 
 	var _Curve2 = _interopRequireDefault(_Curve);
 
-	var _Dot = __webpack_require__(10);
+	var _Dot = __webpack_require__(11);
 
 	var _Dot2 = _interopRequireDefault(_Dot);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12888,7 +13498,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(LineChart, [{
-	    key: 'getComposeData',
+	    key: 'getComposedData',
 
 	    /**
 	     * Compose the data of each group
@@ -12897,7 +13507,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {String} dataKey The unique key of a group
 	     * @return {Array}  Composed data
 	     */
-	    value: function getComposeData(xAxis, yAxis, dataKey) {
+	    value: function getComposedData(xAxis, yAxis, dataKey) {
 	      var _props = this.props;
 	      var data = _props.data;
 	      var layout = _props.layout;
@@ -12967,7 +13577,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        points: [{ x: x1, y: y1 }, { x: x2, y: y2 }]
 	      });
 
-	      return _react2.default.isValidElement(tooltipItem.props.cursor) ? _react2.default.cloneElement(tooltipItem.props.cursor, cursorProps) : _react2.default.createElement(_Curve2.default, _extends({}, cursorProps, { type: 'linear', className: 'recharts-cursor' }));
+	      return _react2.default.isValidElement(tooltipItem.props.cursor) ? _react2.default.cloneElement(tooltipItem.props.cursor, cursorProps) : _react2.default.createElement(_Curve2.default, _extends({}, cursorProps, { type: 'linear', className: 'recharts-tooltip-cursor' }));
 	    }
 
 	    /**
@@ -13002,7 +13612,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var strokeWidth = _child$props.strokeWidth;
 	        var stroke = _child$props.stroke;
 
-	        var points = _this2.getComposeData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey);
+	        var points = _this2.getComposedData(xAxisMap[xAxisId], yAxisMap[yAxisId], dataKey);
 	        var activePoint = points[activeTooltipIndex];
 	        var pointStyle = { fill: stroke, strokeWidth: 2, stroke: '#fff' };
 
@@ -13044,6 +13654,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props2 = this.props;
 	      var style = _props2.style;
 	      var children = _props2.children;
+	      var className = _props2.className;
+	      var width = _props2.width;
+	      var height = _props2.height;
 
 	      var items = _ReactUtils2.default.findAllByType(children, _Line2.default);
 
@@ -13056,7 +13669,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ position: 'relative', cursor: 'default' }, style),
 	          onMouseEnter: this.handleMouseEnter.bind(this, offset, xAxisMap, yAxisMap),
 	          onMouseMove: this.handleMouseMove.bind(this, offset, xAxisMap, yAxisMap),
@@ -13064,7 +13677,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderGrid(xAxisMap, yAxisMap, offset),
 	          this.renderReferenceLines(xAxisMap, yAxisMap, offset),
 	          this.renderXAxis(xAxisMap),
@@ -13101,7 +13714,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = LineChart;
 
 /***/ },
-/* 59 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13110,7 +13723,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp2;
+	var _class, _temp2; /**
+	                     * @fileOverview Pie Chart
+	                     */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -13120,7 +13735,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -13128,17 +13743,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _Pie = __webpack_require__(33);
+	var _Pie = __webpack_require__(36);
 
 	var _Pie2 = _interopRequireDefault(_Pie);
 
-	var _Legend = __webpack_require__(11);
+	var _Legend = __webpack_require__(12);
 
 	var _Legend2 = _interopRequireDefault(_Legend);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13150,8 +13769,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var PieChart = (_temp2 = _class = function (_React$Component) {
-	  _inherits(PieChart, _React$Component);
+	var PieChart = (_temp2 = _class = function (_Component) {
+	  _inherits(PieChart, _Component);
 
 	  function PieChart() {
 	    var _Object$getPrototypeO;
@@ -13173,8 +13792,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(PieChart, [{
-	    key: 'getComposeData',
-	    value: function getComposeData(item) {
+	    key: 'getComposedData',
+	    value: function getComposedData(item) {
 	      var _item$props = item.props;
 	      var fill = _item$props.fill;
 	      var stroke = _item$props.stroke;
@@ -13237,7 +13856,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var height = _props.height;
 
 	      var legendData = items.reduce(function (result, child) {
-	        var data = _this4.getComposeData(child);
+	        var nameKey = child.props.nameKey;
+
+	        var data = _this4.getComposedData(child);
 
 	        return result.concat(data.map(function (entry) {
 	          var name = entry.name;
@@ -13245,7 +13866,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	          var rest = _objectWithoutProperties(entry, ['name', 'value']);
 
-	          return _extends({ value: entry.name, color: entry.fill }, rest);
+	          return _extends({ value: entry[nameKey], color: entry.fill }, rest);
 	        }));
 	      }, []);
 
@@ -13292,7 +13913,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          key: 'recharts-pie-' + i,
 	          cx: cx || width / 2,
 	          cy: cy || height / 2,
-	          data: _this5.getComposeData(child),
+	          data: _this5.getComposedData(child),
 	          onMouseEnter: _this5.handleMouseEnter.bind(_this5),
 	          onMouseLeave: _this5.handleMouseLeave.bind(_this5),
 	          outerRadius: outerRadius || maxRadius * 0.8
@@ -13305,17 +13926,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props3 = this.props;
 	      var style = _props3.style;
 	      var children = _props3.children;
+	      var className = _props3.className;
+	      var width = _props3.width;
+	      var height = _props3.height;
 
 	      var items = _ReactUtils2.default.findAllByType(children, _Pie2.default);
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ position: 'relative', cursor: 'default' }, style)
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderItems(items)
 	        ),
 	        this.renderLegend(items),
@@ -13325,7 +13949,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return PieChart;
-	}(_react2.default.Component), _class.displayName = 'PieChart', _class.propTypes = {
+	}(_react.Component), _class.displayName = 'PieChart', _class.propTypes = {
 	  width: _react.PropTypes.number.isRequired,
 	  height: _react.PropTypes.number.isRequired,
 	  margin: _react.PropTypes.shape({
@@ -13337,6 +13961,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  title: _react.PropTypes.string,
 	  style: _react.PropTypes.object,
 	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node]),
+	  className: _react.PropTypes.string,
 	  onMouseEnter: _react.PropTypes.func,
 	  onMouseLeave: _react.PropTypes.func,
 	  onClick: _react.PropTypes.func
@@ -13347,7 +13972,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = PieChart;
 
 /***/ },
-/* 60 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13358,7 +13983,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview Radar Chart
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -13368,7 +13995,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -13376,35 +14003,49 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Layer2 = _interopRequireDefault(_Layer);
 
+	var _Radar = __webpack_require__(37);
+
+	var _Radar2 = _interopRequireDefault(_Radar);
+
+	var _PolarGrid = __webpack_require__(43);
+
+	var _PolarGrid2 = _interopRequireDefault(_PolarGrid);
+
+	var _PolarAngleAxis = __webpack_require__(42);
+
+	var _PolarAngleAxis2 = _interopRequireDefault(_PolarAngleAxis);
+
+	var _PolarRadiusAxis = __webpack_require__(44);
+
+	var _PolarRadiusAxis2 = _interopRequireDefault(_PolarRadiusAxis);
+
+	var _Legend = __webpack_require__(12);
+
+	var _Legend2 = _interopRequireDefault(_Legend);
+
 	var _ReactUtils = __webpack_require__(3);
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _Radar = __webpack_require__(34);
+	var _LodashUtils = __webpack_require__(8);
 
-	var _Radar2 = _interopRequireDefault(_Radar);
+	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
 
-	var _PolarGrid = __webpack_require__(40);
+	var _d3Scale = __webpack_require__(14);
 
-	var _PolarGrid2 = _interopRequireDefault(_PolarGrid);
+	var _d3Scale2 = _interopRequireDefault(_d3Scale);
 
-	var _PolarAngleAxis = __webpack_require__(39);
+	var _invariant = __webpack_require__(32);
 
-	var _PolarAngleAxis2 = _interopRequireDefault(_PolarAngleAxis);
+	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _PolarRadiusAxis = __webpack_require__(41);
+	var _rechartsScale = __webpack_require__(17);
 
-	var _PolarRadiusAxis2 = _interopRequireDefault(_PolarRadiusAxis);
+	var _classnames = __webpack_require__(4);
 
-	var _Polygon = __webpack_require__(43);
-
-	var _Polygon2 = _interopRequireDefault(_Polygon);
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
-
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -13414,154 +14055,183 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var RADIAN = Math.PI / 180;
 
-	var RadarChart = (_temp = _class = function (_React$Component) {
-	  _inherits(RadarChart, _React$Component);
+	var RadarChart = (_temp = _class = function (_Component) {
+	  _inherits(RadarChart, _Component);
 
-	  function RadarChart(props) {
+	  function RadarChart() {
 	    _classCallCheck(this, RadarChart);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(RadarChart).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(RadarChart).apply(this, arguments));
 	  }
 
 	  _createClass(RadarChart, [{
+	    key: 'getRadiusAxisCfg',
+	    value: function getRadiusAxisCfg(radiusAxis) {
+	      var _props = this.props;
+	      var children = _props.children;
+	      var innerRadius = _props.innerRadius;
+	      var outerRadius = _props.outerRadius;
+
+	      var domain = undefined;
+	      var tickCount = undefined;
+	      var ticks = undefined;
+
+	      if (radiusAxis && radiusAxis.props.domain) {
+	        tickCount = Math.max(radiusAxis.props.tickCount || _PolarRadiusAxis2.default.defaultProps.tickCount, 2);
+	        domain = radiusAxis.props.domain;
+	        (0, _invariant2.default)(domain.length === 2 && domain[0] === +domain[0] && domain[1] === +domain[1], 'domain in PolarRadiusAxis should be an array which has two numbers');
+	      } else if (radiusAxis && radiusAxis.props.ticks) {
+	        ticks = radiusAxis.props.ticks;
+
+	        tickCount = ticks.length;
+	        domain = [Math.min.apply(null, ticks), Math.max.apply(null, ticks)];
+	      } else {
+	        tickCount = Math.max(radiusAxis && radiusAxis.props.tickCount || _PolarRadiusAxis2.default.defaultProps.tickCount, 2);
+	        ticks = this.getTicksByItems(radiusAxis, tickCount);
+
+	        domain = [Math.min.apply(null, ticks), Math.max.apply(null, ticks)];
+	      }
+
+	      return {
+	        tickCount: tickCount,
+	        ticks: ticks,
+	        scale: _d3Scale2.default.linear().domain(domain).range([innerRadius, outerRadius])
+	      };
+	    }
+	  }, {
+	    key: 'getTicksByItems',
+	    value: function getTicksByItems(axisItem, tickCount) {
+	      var _props2 = this.props;
+	      var data = _props2.data;
+	      var children = _props2.children;
+
+	      var radarItems = _ReactUtils2.default.findAllByType(children, _Radar2.default);
+	      var dataKeys = radarItems.map(function (item) {
+	        return item.props.dataKey;
+	      });
+	      var max = data.reduce(function (prev, current) {
+	        var currentMax = Math.max.apply(null, dataKeys.map(function (v) {
+	          return current[v] || 0;
+	        }));
+
+	        return Math.max(prev, currentMax);
+	      }, 0);
+	      var tickValues = (0, _rechartsScale.getNiceTickValues)([0, max], tickCount);
+
+	      return tickValues;
+	    }
+	  }, {
 	    key: 'getGridRadius',
-	    value: function getGridRadius(gridCount, inner, outer) {
-	      var innerRadius = inner;
-	      var outerRadius = outer;
+	    value: function getGridRadius(gridCount, innerRadius, outerRadius) {
+	      var domain = _LodashUtils2.default.range(0, gridCount);
+	      var scale = _d3Scale2.default.point().domain(domain).range([innerRadius, outerRadius]);
 
-	      var result = [];
-
-	      if (innerRadius === outerRadius) {
-	        return result;
-	      }
-
-	      if (innerRadius > outerRadius) {
-	        var _ref = [outerRadius, innerRadius];
-	        innerRadius = _ref[0];
-	        outerRadius = _ref[1];
-	      }
-
-	      // generate grid of same gap
-	      var step = (outerRadius - innerRadius) / gridCount;
-
-	      for (var i = 0; i < gridCount; i++) {
-	        if (i === 0 && innerRadius > 0) {
-	          result.push(innerRadius);
-	        }
-
-	        result.push(innerRadius + step * (i + 1));
-	      }
-
-	      return result;
+	      return domain.map(function (v) {
+	        return scale(v);
+	      });
 	    }
 	  }, {
 	    key: 'getAngle',
-	    value: function getAngle(i, len, startAngle, clockWise) {
+	    value: function getAngle(index, dataLength, startAngle, clockWise) {
 	      var sign = clockWise ? -1 : 1;
-	      var angleInterval = 360 / len;
+	      var angleInterval = 360 / dataLength;
 
-	      return startAngle + i * sign * angleInterval;
+	      return startAngle + index * sign * angleInterval;
 	    }
 	  }, {
 	    key: 'getAngleTicks',
-	    value: function getAngleTicks(len, startAngle, clockWise) {
+	    value: function getAngleTicks(dataLength, startAngle, clockWise) {
 	      var angles = [];
 
-	      for (var i = 0; i < len; i++) {
-	        angles.push(this.getAngle(i, len, startAngle, clockWise));
+	      for (var i = 0; i < dataLength; i++) {
+	        angles.push(this.getAngle(i, dataLength, startAngle, clockWise));
 	      }
 
 	      return angles;
 	    }
 	  }, {
-	    key: 'polarToCartesian',
-	    value: function polarToCartesian(cx, cy, angle, radius) {
-	      return [cx + Math.cos(angle) * radius, cy + Math.sin(angle) * radius];
+	    key: 'getRadiusTicks',
+	    value: function getRadiusTicks(axisCfg) {
+	      var ticks = axisCfg.ticks;
+	      var scale = axisCfg.scale;
+
+	      if (ticks && ticks.length) {
+	        return ticks.map(function (entry) {
+	          return {
+	            radius: scale(entry),
+	            value: entry
+	          };
+	        });
+	      }
+	      var tickCount = axisCfg.tickCount;
+
+	      var domain = scale.domain();
+
+	      return _LodashUtils2.default.range(0, tickCount).map(function (v, i) {
+	        var value = domain[0] + i * (domain[1] - domain[0]) / (tickCount - 1);
+	        return {
+	          value: value,
+	          radius: scale(value)
+	        };
+	      });
 	    }
 	  }, {
-	    key: 'calculateCoordinate',
-	    value: function calculateCoordinate(data, dataKey, max) {
-	      var _props = this.props;
-	      var cx = _props.cx;
-	      var cy = _props.cy;
-	      var innerRadius = _props.innerRadius;
-	      var outerRadius = _props.outerRadius;
-	      var startAngle = _props.startAngle;
-	      var clockWise = _props.clockWise;
+	    key: 'getComposedData',
+	    value: function getComposedData(item, scale) {
+	      var _this2 = this;
 
+	      var dataKey = item.props.dataKey;
+	      var _props3 = this.props;
+	      var data = _props3.data;
+	      var cx = _props3.cx;
+	      var cy = _props3.cy;
+	      var innerRadius = _props3.innerRadius;
+	      var outerRadius = _props3.outerRadius;
+	      var startAngle = _props3.startAngle;
+	      var clockWise = _props3.clockWise;
+
+	      var len = data.length;
+
+	      return data.map(function (entry, i) {
+	        var value = entry[dataKey] || 0;
+	        var angle = _this2.getAngle(i, len, startAngle, clockWise);
+	        var radius = scale(value);
+
+	        return _extends({}, _this2.polarToCartesian(cx, cy, angle, radius), {
+	          value: value,
+	          cx: cx, cy: cy, radius: radius, angle: angle,
+	          payload: entry
+	        });
+	      });
+	    }
+	  }, {
+	    key: 'polarToCartesian',
+	    value: function polarToCartesian(cx, cy, angle, radius) {
 	      return {
-	        name: data.map(function (v) {
-	          return v.name;
-	        }),
-	        radius: data.map(function (v) {
-	          return (outerRadius - innerRadius) * v[dataKey] / max + innerRadius;
-	        }),
-	        cx: cx,
-	        cy: cy,
-	        innerRadius: innerRadius,
-	        outerRadius: outerRadius,
-	        startAngle: startAngle,
-	        clockWise: clockWise
+	        x: cx + Math.cos(-RADIAN * angle) * radius,
+	        y: cy + Math.sin(-RADIAN * angle) * radius
 	      };
 	    }
 	  }, {
-	    key: 'renderDefaultRadar',
-	    value: function renderDefaultRadar(_ref2) {
-	      var _this2 = this;
-
-	      var radar = _ref2.radar;
-
-	      var otherProps = _objectWithoutProperties(_ref2, ['radar']);
-
-	      var cx = radar.cx;
-	      var cy = radar.cy;
-	      var startAngle = radar.startAngle;
-	      var clockWise = radar.clockWise;
-
-	      var len = radar.radius.length;
-	      var points = radar.radius.map(function (v, i) {
-	        return _this2.polarToCartesian(cx, cy, -_this2.getAngle(i, len, startAngle, clockWise) * RADIAN, v);
-	      });
-
-	      return _react2.default.createElement(_Polygon2.default, _extends({ points: points }, otherProps));
-	    }
-	  }, {
 	    key: 'renderRadars',
-	    value: function renderRadars() {
+	    value: function renderRadars(items, scale) {
 	      var _this3 = this;
 
-	      var _props2 = this.props;
-	      var data = _props2.data;
-	      var children = _props2.children;
-	      var shape = _props2.shape;
+	      var _props4 = this.props;
+	      var data = _props4.data;
+	      var children = _props4.children;
 
-	      var radarElements = _ReactUtils2.default.findAllByType(children, _Radar2.default);
-	      if (radarElements) {
+	      if (items && items.length) {
 	        var _ret = function () {
-	          var dataKeys = radarElements.map(function (v) {
-	            return v.props.dataKey;
-	          });
-
-	          var max = data.reduce(function (prev, current) {
-	            var _Math;
-
-	            var currentMax = (_Math = Math).max.apply(_Math, _toConsumableArray(dataKeys.map(function (v) {
-	              return current[v];
-	            })));
-
-	            return prev > currentMax ? prev : currentMax;
-	          }, 0);
+	          var baseProps = _ReactUtils2.default.getPresentationAttributes(_this3.props);
 
 	          return {
-	            v: radarElements.map(function (v, i) {
-	              var radar = _this3.calculateCoordinate(data, v.props.dataKey, max);
-	              var presentationAttributes = _ReactUtils2.default.getPresentationAttributes(v);
+	            v: items.map(function (el, index) {
 
-	              return _react2.default.createElement(
-	                _Layer2.default,
-	                { key: 'recharts-radar-' + i },
-	                _react2.default.isValidElement(shape) ? _react2.default.cloneElement(shape, _extends({ radar: radar }, presentationAttributes)) : _this3.renderDefaultRadar(_extends({ radar: radar }, presentationAttributes))
-	              );
+	              return _react2.default.cloneElement(el, _extends({}, baseProps, _ReactUtils2.default.getPresentationAttributes(el), {
+	                points: _this3.getComposedData(el, scale),
+	                key: 'radar-' + index
+	              }));
 	            })
 	          };
 	        }();
@@ -13573,28 +14243,31 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }, {
 	    key: 'renderGrid',
-	    value: function renderGrid() {
-	      var _props3 = this.props;
-	      var data = _props3.data;
-	      var children = _props3.children;
+	    value: function renderGrid(radiusAxisCfg) {
+	      var _props5 = this.props;
+	      var data = _props5.data;
+	      var children = _props5.children;
 
 	      var len = data.length;
 	      var grid = _ReactUtils2.default.findChildByType(children, _PolarGrid2.default);
 
 	      if (grid) {
-	        var cx = grid.props.cx || this.props.cx;
-	        var cy = grid.props.cy || this.props.cy;
-	        var startAngle = grid.props.startAngle || this.props.startAngle;
-	        var innerRadius = grid.props.innerRadius || this.props.innerRadius;
-	        var outerRadius = grid.props.outerRadius || this.props.outerRadius;
-	        var clockWise = grid.props.clockWise || this.props.clockWise;
-	        var gridCount = grid.props.gridCount;
+	        var _props6 = this.props;
+	        var cx = _props6.cx;
+	        var cy = _props6.cy;
+	        var innerRadius = _props6.innerRadius;
+	        var outerRadius = _props6.outerRadius;
+	        var startAngle = _props6.startAngle;
+	        var clockWise = _props6.clockWise;
 
-	        return _react2.default.cloneElement(grid, _extends({
+	        var gridCount = radiusAxisCfg.tickCount;
+
+	        return _react2.default.cloneElement(grid, {
 	          polarAngles: this.getAngleTicks(len, startAngle, clockWise),
 	          polarRadius: this.getGridRadius(gridCount, innerRadius, outerRadius),
-	          cx: cx, cy: cy, startAngle: startAngle, innerRadius: innerRadius, outerRadius: outerRadius, clockWise: clockWise
-	        }, grid.props));
+	          cx: cx, cy: cy, innerRadius: innerRadius, outerRadius: outerRadius,
+	          key: 'layer-grid'
+	        });
 	      }
 
 	      return null;
@@ -13604,29 +14277,37 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function renderAngleAxis() {
 	      var _this4 = this;
 
-	      var _props4 = this.props;
-	      var data = _props4.data;
-	      var children = _props4.children;
+	      var _props7 = this.props;
+	      var data = _props7.data;
+	      var children = _props7.children;
+	      var startAngle = _props7.startAngle;
+	      var clockWise = _props7.clockWise;
 
 	      var len = data.length;
 	      var angleAxis = _ReactUtils2.default.findChildByType(children, _PolarAngleAxis2.default);
+	      var grid = _ReactUtils2.default.findChildByType(children, _PolarGrid2.default);
 
 	      if (angleAxis) {
 	        var _ret2 = function () {
-	          var cx = angleAxis.props.cx || _this4.props.cx;
-	          var cy = angleAxis.props.cy || _this4.props.cy;
-	          var startAngle = angleAxis.props.startAngle || _this4.props.startAngle;
-	          var innerRadius = angleAxis.props.innerRadius || _this4.props.innerRadius;
-	          var outerRadius = angleAxis.props.outerRadius || _this4.props.outerRadius;
-	          var clockWise = angleAxis.props.clockWise || _this4.props.clockWise;
+	          var _props8 = _this4.props;
+	          var cx = _props8.cx;
+	          var cy = _props8.cy;
+
+	          var radius = angleAxis.props.radius || _this4.props.outerRadius;
+	          var dataKey = angleAxis.props.dataKey;
 
 	          return {
-	            v: _react2.default.cloneElement(angleAxis, _extends({
+	            v: _react2.default.cloneElement(angleAxis, {
 	              ticks: data.map(function (v, i) {
-	                return { name: v.name, angle: _this4.getAngle(i, len, startAngle, clockWise) };
+	                return {
+	                  value: dataKey ? v[dataKey] : i,
+	                  angle: _this4.getAngle(i, len, startAngle, clockWise)
+	                };
 	              }),
-	              cx: cx, cy: cy, startAngle: startAngle, innerRadius: innerRadius, outerRadius: outerRadius, clockWise: clockWise
-	            }, angleAxis.props))
+	              cx: cx, cy: cy, radius: radius,
+	              axisLineType: grid && grid.props && grid.props.gridType || _PolarGrid2.default.defaultProps.gridType,
+	              key: 'layer-angle-axis'
+	            })
 	          };
 	        }();
 
@@ -13637,59 +14318,101 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }, {
 	    key: 'renderRadiusAxis',
-	    value: function renderRadiusAxis() {
-	      var _props5 = this.props;
-	      var data = _props5.data;
-	      var children = _props5.children;
+	    value: function renderRadiusAxis(radiusAxis, radiusAxisCfg) {
+	      var _props9 = this.props;
+	      var cx = _props9.cx;
+	      var cy = _props9.cy;
+	      var startAngle = _props9.startAngle;
 
-	      var len = data.length;
-	      var radiusAxis = _ReactUtils2.default.findChildByType(children, _PolarRadiusAxis2.default);
-	      var grid = _ReactUtils2.default.findChildByType(children, _PolarGrid2.default);
-
-	      if (grid && radiusAxis) {
-	        var cx = radiusAxis.props.cx || grid.props.cx || this.props.cx;
-	        var cy = radiusAxis.props.cy || grid.props.cy || this.props.cy;
-	        var startAngle = radiusAxis.props.startAngle || grid.props.startAngle || this.props.startAngle;
-	        var innerRadius = radiusAxis.props.innerRadius || grid.props.innerRadius || this.props.innerRadius;
-	        var outerRadius = radiusAxis.props.outerRadius || grid.props.outerRadius || this.props.outerRadius;
-	        var clockWise = radiusAxis.props.clockWise || grid.props.clockWise || this.props.clockWise;
-	        var gridCount = grid.props.gridCount;
-
-	        return _react2.default.cloneElement(radiusAxis, _extends({
-	          angle: this.getAngleTicks(len, startAngle, clockWise)[len - 1],
-	          polarRadius: this.getGridRadius(gridCount, innerRadius, outerRadius),
-	          cx: cx, cy: cy, startAngle: startAngle, innerRadius: innerRadius, outerRadius: outerRadius, clockWise: clockWise
-	        }, radiusAxis.props));
+	      if (radiusAxis && !radiusAxis.props.hide) {
+	        return _react2.default.cloneElement(radiusAxis, {
+	          angle: radiusAxis.props.angle || startAngle,
+	          ticks: this.getRadiusTicks(radiusAxisCfg),
+	          cx: cx, cy: cy
+	        });
 	      }
 
 	      return null;
 	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _props6 = this.props;
-	      var outerRadius = _props6.outerRadius;
-	      var data = _props6.data;
-	      var width = _props6.width;
-	      var height = _props6.height;
+	    /**
+	     * Draw legend
+	     * @param  {Array} items             The instances of item
+	     * @return {ReactElement}            The instance of Legend
+	     */
 
-	      if (outerRadius <= 0 || !data || !data.length) {
+	  }, {
+	    key: 'renderLegend',
+	    value: function renderLegend(items) {
+	      var _props10 = this.props;
+	      var children = _props10.children;
+	      var width = _props10.width;
+	      var height = _props10.height;
+
+	      var legendItem = _ReactUtils2.default.findChildByType(children, _Legend2.default);
+	      if (!legendItem) {
 	        return null;
 	      }
 
+	      var legendData = items.map(function (child) {
+	        var _child$props = child.props;
+	        var dataKey = _child$props.dataKey;
+	        var name = _child$props.name;
+	        var legendType = _child$props.legendType;
+
+	        return {
+	          type: legendType || 'square',
+	          color: child.props.stroke || child.props.fill,
+	          value: name || dataKey
+	        };
+	      }, this);
+
+	      return _react2.default.cloneElement(legendItem, _extends({}, _Legend2.default.getWithHeight(legendItem, width, height), {
+	        payload: legendData
+	      }));
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props11 = this.props;
+	      var innerRadius = _props11.innerRadius;
+	      var outerRadius = _props11.outerRadius;
+	      var className = _props11.className;
+	      var data = _props11.data;
+	      var width = _props11.width;
+	      var height = _props11.height;
+	      var children = _props11.children;
+	      var style = _props11.style;
+
+	      if (outerRadius <= 0 || !data || !data.length) {
+	        (0, _invariant2.default)(outerRadius > 0, 'outerRadius should be greater than 0.');
+	        (0, _invariant2.default)(data && data.length, 'data(' + data + ') should not be null, undefined, or an empty array.');
+	        return null;
+	      }
+	      (0, _invariant2.default)(outerRadius > innerRadius, 'outerRadius should be greater than innerRadius, ' + ('but now outerRadius(' + outerRadius + ') is not greater than innerRadius(' + innerRadius + ').'));
+	      var items = _ReactUtils2.default.findAllByType(children, _Radar2.default);
+	      var radiusAxis = _ReactUtils2.default.findChildByType(children, _PolarRadiusAxis2.default);
+	      var radiusAxisCfg = this.getRadiusAxisCfg(radiusAxis);
+
 	      return _react2.default.createElement(
-	        _Surface2.default,
-	        { width: width, height: height },
-	        this.renderGrid(),
-	        this.renderRadiusAxis(),
-	        this.renderAngleAxis(),
-	        this.renderRadars()
+	        'div',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
+	          style: _extends({ position: 'relative', cursor: 'default' }, style)
+	        },
+	        _react2.default.createElement(
+	          _Surface2.default,
+	          { width: width, height: height },
+	          this.renderGrid(radiusAxisCfg),
+	          this.renderRadiusAxis(radiusAxis, radiusAxisCfg),
+	          this.renderAngleAxis(),
+	          this.renderRadars(items, radiusAxisCfg.scale)
+	        ),
+	        this.renderLegend(items)
 	      );
 	    }
 	  }]);
 
 	  return RadarChart;
-	}(_react2.default.Component), _class.displayName = 'Radar', _class.propTypes = {
+	}(_react.Component), _class.displayName = 'RadarChart', _class.propTypes = {
 	  width: _react.PropTypes.number,
 	  height: _react.PropTypes.number,
 
@@ -13700,18 +14423,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  outerRadius: _react.PropTypes.number,
 	  clockWise: _react.PropTypes.bool,
 
-	  shape: _react.PropTypes.element,
-
 	  data: _react.PropTypes.array,
 	  style: _react.PropTypes.object,
-	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
+	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node]),
+	  className: _react.PropTypes.string
 	}, _class.defaultProps = {
 	  width: 0,
 	  height: 0,
 
 	  cx: 0,
 	  cy: 0,
-	  startAngle: 0,
+	  startAngle: 90,
 	  innerRadius: 0,
 	  outerRadius: 0,
 	  clockWise: true,
@@ -13721,7 +14443,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = RadarChart;
 
 /***/ },
-/* 61 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13730,7 +14452,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp2;
+	var _class, _temp2; /**
+	                     * @fileOverview Radar Bar Chart
+	                     */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -13740,7 +14464,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Surface = __webpack_require__(5);
+	var _d3Scale = __webpack_require__(14);
+
+	var _d3Scale2 = _interopRequireDefault(_d3Scale);
+
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -13748,7 +14476,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _RadialBar = __webpack_require__(35);
+	var _RadialBar = __webpack_require__(38);
 
 	var _RadialBar2 = _interopRequireDefault(_RadialBar);
 
@@ -13756,17 +14484,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _LodashUtils2 = _interopRequireDefault(_LodashUtils);
 
-	var _d3Scale = __webpack_require__(15);
-
-	var _d3Scale2 = _interopRequireDefault(_d3Scale);
-
-	var _Legend = __webpack_require__(11);
+	var _Legend = __webpack_require__(12);
 
 	var _Legend2 = _interopRequireDefault(_Legend);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13776,8 +14504,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var RadialBarChart = (_temp2 = _class = function (_React$Component) {
-	  _inherits(RadialBarChart, _React$Component);
+	var RadialBarChart = (_temp2 = _class = function (_Component) {
+	  _inherits(RadialBarChart, _Component);
 
 	  function RadialBarChart() {
 	    var _Object$getPrototypeO;
@@ -13799,7 +14527,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(RadialBarChart, [{
-	    key: 'getComposeData',
+	    key: 'getComposedData',
 
 	    /**
 	      * Compose the data of each group
@@ -13809,7 +14537,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      * @param  {String} dataKey     The unique key of a group
 	      * @return {Array}              Composed data
 	      */
-	    value: function getComposeData(barPosition, radiusScale, center, dataKey) {
+	    value: function getComposedData(barPosition, radiusScale, center, dataKey) {
 	      var data = this.props.data;
 
 	      var pos = barPosition[dataKey];
@@ -14040,7 +14768,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          key: 'radial-bar-' + i,
 	          onMouseLeave: _this4.handleMouseLeave.bind(_this4),
 	          onMouseEnter: _this4.handleMouseEnter.bind(_this4, dataKey),
-	          data: _this4.getComposeData(barPosition, radiusScale, center, dataKey)
+	          data: _this4.getComposedData(barPosition, radiusScale, center, dataKey)
 	        }));
 	      }, this);
 	    }
@@ -14050,6 +14778,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props5 = this.props;
 	      var style = _props5.style;
 	      var children = _props5.children;
+	      var className = _props5.className;
+	      var width = _props5.width;
+	      var height = _props5.height;
 
 	      var items = _ReactUtils2.default.findAllByType(children, _RadialBar2.default);
 	      var center = this.getCenter();
@@ -14057,12 +14788,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ cursor: 'default' }, style, { position: 'relative' })
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderItems(items, radiusScale, center)
 	        ),
 	        this.renderLegend(),
@@ -14072,7 +14803,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return RadialBarChart;
-	}(_react2.default.Component), _class.displayName = 'RadialBarChart', _class.propTypes = {
+	}(_react.Component), _class.displayName = 'RadialBarChart', _class.propTypes = {
 	  width: _react.PropTypes.number.isRequired,
 	  height: _react.PropTypes.number.isRequired,
 	  margin: _react.PropTypes.shape({
@@ -14099,7 +14830,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  onMouseEnter: _react.PropTypes.func,
 	  onMouseLeave: _react.PropTypes.func,
 	  onClick: _react.PropTypes.func,
-	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
+	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node]),
+	  className: _react.PropTypes.string
 	}, _class.defaultProps = {
 	  innerRadius: '30%',
 	  outerRadius: '100%',
@@ -14111,7 +14843,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = RadialBarChart;
 
 /***/ },
-/* 62 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14120,7 +14852,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp2;
+	var _class, _temp2; /**
+	                     * @fileOverview Scatter Chart
+	                     */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -14130,11 +14864,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _rechartsScale = __webpack_require__(31);
+	var _rechartsScale = __webpack_require__(17);
 
-	var _d3Scale = __webpack_require__(15);
+	var _d3Scale = __webpack_require__(14);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -14142,23 +14876,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Layer2 = _interopRequireDefault(_Layer);
 
-	var _CartesianAxis = __webpack_require__(22);
+	var _CartesianAxis = __webpack_require__(24);
 
 	var _CartesianAxis2 = _interopRequireDefault(_CartesianAxis);
 
-	var _CartesianGrid = __webpack_require__(23);
+	var _CartesianGrid = __webpack_require__(25);
 
 	var _CartesianGrid2 = _interopRequireDefault(_CartesianGrid);
 
-	var _Legend = __webpack_require__(11);
+	var _Legend = __webpack_require__(12);
 
 	var _Legend2 = _interopRequireDefault(_Legend);
 
-	var _Tooltip = __webpack_require__(7);
+	var _Tooltip = __webpack_require__(9);
 
 	var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-	var _Scatter = __webpack_require__(36);
+	var _Scatter = __webpack_require__(39);
 
 	var _Scatter2 = _interopRequireDefault(_Scatter);
 
@@ -14166,21 +14900,29 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
 
-	var _XAxis = __webpack_require__(20);
+	var _XAxis = __webpack_require__(22);
 
 	var _XAxis2 = _interopRequireDefault(_XAxis);
 
-	var _YAxis = __webpack_require__(21);
+	var _YAxis = __webpack_require__(23);
 
 	var _YAxis2 = _interopRequireDefault(_YAxis);
 
-	var _ZAxis = __webpack_require__(37);
+	var _ZAxis = __webpack_require__(40);
 
 	var _ZAxis2 = _interopRequireDefault(_ZAxis);
 
-	var _Cross = __webpack_require__(66);
+	var _Cross = __webpack_require__(68);
 
 	var _Cross2 = _interopRequireDefault(_Cross);
+
+	var _invariant = __webpack_require__(32);
+
+	var _invariant2 = _interopRequireDefault(_invariant);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -14190,8 +14932,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var ScatterChart = (_temp2 = _class = function (_React$Component) {
-	  _inherits(ScatterChart, _React$Component);
+	var ScatterChart = (_temp2 = _class = function (_Component) {
+	  _inherits(ScatterChart, _Component);
 
 	  function ScatterChart() {
 	    var _Object$getPrototypeO;
@@ -14212,7 +14954,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  _createClass(ScatterChart, [{
-	    key: 'getComposeData',
+	    key: 'getComposedData',
 
 	    /**
 	     * Compose the data of each group
@@ -14222,7 +14964,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Object} zAxis       The configuration of z-axis
 	     * @return {Array} Composed data
 	     */
-	    value: function getComposeData(data, xAxis, yAxis, zAxis) {
+	    value: function getComposedData(data, xAxis, yAxis, zAxis) {
 	      var xAxisDataKey = xAxis.dataKey;
 	      var yAxisDataKey = yAxis.dataKey;
 	      var zAxisDataKey = zAxis.dataKey;
@@ -14353,6 +15095,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var Axis = axisType === 'xAxis' ? _XAxis2.default : _YAxis2.default;
 	      var axis = _ReactUtils2.default.findChildByType(children, Axis);
 
+	      (0, _invariant2.default)(axis, 'recharts: ScatterChart must has %s', Axis.displayName);
+
 	      if (axis) {
 	        var domain = this.getDomain(items, axis.props.dataKey);
 
@@ -14361,8 +15105,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	          domain: domain
 	        });
 	      }
-
-	      console.info('recharts: ScatterChart must has %s', Axis.displayName);
 
 	      return null;
 	    }
@@ -14623,6 +15365,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Draw legend
 	     * @param  {Array} items             The instances of Scatters
+	     * @param  {Object} offset   The offset of main part in the svg element
 	     * @return {ReactElement}            The instance of Legend
 	     */
 
@@ -14738,7 +15481,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          strokeWidth: finalStrokeWidth,
 	          onMouseLeave: _this2.handleScatterMouseLeave.bind(_this2),
 	          onMouseEnter: _this2.handleScatterMouseEnter.bind(_this2),
-	          points: _this2.getComposeData(data, xAxis, yAxis, zAxis)
+	          points: _this2.getComposedData(data, xAxis, yAxis, zAxis)
 	        });
 	      }, this);
 	    }
@@ -14748,6 +15491,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props5 = this.props;
 	      var style = _props5.style;
 	      var children = _props5.children;
+	      var className = _props5.className;
+	      var width = _props5.width;
+	      var height = _props5.height;
 
 	      var items = _ReactUtils2.default.findAllByType(children, _Scatter2.default);
 	      var zAxis = this.getZAxis(items);
@@ -14760,15 +15506,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'recharts-wrapper',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
 	          style: _extends({ position: 'relative', cursor: 'default' }, style)
 	        },
 	        _react2.default.createElement(
 	          _Surface2.default,
-	          this.props,
+	          { width: width, height: height },
 	          this.renderGrid(xAxis, yAxis, offset),
-	          this.renderAxis(xAxis, 'x-axis-layer'),
-	          this.renderAxis(yAxis, 'y-axis-layer'),
+	          this.renderAxis(xAxis, 'recharts-x-axis'),
+	          this.renderAxis(yAxis, 'recharts-y-axis'),
 	          this.renderCursor(xAxis, yAxis, offset),
 	          this.renderItems(items, xAxis, yAxis, zAxis, offset)
 	        ),
@@ -14779,7 +15525,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return ScatterChart;
-	}(_react2.default.Component), _class.displayName = 'ScatterChart', _class.propTypes = {
+	}(_react.Component), _class.displayName = 'ScatterChart', _class.propTypes = {
 	  width: _react.PropTypes.number.isRequired,
 	  height: _react.PropTypes.number.isRequired,
 	  margin: _react.PropTypes.shape({
@@ -14790,7 +15536,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }),
 	  title: _react.PropTypes.string,
 	  style: _react.PropTypes.object,
-	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node])
+	  children: _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node]),
+	  className: _react.PropTypes.string
 	}, _class.defaultProps = {
 	  style: {},
 	  margin: { top: 5, right: 5, bottom: 5, left: 5 }
@@ -14798,7 +15545,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ScatterChart;
 
 /***/ },
-/* 63 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14807,7 +15554,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _temp;
+	var _class, _temp; /**
+	                    * @fileOverview TreemapChart
+	                    */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -14817,7 +15566,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Surface = __webpack_require__(5);
+	var _Surface = __webpack_require__(7);
 
 	var _Surface2 = _interopRequireDefault(_Surface);
 
@@ -14825,13 +15574,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Layer2 = _interopRequireDefault(_Layer);
 
-	var _Rectangle = __webpack_require__(12);
+	var _Rectangle = __webpack_require__(13);
 
 	var _Rectangle2 = _interopRequireDefault(_Rectangle);
 
 	var _ReactUtils = __webpack_require__(3);
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
+
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -14841,16 +15594,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var TreemapChart = (_temp = _class = function (_React$Component) {
-	  _inherits(TreemapChart, _React$Component);
+	var Treemap = (_temp = _class = function (_Component) {
+	  _inherits(Treemap, _Component);
 
-	  function TreemapChart() {
-	    _classCallCheck(this, TreemapChart);
+	  function Treemap() {
+	    _classCallCheck(this, Treemap);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(TreemapChart).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Treemap).apply(this, arguments));
 	  }
 
-	  _createClass(TreemapChart, [{
+	  _createClass(Treemap, [{
 	    key: 'pad',
 	    value: function pad(node) {
 	      return { x: node.x, y: node.y, width: node.width, height: node.height };
@@ -15031,17 +15784,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _props2 = this.props;
 	      var width = _props2.width;
 	      var height = _props2.height;
+	      var className = _props2.className;
+	      var style = _props2.style;
 
 	      return _react2.default.createElement(
-	        _Surface2.default,
-	        { width: width, height: height },
-	        this.renderAllNodes()
+	        'div',
+	        { className: (0, _classnames2.default)('recharts-wrapper', className),
+	          style: _extends({ position: 'relative', cursor: 'default' }, style)
+	        },
+	        _react2.default.createElement(
+	          _Surface2.default,
+	          { width: width, height: height },
+	          this.renderAllNodes()
+	        )
 	      );
 	    }
 	  }]);
 
-	  return TreemapChart;
-	}(_react2.default.Component), _class.displayName = 'TreemapChart', _class.propTypes = {
+	  return Treemap;
+	}(_react.Component), _class.displayName = 'Treemap', _class.propTypes = {
 	  width: _react.PropTypes.number,
 	  height: _react.PropTypes.number,
 	  data: _react.PropTypes.array,
@@ -15049,22 +15810,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	  ratio: _react.PropTypes.number,
 	  content: _react.PropTypes.element,
 	  fill: _react.PropTypes.string,
-	  stroke: _react.PropTypes.string
+	  stroke: _react.PropTypes.string,
+	  className: _react.PropTypes.string
 	}, _class.defaultProps = {
 	  fill: '#fff',
 	  stroke: '#000'
 	}, _temp);
-	exports.default = TreemapChart;
+	exports.default = Treemap;
 
 /***/ },
-/* 64 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Default Legend Content
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -15074,13 +15838,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Surface = __webpack_require__(5);
-
-	var _Surface2 = _interopRequireDefault(_Surface);
-
 	var _pureRenderDecorator = __webpack_require__(2);
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
+
+	var _Surface = __webpack_require__(7);
+
+	var _Surface2 = _interopRequireDefault(_Surface);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15092,8 +15856,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var SIZE = 32;
 
-	var DefaultLegendContent = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(DefaultLegendContent, _React$Component);
+	var DefaultLegendContent = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(DefaultLegendContent, _Component);
 
 	  function DefaultLegendContent() {
 	    _classCallCheck(this, DefaultLegendContent);
@@ -15154,13 +15918,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var layout = _props.layout;
 
 	      var viewBox = { x: 0, y: 0, width: SIZE, height: SIZE };
-	      var itemStyle = { display: layout === 'horizontal' ? 'inline-block' : 'block', marginRight: 10 };
+	      var itemStyle = {
+	        display: layout === 'horizontal' ? 'inline-block' : 'block',
+	        marginRight: 10
+	      };
 	      var svgStyle = { display: 'inline-block', verticalAlign: 'middle', marginRight: 4 };
 
 	      return payload.map(function (entry, i) {
 	        return _react2.default.createElement(
 	          'li',
-	          { className: 'legend-item legend-item-' + i, style: itemStyle, key: 'legend-item-' + i },
+	          { className: 'recharts-legend-item legend-item-' + i, style: itemStyle, key: 'legend-item-' + i },
 	          _react2.default.createElement(
 	            _Surface2.default,
 	            { width: iconSize, height: iconSize, viewBox: viewBox, style: svgStyle },
@@ -15168,7 +15935,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          ),
 	          _react2.default.createElement(
 	            'span',
-	            { className: 'legend-text' },
+	            { className: 'recharts-legend-item-text' },
 	            entry.value
 	          )
 	        );
@@ -15201,7 +15968,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return DefaultLegendContent;
-	}(_react2.default.Component), _class2.displayName = 'Legend', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'Legend', _class2.propTypes = {
 	  content: _react.PropTypes.element,
 	  iconSize: _react.PropTypes.number,
 	  layout: _react.PropTypes.oneOf(['horizontal', 'vertical']),
@@ -15223,7 +15990,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = DefaultLegendContent;
 
 /***/ },
-/* 65 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -15232,7 +15999,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Default Tooltip Content
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -15254,8 +16023,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var DefaultTooltipContent = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(DefaultTooltipContent, _React$Component);
+	var DefaultTooltipContent = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(DefaultTooltipContent, _Component);
 
 	  function DefaultTooltipContent() {
 	    _classCallCheck(this, DefaultTooltipContent);
@@ -15285,25 +16054,25 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	          return _react2.default.createElement(
 	            'li',
-	            { className: 'tooltip-item', key: 'tooltip-item-' + i, style: finalItemStyle },
+	            { className: 'recharts-tooltip-item', key: 'tooltip-item-' + i, style: finalItemStyle },
 	            _react2.default.createElement(
 	              'span',
-	              { className: 'name' },
+	              { className: 'recharts-tooltip-item-name' },
 	              entry.key
 	            ),
 	            _react2.default.createElement(
 	              'span',
-	              { className: 'separator' },
+	              { className: 'recharts-tooltip-item-separator' },
 	              separator
 	            ),
 	            _react2.default.createElement(
 	              'span',
-	              { className: 'value' },
+	              { className: 'recharts-tooltip-item-value' },
 	              finalFormatter ? finalFormatter(entry.value, entry.key) : entry.value
 	            ),
 	            _react2.default.createElement(
 	              'span',
-	              { className: 'unit' },
+	              { className: 'recharts-tooltip-item-unit' },
 	              entry.unit || ''
 	            )
 	          );
@@ -15311,7 +16080,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        return _react2.default.createElement(
 	          'ul',
-	          { className: 'tooltip-item-list', style: listStyle },
+	          { className: 'recharts-tooltip-item-list', style: listStyle },
 	          items
 	        );
 	      }
@@ -15340,7 +16109,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        { className: 'recharts-default-tooltip', style: finalStyle },
 	        _react2.default.createElement(
 	          'p',
-	          { className: 'tooltip-label', style: finalLabelStyle },
+	          { className: 'recharts-tooltip-label', style: finalLabelStyle },
 	          label || ''
 	        ),
 	        this.renderContent()
@@ -15349,7 +16118,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return DefaultTooltipContent;
-	}(_react2.default.Component), _class2.displayName = 'DefaultTooltipContent', _class2.propTypes = {
+	}(_react.Component), _class2.displayName = 'DefaultTooltipContent', _class2.propTypes = {
 	  separator: _react.PropTypes.string,
 	  formatter: _react.PropTypes.func,
 	  wrapperStyle: _react.PropTypes.object,
@@ -15370,7 +16139,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = DefaultTooltipContent;
 
 /***/ },
-/* 66 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -15379,7 +16148,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Cross
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -15409,8 +16180,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Cross = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Cross, _React$Component);
+	var Cross = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Cross, _Component);
 
 	  function Cross() {
 	    _classCallCheck(this, Cross);
@@ -15453,7 +16224,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Cross;
-	}(_react2.default.Component), _class2.displayName = 'Cross', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Cross', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  x: _react.PropTypes.number,
 	  y: _react.PropTypes.number,
 	  top: _react.PropTypes.number,
@@ -15481,7 +16252,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Cross;
 
 /***/ },
-/* 67 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -15490,7 +16261,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _class, _class2, _temp;
+	var _class, _class2, _temp; /**
+	                             * @fileOverview Triangle
+	                             */
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -15504,6 +16277,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _pureRenderDecorator2 = _interopRequireDefault(_pureRenderDecorator);
 
+	var _classnames = __webpack_require__(4);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
 	var _ReactUtils = __webpack_require__(3);
 
 	var _ReactUtils2 = _interopRequireDefault(_ReactUtils);
@@ -15516,8 +16293,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Rectangle = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_React$Component) {
-	  _inherits(Rectangle, _React$Component);
+	var Rectangle = (0, _pureRenderDecorator2.default)(_class = (_temp = _class2 = function (_Component) {
+	  _inherits(Rectangle, _Component);
 
 	  function Rectangle() {
 	    _classCallCheck(this, Rectangle);
@@ -15549,8 +16326,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var onMouseEnter = _props.onMouseEnter;
 	      var onMouseLeave = _props.onMouseLeave;
 
+	      var layerClass = (0, _classnames2.default)('recharts-triangle', className);
+
 	      return _react2.default.createElement('path', _extends({}, _ReactUtils2.default.getPresentationAttributes(this.props), {
-	        className: 'recharts-triangle ' + (className || ''),
+	        className: layerClass,
 	        onMouseEnter: onMouseEnter,
 	        onMouseLeave: onMouseLeave,
 	        onClick: onClick,
@@ -15560,7 +16339,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  return Rectangle;
-	}(_react2.default.Component), _class2.displayName = 'Rectangle', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
+	}(_react.Component), _class2.displayName = 'Rectangle', _class2.propTypes = _extends({}, _ReactUtils.PRESENTATION_ATTRIBUTES, {
 	  className: _react.PropTypes.string,
 	  points: _react.PropTypes.arrayOf(_react.PropTypes.shape({
 	    x: _react.PropTypes.number,
@@ -15584,11 +16363,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Rectangle;
 
 /***/ },
-/* 68 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(76);
-	__webpack_require__(77);
 	__webpack_require__(78);
 	__webpack_require__(79);
 	__webpack_require__(80);
@@ -15604,10 +16381,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	__webpack_require__(90);
 	__webpack_require__(91);
 	__webpack_require__(92);
-	module.exports = __webpack_require__(25).Math;
+	__webpack_require__(93);
+	__webpack_require__(94);
+	module.exports = __webpack_require__(28).Math;
 
 /***/ },
-/* 69 */
+/* 71 */
 /***/ function(module, exports) {
 
 	var $Object = Object;
@@ -15625,7 +16404,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 70 */
+/* 72 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -15634,11 +16413,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 71 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(70);
+	var aFunction = __webpack_require__(72);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -15659,16 +16438,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 72 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Thank's IE8 for his funny defineProperty
-	module.exports = !__webpack_require__(26)(function(){
+	module.exports = !__webpack_require__(29)(function(){
 	  return Object.defineProperty({}, 'a', {get: function(){ return 7; }}).a != 7;
 	});
 
 /***/ },
-/* 73 */
+/* 75 */
 /***/ function(module, exports) {
 
 	module.exports = function(bitmap, value){
@@ -15681,19 +16460,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 74 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// add fake Function#toString
 	// for correct work wrapped methods / constructors with methods like LoDash isNative
-	var global    = __webpack_require__(44)
-	  , hide      = __webpack_require__(45)
-	  , SRC       = __webpack_require__(75)('src')
+	var global    = __webpack_require__(46)
+	  , hide      = __webpack_require__(47)
+	  , SRC       = __webpack_require__(77)('src')
 	  , TO_STRING = 'toString'
 	  , $toString = Function[TO_STRING]
 	  , TPL       = ('' + $toString).split(TO_STRING);
 
-	__webpack_require__(25).inspectSource = function(it){
+	__webpack_require__(28).inspectSource = function(it){
 	  return $toString.call(it);
 	};
 
@@ -15718,7 +16497,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 75 */
+/* 77 */
 /***/ function(module, exports) {
 
 	var id = 0
@@ -15728,12 +16507,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 76 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.3 Math.acosh(x)
-	var $export = __webpack_require__(4)
-	  , log1p   = __webpack_require__(46)
+	var $export = __webpack_require__(5)
+	  , log1p   = __webpack_require__(48)
 	  , sqrt    = Math.sqrt
 	  , $acosh  = Math.acosh;
 
@@ -15747,11 +16526,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 77 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.5 Math.asinh(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
 	function asinh(x){
 	  return !isFinite(x = +x) || x == 0 ? x : x < 0 ? -asinh(-x) : Math.log(x + Math.sqrt(x * x + 1));
@@ -15760,11 +16539,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	$export($export.S, 'Math', {asinh: asinh});
 
 /***/ },
-/* 78 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.7 Math.atanh(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
 	$export($export.S, 'Math', {
 	  atanh: function atanh(x){
@@ -15773,12 +16552,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 79 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.9 Math.cbrt(x)
-	var $export = __webpack_require__(4)
-	  , sign    = __webpack_require__(28);
+	var $export = __webpack_require__(5)
+	  , sign    = __webpack_require__(31);
 
 	$export($export.S, 'Math', {
 	  cbrt: function cbrt(x){
@@ -15787,11 +16566,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 80 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.11 Math.clz32(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
 	$export($export.S, 'Math', {
 	  clz32: function clz32(x){
@@ -15800,11 +16579,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 81 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.12 Math.cosh(x)
-	var $export = __webpack_require__(4)
+	var $export = __webpack_require__(5)
 	  , exp     = Math.exp;
 
 	$export($export.S, 'Math', {
@@ -15814,21 +16593,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 82 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.14 Math.expm1(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
-	$export($export.S, 'Math', {expm1: __webpack_require__(27)});
+	$export($export.S, 'Math', {expm1: __webpack_require__(30)});
 
 /***/ },
-/* 83 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.16 Math.fround(x)
-	var $export   = __webpack_require__(4)
-	  , sign      = __webpack_require__(28)
+	var $export   = __webpack_require__(5)
+	  , sign      = __webpack_require__(31)
 	  , pow       = Math.pow
 	  , EPSILON   = pow(2, -52)
 	  , EPSILON32 = pow(2, -23)
@@ -15854,11 +16633,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 84 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.17 Math.hypot([value1[, value2[, … ]]])
-	var $export = __webpack_require__(4)
+	var $export = __webpack_require__(5)
 	  , abs     = Math.abs;
 
 	$export($export.S, 'Math', {
@@ -15884,15 +16663,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 85 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.18 Math.imul(x, y)
-	var $export = __webpack_require__(4)
+	var $export = __webpack_require__(5)
 	  , $imul   = Math.imul;
 
 	// some WebKit versions fails with big numbers, some has wrong arity
-	$export($export.S + $export.F * __webpack_require__(26)(function(){
+	$export($export.S + $export.F * __webpack_require__(29)(function(){
 	  return $imul(0xffffffff, 5) != -5 || $imul.length != 2;
 	}), 'Math', {
 	  imul: function imul(x, y){
@@ -15906,11 +16685,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 86 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.21 Math.log10(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
 	$export($export.S, 'Math', {
 	  log10: function log10(x){
@@ -15919,20 +16698,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 87 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.20 Math.log1p(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
-	$export($export.S, 'Math', {log1p: __webpack_require__(46)});
+	$export($export.S, 'Math', {log1p: __webpack_require__(48)});
 
 /***/ },
-/* 88 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.22 Math.log2(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
 	$export($export.S, 'Math', {
 	  log2: function log2(x){
@@ -15941,25 +16720,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 89 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.28 Math.sign(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
-	$export($export.S, 'Math', {sign: __webpack_require__(28)});
+	$export($export.S, 'Math', {sign: __webpack_require__(31)});
 
 /***/ },
-/* 90 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.30 Math.sinh(x)
-	var $export = __webpack_require__(4)
-	  , expm1   = __webpack_require__(27)
+	var $export = __webpack_require__(5)
+	  , expm1   = __webpack_require__(30)
 	  , exp     = Math.exp;
 
 	// V8 near Chromium 38 has a problem with very small numbers
-	$export($export.S + $export.F * __webpack_require__(26)(function(){
+	$export($export.S + $export.F * __webpack_require__(29)(function(){
 	  return !Math.sinh(-2e-17) != -2e-17;
 	}), 'Math', {
 	  sinh: function sinh(x){
@@ -15970,12 +16749,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 91 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.33 Math.tanh(x)
-	var $export = __webpack_require__(4)
-	  , expm1   = __webpack_require__(27)
+	var $export = __webpack_require__(5)
+	  , expm1   = __webpack_require__(30)
 	  , exp     = Math.exp;
 
 	$export($export.S, 'Math', {
@@ -15987,11 +16766,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 92 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.34 Math.trunc(x)
-	var $export = __webpack_require__(4);
+	var $export = __webpack_require__(5);
 
 	$export($export.S, 'Math', {
 	  trunc: function trunc(it){
@@ -16000,7 +16779,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 93 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
@@ -16696,7 +17475,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 94 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
@@ -17196,11 +17975,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 95 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
-	   true ? factory(exports, __webpack_require__(47)) :
+	   true ? factory(exports, __webpack_require__(49)) :
 	  typeof define === 'function' && define.amd ? define('d3-interpolate', ['exports', 'd3-color'], factory) :
 	  factory((global.d3_interpolate = {}),global.d3_color);
 	}(this, function (exports,d3Color) { 'use strict';
@@ -17694,13 +18473,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 96 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
 	   true ? factory(exports) :
-	  typeof define === 'function' && define.amd ? define('d3-path', ['exports'], factory) :
-	  factory((global.d3_path = {}));
+	  typeof define === 'function' && define.amd ? define(['exports'], factory) :
+	  (factory((global.d3_path = {})));
 	}(this, function (exports) { 'use strict';
 
 	  var pi = Math.PI;
@@ -17845,7 +18624,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  };
 
-	  var version = "0.1.3";
+	  var version = "0.1.4";
 
 	  exports.version = version;
 	  exports.path = path;
@@ -17853,11 +18632,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 97 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
-	   true ? factory(exports, __webpack_require__(49)) :
+	   true ? factory(exports, __webpack_require__(51)) :
 	  typeof define === 'function' && define.amd ? define('d3-time-format', ['exports', 'd3-time'], factory) :
 	  factory((global.d3_time_format = {}),global.d3_time);
 	}(this, function (exports,d3Time) { 'use strict';
@@ -18678,7 +19457,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 98 */
+/* 100 */
 /***/ function(module, exports) {
 
 	/**
@@ -18733,7 +19512,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = shallowEqual;
 
 /***/ },
-/* 99 */
+/* 101 */
 /***/ function(module, exports) {
 
 	(function() {
@@ -18752,64 +19531,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 100 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2015, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 */
-
-	'use strict';
-
-	/**
-	 * Use invariant() to assert state which your program assumes to be true.
-	 *
-	 * Provide sprintf-style format (only %s is supported) and arguments
-	 * to provide information about what broke and what you were
-	 * expecting.
-	 *
-	 * The invariant message will be stripped in production, but the invariant
-	 * will remain to ensure logic does not differ in production.
-	 */
-
-	var invariant = function(condition, format, a, b, c, d, e, f) {
-	  if (false) {
-	    if (format === undefined) {
-	      throw new Error('invariant requires an error message argument');
-	    }
-	  }
-
-	  if (!condition) {
-	    var error;
-	    if (format === undefined) {
-	      error = new Error(
-	        'Minified exception occurred; use the non-minified dev environment ' +
-	        'for the full error message and additional helpful warnings.'
-	      );
-	    } else {
-	      var args = [a, b, c, d, e, f];
-	      var argIndex = 0;
-	      error = new Error(
-	        format.replace(/%s/g, function() { return args[argIndex++]; })
-	      );
-	      error.name = 'Invariant Violation';
-	    }
-
-	    error.framesToPop = 1; // we don't care about invariant's own frame
-	    throw error;
-	  }
-	};
-
-	module.exports = invariant;
-
-
-/***/ },
-/* 101 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {// Generated by CoffeeScript 1.7.1
@@ -18845,10 +19567,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	}).call(this);
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(102)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(103)))
 
 /***/ },
-/* 102 */
+/* 103 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -18945,10 +19667,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 103 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var now = __webpack_require__(101)
+	var now = __webpack_require__(102)
 	  , global = typeof window === 'undefined' ? {} : window
 	  , vendors = ['moz', 'webkit']
 	  , suffix = 'AnimationFrame'
@@ -19019,13 +19741,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 104 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(105);
+	module.exports = __webpack_require__(106);
 
 /***/ },
-/* 105 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19041,7 +19763,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var shallowEqual = __webpack_require__(98);
+	var shallowEqual = __webpack_require__(100);
 
 	/**
 	 * Does a shallow comparison for props and state.
@@ -19054,10 +19776,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = shallowCompare;
 
 /***/ },
-/* 106 */
+/* 107 */
 /***/ function(module, exports) {
 
-	module.exports = __WEBPACK_EXTERNAL_MODULE_106__;
+	module.exports = __WEBPACK_EXTERNAL_MODULE_107__;
 
 /***/ }
 /******/ ])
